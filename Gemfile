@@ -25,3 +25,13 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+########################
+# Our gems
+# Run 'bundle' if these are missing on your system.
+########################
+
+# Automatically refresh the page on changes (during development)
+# To use: jekyll serve --livereload
+group :jekyll_plugins do
+    gem 'jekyll-livereload'
+end

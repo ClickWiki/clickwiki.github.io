@@ -1,0 +1,46 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | escape }}{% else %}{{ site.keywords | escape }}{% endif %}">
+    <meta name="author" content="{{ site.name }}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} |{% endif %} {{ site.title | escape }}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="{{ site.twitter_username }}">
+    <meta name="twitter:creator" content="{{ site.twitter_username }}">
+
+    <link rel="stylesheet" href="{{ '/site/css/clickwiki.css' | relative_url }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
+
+    <link rel="manifest" href="/site/manifest.json">
+    <link rel="icon" type="image/x-icon" href="/site/favicon/48x48.png" />
+    <link rel="icon" type="image/png" sizes="196x196" href="/site/favicon/196x196.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="/site/favicon/160x160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/site/favicon/96x96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/site/favicon/64x64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/site/favicon/32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/site/favicon/16x16.png">
+    <link rel="apple-touch-icon" href="/site/favicon/72x72.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="/site/favicon/96x96.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/site/favicon/144x144.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/site/favicon/192x192.png">
+    <meta name="theme-color" content="{{ site.accent_colour }}">
+    <meta name="msapplication-TileColor" content="{{ site.accent_colour }}">
+    <meta name="msapplication-TileImage" content="/site/favicon/144x144.png">
+    <meta name="msapplication-config" content="/site/browserconfig.xml">
+
+    {% if jekyll.environment == 'production' %}
+    <!-- Missing Google Analytics code! -->
+    {% endif %}
+
+</head>

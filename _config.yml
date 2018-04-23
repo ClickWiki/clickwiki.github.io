@@ -41,3 +41,72 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Header items
+navigation_categories:
+    - heading: "All About Clickteam"
+
+    - label: "Clickteam"
+      icon: "clickteam.png"
+      url: "/404"
+
+    - label: "Products"
+      icon: "products.png"
+      url: "/404"
+
+    - heading: "Fusion"
+
+    - label: "Exporters"
+      icon: "exporters.png"
+      url: "/404"
+
+    - label: "Extensions"
+      icon: "extensions.png"
+      url: "/404"
+
+    - label: "Community Resources"
+      icon: "community.png"
+      url: "/404"
+
+    - label: "Help & Guidance"
+      icon: "help.png"
+      url: "/404"
+
+    - label: "Interface"
+      icon: "interface.png"
+      url: "/404"
+
+    - heading: "Advanced"
+
+    - label: "File Extensions"
+      icon: "extensions.png"
+      url: "/404"
+
+    - label: "Chowdren"
+      icon: "chowdren.png"
+      url: "/404"
+
+navigation_external_links:
+    - label: "Clickteam"
+      icon: "clickteam.png"
+      url: "https://www.clickteam.com"
+
+    - label: "Clickteam Community"
+      icon: "community.png"
+      url: "https://community.clickteam.com"
+
+    - label: "Community Passport"
+      icon: "passport.png"
+      url: "http://community.clickteam.com/passport"
+
+    - label: "Clickteam Shop"
+      icon: "shop.png"
+      url: "http://www.clickteam.com/web-shop"
+
+    - label: "ClickStore"
+      icon: "clickstore.png"
+      url: "http://clickstore.clickteam.com/"
+
+    - label: "Bug Tracker"
+      icon: "bugtracker.png"
+      url: "http://bugbox.clickteam.com/"

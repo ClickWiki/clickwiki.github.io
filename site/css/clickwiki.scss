@@ -39,10 +39,6 @@
 @import "bootstrap/utilities";
 @import "bootstrap/print";
 
-/* Custom */
-#site-logo {
-    img {
-        height: 150px;
-        width: 150px;
-    }
-}
+/* ClickWiki */
+@import "clickwiki/header.scss";
+@import "clickwiki/footer.scss";

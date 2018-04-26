@@ -42,6 +42,12 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Social Links
+facebook_url: "https://facebook.com/ClickWiki"
+twitter_url: "https://twitter.com/ClickWiki"
+github_url: "https://github.com/ClickWiki"
+discord_url: "https://discord.gg/42jVPPd"
+
 # Header items
 navigation_categories:
     - heading: "All About Clickteam"

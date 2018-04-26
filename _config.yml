@@ -48,6 +48,10 @@ twitter_url: "https://twitter.com/ClickWiki"
 github_url: "https://github.com/ClickWiki"
 discord_url: "https://discord.gg/42jVPPd"
 
+# Common links
+repo_url: "https://github.com/ClickWiki/clickwiki.net"
+issues_url: "https://github.com/ClickWiki/clickwiki.net/issues"
+
 # Header items
 navigation_categories:
     - heading: "All About Clickteam"

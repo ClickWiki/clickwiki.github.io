@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="page-content">
+        {{ content }}
+
+        <div id="loading" class="alert alert-info">Loading...</div>
+        <div id="loading-error" class="alert alert-danger" hidden>There is a problem retrieving this data. Please try again later.</div>
+
+        <table id="commits-table" class="table table-striped table-hover" style="display:none">
+            <!-- Generated in recent.js -->
+        </table>
+    </div>
+
+</article>
+<script src="/site/js/recent.js" defer></script>

@@ -1,0 +1,8 @@
+$avatar-size: 32px;
+
+#commits-table {
+    img {
+        max-height: $avatar-size;
+        max-width: $avatar-size;
+    }
+}

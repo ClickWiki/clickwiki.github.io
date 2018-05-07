@@ -1,3 +1,5 @@
+$header-dropdown-icon-size: 24px;
+
 #site-logo {
     img {
         height: 150px;
@@ -8,5 +10,17 @@
 header {
     h1 {
         margin: 0.5em 0;
+    }
+
+    .dropdown-item {
+        img {
+            max-width: $header-dropdown-icon-size;
+            max-height: $header-dropdown-icon-size;
+        }
+
+        span {
+            width: $header-dropdown-icon-size;
+            text-align: center;
+        }
     }
 }

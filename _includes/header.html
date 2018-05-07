@@ -28,7 +28,14 @@
                                 {% if category.heading %}
                                     <div class="dropdown-header" >{{ category.heading }}</div>
                                 {% else %}
-                                    <a class="dropdown-item" href="{{ category.url }}"><img src="{{ category.icon }}" alt="{{ category.label }}"/> {{ category.label }}</a>
+                                    <a class="dropdown-item" href="{{ category.url }}">
+                                        {% if category.icon_type == "fa" %}
+                                            <span class="fa {{ category.icon }}"></span>
+                                        {% else %}
+                                            <img src="{{ category.icon }}" alt="{{ category.label }}"/>
+                                        {% endif %}
+                                        {{ category.label }}
+                                    </a>
                                 {% endif %}
                             {% endfor %}
                         </div>
@@ -42,7 +49,14 @@
                                 {% if category.heading %}
                                     <div class="dropdown-header" >{{ category.heading }}</div>
                                 {% else %}
-                                    <a class="dropdown-item" href="{{ category.url }}" target="_blank" rel="noopener"><img src="{{ category.icon }}" alt="{{ category.label }}"/> {{ category.label }}</a>
+                                    <a class="dropdown-item" href="{{ category.url }}" target="_blank" rel="noopener">
+                                        {% if category.icon_type == "fa" %}
+                                            <span class="fa {{ category.icon }}"></span>
+                                        {% else %}
+                                            <img src="{{ category.icon }}" alt="{{ category.label }}"/>
+                                        {% endif %}
+                                        {{ category.label }}
+                                    </a>
                                 {% endif %}
                             {% endfor %}
                         </div>

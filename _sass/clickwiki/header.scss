@@ -23,4 +23,15 @@ header {
             text-align: center;
         }
     }
+
+    .container {
+        position: relative;
+    }
+
+    #dynamic-header {
+        position: absolute;
+        right: 0.5em;
+        top: 1em;
+        z-index: -1;
+    }
 }

@@ -2,7 +2,7 @@
 
 [![Contributors Count](https://img.shields.io/github/contributors/clickwiki/clickwiki.net.svg)](https://github.com/ClickWiki/clickwiki.net/graphs/contributors)
 [![Issues Count](https://img.shields.io/github/issues/clickwiki/clickwiki.net.svg)](https://github.com/ClickWiki/clickwiki.net/issues)
-[![Discord Chat](https://img.shields.io/discord/302307904717979649.svg?colorB=7289DA&logo=discord)(https://discord.gg/PydJ8UE)
+[![Discord Chat](https://img.shields.io/discord/302307904717979649.svg?colorB=7289DA&logo=discord)](https://discord.gg/PydJ8UE)
 
 
 

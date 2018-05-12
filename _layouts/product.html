@@ -1,0 +1,190 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="page-content">
+
+        <table id="summary-table" class="table">
+            <tbody>
+
+                {% if page.image %}
+                <tr class="summary-photo">
+                    <td colspan="2">
+                        <img src="{{ page.image }}" alt="{{ page.image_caption }}"/>
+                    </td>
+                </tr>
+                {% endif %}
+
+                {% if page.developer %}
+                <tr>
+                    <th>Developer</th>
+                    <td>{{ page.developer | markdownify }}</td>
+                </tr>
+                {% endif %}
+
+                {% if page.developer %}
+                <tr>
+                    <th>Status</th>
+                    <td>{{ page.status | markdownify }}</td>
+                </tr>
+                {% endif %}
+
+                {% if page.initial_release_build %}
+                <tr>
+                    <th>Initial Release</th>
+                    <td>{{ page.initial_release_build }}</td>
+                </tr>
+                {% endif %}
+
+                {% if page.last_stable_build %}
+                <tr>
+                    <th>Latest Release</th>
+                    <td>{{ page.last_stable_build }}</td>
+                </tr>
+                {% endif %}
+
+                {% if page.last_stable_build %}
+                <tr>
+                    <th>Beta Release</th>
+                    <td>{{ page.last_beta_build }}</td>
+                </tr>
+                {% endif %}
+
+                {% if page.platforms %}
+                <tr class="platforms">
+                    <th>Platforms</th>
+                    <td>
+                        {% for platform in page.platforms %}
+                            {% if platform == 'windows' %}
+                            <img src="/wiki/assets/Platforms/Windows.png" alt="Windows logo" title="Microsoft Windows"/>
+                            {% endif %}
+
+                            {% if platform == 'windows9x' %}
+                            <img src="/wiki/assets/Platforms/Windows9x.png" alt="Windows 9x logo" title="Older versions of Microsoft Windows"/>
+                            {% endif %}
+
+                            {% if platform == 'mac' %}
+                            <img src="/wiki/assets/Platforms/macOS.png" alt="macOS logo" title="macOS"/>
+                            {% endif %}
+
+                            {% if platform == 'linux' %}
+                            <img src="/wiki/assets/Platforms/Linux.png" alt="Linux logo" title="GNU/Linux"/>
+                            {% endif %}
+
+                            {% if platform == 'steam' %}
+                            <img src="/wiki/assets/Platforms/Steam.png" alt="Steam logo" title="Steam"/>
+                            {% endif %}
+
+                            {% if platform == 'android' %}
+                            <a href="/exporters/android/">
+                                <img src="/wiki/assets/Platforms/Android.png" alt="Andriud logo" title="Android"/>
+                            </a>
+                            {% endif %}
+
+                            {% if platform == 'flash' %}
+                            <a href="/exporters/flash"></a>
+                                <img src="/wiki/assets/Platforms/Flash.png" alt="Flash logo" title="Adobe Flash"/>
+                            </a>
+                            {% endif %}
+
+                            {% if platform == 'html5' %}
+                            <a href="/exporters/html5">
+                                <img src="/wiki/assets/Platforms/HTML5.png" alt="HTML5 logo" title="HTML5"/>
+                            </a>
+                            {% endif %}
+
+                            {% if platform == 'ios' %}
+                            <a href="/exporters/iOS">
+                                <img src="/wiki/assets/Platforms/iOS.png" alt="iOS logo" title="iOS"/>
+                            </a>
+                            {% endif %}
+
+                            {% if platform == 'java' %}
+                            <a href="/exporters/java">
+                                <img src="/wiki/assets/Platforms/Java.png" alt="Java logo" title="Java"/>
+                            </a>
+                            {% endif %}
+
+                            {% if platform == 'xna' %}
+                            <a href="/exporters/xna">
+                                <img src="/wiki/assets/Platforms/XNA.png" alt="XNA logo" title="XNA"/>
+                            </a>
+                            {% endif %}
+
+                            {% if platform == 'winphone' %}
+                            <a href="/exporters/winphone">
+                                <img src="/wiki/assets/Platforms/WinPhone.png" alt="Windows Phone logo" title="Windows Phone"/>
+                            </a>
+                            {% endif %}
+
+                        {% endfor %}
+                    </td>
+                </tr>
+                {% endif %}
+
+                {% if page.languages %}
+                <tr class="languages">
+                    <th>Languages</th>
+                    <td>
+                        {% for lang in page.languages %}
+                            {% if lang == 'en' %}
+                                <img src="/wiki/assets/Locales/us.png" alt=""/> English<br>
+                            {% endif %}
+
+                            {% if lang == 'fr' %}
+                                <img src="/wiki/assets/Locales/fr.png" alt=""/> Français<br>
+                            {% endif %}
+
+                            {% if lang == 'jp' %}
+                                <img src="/wiki/assets/Locales/jp.png" alt=""/> Japanese<br>
+                            {% endif %}
+
+                        {% endfor %}
+                    </td>
+                </tr>
+                {% endif %}
+
+                {% if page.shop_link or page.support_link or page.links %}
+                <tr class="links">
+                    <th>Links</th>
+                    <td>
+                        {% if page.shop_link %}
+                            <p>
+                                <a href="{{ page.shop_link }}">
+                                    <img src="/wiki/assets/Clickteam/ClickStore.png" alt="ClickStore"/> Purchase
+                                </a>
+                            </p>
+                        {% endif %}
+
+                        {% if page.support_link %}
+                            <p>
+                                <a href="{{ page.support_link }}">
+                                    <img src="/wiki/assets/Clickteam/Clickteam Logo.png" alt="ClickStore"/> Support<br>
+                                </a>
+                            </p>
+                        {% endif %}
+
+                        {% if page.links %}
+                            {% for link in page.links %}
+                                {{ link | markdownify }}
+                            {% endfor %}
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endif %}
+
+                {% if page.predecessor %}
+                <tr>
+                    <th>Predecessor</th>
+                    <td>{{ page.predecessor | markdownify }}</td>
+                </tr>
+                {% endif %}
+
+            </tbody>
+        </table>
+
+        {{ content }}
+    </div>
+
+</article>

@@ -1,0 +1,43 @@
+
+// Summary table that appears on the right of various pages.
+
+#summary-table {
+    float: right;
+    width: 40%;
+
+    th, td {
+        padding: 0.25rem;
+    }
+
+    p {
+        margin: 0 0;
+    }
+
+    .summary-photo {
+        img {
+            width: 100%;
+        }
+    }
+
+    .platforms {
+        img {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .links {
+        img {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+
+@media screen and (max-width: $small-display) {
+    #summary-table {
+        width: 100%;
+    }
+}

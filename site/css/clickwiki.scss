@@ -57,8 +57,16 @@
 @import "bootstrap/utilities";
 @import "bootstrap/print";
 
+/* Variables */
+$small-display: map-get($grid-breakpoints, sm);
+$medium-display: map-get($grid-breakpoints, md);
+$large-display: map-get($grid-breakpoints, lg);
+$extra-large-display: map-get($grid-breakpoints, xl);
+
 /* ClickWiki */
 @import "clickwiki/header.scss";
 @import "clickwiki/footer.scss";
 @import "clickwiki/recent.scss";
 @import "clickwiki/menu.scss";
+@import "clickwiki/markdown-classes.scss";
+@import "clickwiki/summary.scss";

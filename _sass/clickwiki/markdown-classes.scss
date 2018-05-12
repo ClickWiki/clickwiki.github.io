@@ -1,0 +1,25 @@
+
+// Example Usage:
+//   ![Developer](/wiki/assets/Clickteam/Icon CF2.5Dev.png){:.right}
+
+
+// Add {:.left} or {:.right} to position it to the right of the page.
+
+img.left {
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+img.right {
+    float: right;
+    margin-bottom: 16px;
+}
+
+
+// Add {:.icon} after an image to restrict its size to icon dimensions.
+
+img.icon {
+    max-width: 48px;
+    max-height: 48px;
+}

@@ -64,15 +64,15 @@ menu:
     items:
       - name: "Community Forums"
         icon: "fa-comments"
-        url: "/forums/"
+        url: "/clickteam/forums/"
 
       - name: "Community Passport"
         icon: "fa-key"
-        url: "/passport/"
+        url: "/clickteam/passport/"
 
       - name: "Bug Tracker"
         icon: "fa-bug"
-        url: "/bug-tracker/"
+        url: "/clickteam/bug-tracker/"
 
       - name: "ClickStore"
         icon: "/wiki/assets/Clickteam/ClickStore.png"
@@ -84,7 +84,7 @@ menu:
 
       - name: "Clickteam Library"
         icon: "/wiki/assets/Clickteam/Clickteam_Library.png"
-        url: "/clickteam-library/"
+        url: "/clickteam/library/"
 
       - name: "Changelogs"
         icon: "fa-file-alt"
@@ -150,7 +150,7 @@ menu:
 
       - name: "Historic Timeline"
         icon: "fa-history"
-        url: "/history/"
+        url: "/clickteam/history/"
 
       - name: "File Extensions"
         icon: "/wiki/assets/Clickteam/File Extensions.png"
@@ -158,7 +158,7 @@ menu:
 
       - name: "OS Compatibility"
         icon: "/wiki/assets/Platforms/OSCompatibility.png"
-        url: "/cross-platform/"
+        url: "/os-compatibility/"
 
   - title: "Events"
     items:

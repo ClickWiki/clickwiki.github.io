@@ -1,7 +1,10 @@
 # ClickWiki
 
-[Contributors Count](https://img.shields.io/github/contributors/clickwiki/clickwiki.net.svg)
-[Issues Count](https://img.shields.io/github/issues/clickwiki/clickwiki.net.svg)
+![Contributors Count](https://img.shields.io/github/contributors/clickwiki/clickwiki.net.svg)
+![Issues Count](https://img.shields.io/github/issues/clickwiki/clickwiki.net.svg)
+![Discord Chat](https://img.shields.io/discord/302307904717979649.svg?colorB=7289DA&logo=discord)
+
+
 
 A community Wiki-based website for [Clickteam](https://clickteam.com). This repository contains the
 code and content delivering the wiki, powered by [Jekyll](https://jekyllrb.com/).

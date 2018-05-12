@@ -7,8 +7,11 @@ permalink: /fusion/3.0/
 
 It is inevitable there is a new successor to [Fusion 2.5](/fusion/2.5) in the works. While it may be a while before this product is released, this page is dedicated to gathering confirmed rumours or hinted announcements regarding this mystery product. The new product will be re-written from scratch, meaning it will not be backwards compatible or maintain legacy code from [Klik & Play](/klik-and-play). Plus, the exporters and [potentially] cross-platform editors would be easier to build and maintain.
 
-> ⚠️ **Before you edit this page...**  
-> If you add to this list, please link to the source you got this information from. Please note this is not a wishlist page, and the information listed here is **not a representation of the final product**. This page is simply a place to store of what has been said and heard.
+{% include alert
+    type = "warning"
+    title = "Before you edit this page..."
+    message = "If you add to this list, please link to the source you got this information from. Please note this is not a wishlist page, and the information listed here is **not a representation of the final product**. This page is simply a place to store of what has been said and heard."
+%}
 
 
 # Time Frame 

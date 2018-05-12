@@ -1,0 +1,33 @@
+<!--
+Shows an alert box, intended for notices about a page.
+
+Parameters:
+  - type  warning, clock, info, question, warning
+  - title
+  - message
+-->
+
+<div class="alert alert-info">
+    <div class="row">
+        <div class="col-xs-2">
+          {% if include.type == "warning" %}
+            <img src="/site/img/alerts/warning.png" alt="Warning symbol"/>
+
+          {% else if include.type == "clock" %}
+            <img src="/site/img/alerts/clock.png" alt="Clock symbol"/>
+
+          {% else if include.type == "info" %}
+            <img src="/site/img/alerts/info.png" alt="Info symbol"/>
+
+          {% else if include.type == "question" %}
+            <img src="/site/img/alerts/question.png" alt="Question symbol"/>
+
+          {% endif %}
+        </div>
+
+        <div class="col">
+            <strong>{{ include.title }}</strong>
+            <p>{{ include.message }}</p>
+        </div>
+    </div>
+</div>

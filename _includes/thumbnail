@@ -1,0 +1,13 @@
+<!--
+Aligns an image and caption to the right side of the page.
+
+Parameters:
+  - image
+  - caption
+-->
+
+<div class="img-thumbnail float-right" style="text-align:center">
+    <img src="{{ include.image }}" alt="" />
+    <br>
+    <small>{{ include.text }}</small>
+</div>

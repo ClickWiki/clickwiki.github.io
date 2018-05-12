@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="page-content">
+        {{ content }}
+
+        {% for section in page.menu %}
+        <div class="row menu-title">
+            <div class="col-sm">
+                <h5>{{ section.title }}</h5>
+            </div>
+        </div>
+
+        <div class="row menu-items">
+            {% for item in section.items %}
+            <div class="col-sm menu-item">
+                <a href="{{ item.url }}">
+
+                    {% assign isFa = item.icon | split:'fa-' | size %}
+                    {% if isFa == 2 %}
+                      <div class="menu-icon"><span class="fa {{ item.icon }}"></span></div>
+                    {% else %}
+                      <div class="menu-icon" style="background-image:url('{{ item.icon }}'"></div>
+                    {% endif %}
+
+                    <p>{{ item.name }}</p>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+
+    </div>
+</article>

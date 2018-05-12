@@ -1,0 +1,25 @@
+.menu-title {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.menu-items {
+    text-align: center;
+}
+
+.menu-item {
+    .menu-icon {
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: 64px;
+        background-position: center;
+        width: 64px;
+        height: 64px;
+    }
+
+    span {
+        font-size: 50px;
+        width: 64px;
+        height: 64px;
+    }
+}

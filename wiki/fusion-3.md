@@ -5,7 +5,7 @@ permalink: /fusion/3.0/
 ---
 
 
-It is inevitable there is a new successor to [Fusion 2.5](fusion/2.5) in the works. While it may be a while before this product is released, this page is dedicated to gathering confirmed rumours or hinted announcements regarding this mystery product. The new product will be re-written from scratch, meaning it will not be backwards compatible or maintain legacy code from [Klik & Play](klik&play). Plus, the exporters and [potentially] cross-platform editors would be easier to build and maintain.
+It is inevitable there is a new successor to [Fusion 2.5](/fusion/2.5) in the works. While it may be a while before this product is released, this page is dedicated to gathering confirmed rumours or hinted announcements regarding this mystery product. The new product will be re-written from scratch, meaning it will not be backwards compatible or maintain legacy code from [Klik & Play](/klik&play). Plus, the exporters and [potentially] cross-platform editors would be easier to build and maintain.
 
 > ⚠️ **Before you edit this page...**  
 > If you add to this list, please link to the source you got this information from. Please note this is not a wishlist page, and the information listed here is **not a representation of the final product**. This page is simply a place to store of what has been said and heard.
@@ -59,11 +59,11 @@ It is inevitable there is a new successor to [Fusion 2.5](fusion/2.5) in the wor
     * There are plans to make Android applications run in the background more viable for MMF3. [1](https://community.clickteam.com/threads/79495-Will-android-apps-be-able-to-run-in-the-background?p=586588&viewfull=1#post586588) [2](https://community.clickteam.com/threads/91202-APP-running-in-background?p=656492#post656492)
 
 * **New file format**
-    * An importer/converter for [MFA](mfa) files will be considered. [1](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=643674&viewfull=1#post643674) [2](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=644040&viewfull=1#post644040) [3](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=643534&viewfull=1#post643534)
+    * An importer/converter for [MFA](/mfa) files will be considered. [1](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=643674&viewfull=1#post643674) [2](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=644040&viewfull=1#post644040) [3](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=643534&viewfull=1#post643534)
       * It's possible it may only import assets, not full events. <sup>[Missing source]</sup>
       * The best advise is to not wait for Fusion 3 to start a new project. [1](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=642647&viewfull=1#post642647) [2](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=642709&viewfull=1#post642709) 
       * Yves stated the importer that will perform a large chunk of the conversion, but the product will not maintain full backwards compatibility. [1](https://community.clickteam.com/threads/92330-Fusion-3-Current-Status?p=664322&viewfull=1#post664322)
-    * The new file format may **store data across multiple files** as opposed to a monolithic format (such as [MFA](mfa)) [1](https://community.clickteam.com/threads/92330-Fusion-3-Current-Status?p=664429&viewfull=1#post664429) [World Reveal Interview]
+    * The new file format may **store data across multiple files** as opposed to a monolithic format (such as [MFA](/mfa)) [1](https://community.clickteam.com/threads/92330-Fusion-3-Current-Status?p=664429&viewfull=1#post664429) [World Reveal Interview]
 * **Support of existing products after launch**
     * ~~Updates for existing products **may** grind to a halt when Fusion 3 is out [1 (in French)](https://community.clickteam.com/threads/77983-mmf2-mmf3?p=576775&viewfull=1#post576775)~~
     * ~~Updates for Fusion 2.5 will continue for some time, particularly for bug fixes. [1](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=643160&viewfull=1#post643160)~~

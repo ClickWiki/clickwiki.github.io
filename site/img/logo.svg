@@ -15,8 +15,8 @@
    viewBox="0 0 561.44489 483.67866"
    id="svg5070"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="ClickWiki Logo.svg">
+   inkscape:version="0.92.3 (unknown)"
+   sodipodi:docname="logo.svg">
   <defs
      id="defs5072">
     <clipPath
@@ -454,7 +454,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="370.76236"
+     inkscape:cx="174.89379"
      inkscape:cy="282.70436"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -476,7 +476,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -664,20 +664,27 @@
         </g>
       </g>
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:174.25331116px;line-height:100%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0070c7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="225.54004"
-       y="714.56232"
-       id="text3452"
-       sodipodi:linespacing="100%"
-       transform="scale(1.0219962,0.97847718)"><tspan
-         sodipodi:role="line"
-         x="225.54004"
-         y="714.56232"
-         id="tspan3454"><tspan
-           x="225.54004"
-           y="714.56232"
-           id="tspan3456">WIKI</tspan></tspan></text>
+    <g
+       aria-label="WIKI"
+       transform="scale(1.0219962,0.97847718)"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0070c7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text3452">
+      <path
+         d="m 311.09841,608.6163 q 8.36416,28.05479 16.72832,50.88197 8.53841,22.65293 16.55407,41.64654 6.09886,-20.56189 12.02348,-48.44242 6.09886,-27.88053 11.67497,-58.89762 h 11.67497 q -3.13656,18.64511 -6.44737,35.02492 -3.13656,16.20556 -6.62163,31.01709 -3.48507,14.63728 -7.31864,28.22903 -3.83357,13.41751 -8.36416,26.48651 h -12.72049 q -4.18208,-9.93244 -8.36416,-19.86488 -4.00782,-9.93244 -8.01565,-20.38764 -4.00783,-10.62945 -8.01565,-22.13017 -4.00783,-11.50072 -8.18991,-24.39546 -4.18208,12.89474 -8.36416,24.39546 -4.00782,11.50072 -8.01565,22.13017 -4.00783,10.4552 -8.1899,20.38764 -4.00783,9.93244 -8.18991,19.86488 H 260.3907 q -4.70484,-13.069 -8.71266,-26.48651 -3.83358,-13.59175 -7.31864,-28.22903 -3.31082,-14.81153 -6.44738,-31.01709 -2.9623,-16.37981 -6.09886,-35.02492 h 12.19773 q 2.6138,15.33429 5.40185,30.14583 2.78806,14.63727 5.75036,28.40328 3.13656,13.76602 6.27312,26.138 3.31081,12.19773 6.44737,22.65293 7.4929,-19.34212 16.03131,-41.82079 8.53841,-22.65293 16.90257,-50.70772 z"
+         style=""
+         id="path4633" />
+      <path
+         d="m 401.86261,593.80477 h 11.84922 v 120.75755 h -11.84922 z"
+         style=""
+         id="path4635" />
+      <path
+         d="m 518.79475,714.56232 q -5.92461,-9.06118 -13.4175,-17.94809 -7.31864,-8.88692 -15.50855,-16.72832 -8.18991,-7.8414 -16.72832,-14.28877 -8.36416,-6.44738 -16.20556,-10.80371 v 59.76889 H 445.0856 V 593.80477 h 11.84922 v 56.28382 q 6.62163,-5.92461 14.63728,-13.59176 8.18991,-7.8414 16.03131,-15.68279 8.01565,-7.8414 14.98578,-14.98579 6.97013,-7.14439 11.15221,-12.02348 h 14.28878 q -5.05335,5.40185 -12.19774,12.89475 -7.14438,7.31864 -15.16003,15.16004 -8.01566,7.84139 -16.03131,15.50854 -7.8414,7.49289 -14.11452,13.24325 5.05335,3.13656 10.80371,7.8414 5.92461,4.53059 11.84922,10.10669 6.09887,5.40186 11.84923,11.50072 5.92461,5.92461 10.97796,12.02348 5.2276,6.09887 9.23542,11.84922 4.18208,5.75036 6.79588,10.62946 z"
+         style=""
+         id="path4637" />
+      <path
+         d="m 549.56952,593.80477 h 11.84922 v 120.75755 h -11.84922 z"
+         style=""
+         id="path4639" />
+    </g>
   </g>
 </svg>

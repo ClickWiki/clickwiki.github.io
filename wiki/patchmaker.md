@@ -24,9 +24,6 @@ links:
   - "[Download Patch Maker (Free Version)](https://www.clickteam.com/webftp/files/9/5/pminst.exe)"
 ---
 
-
-{% include thumbnail image = "/wiki/assets/Clickteam/PatchMakerLogo.png" text = "Logo" %}
-
 Patch Maker is a program for making update patches by [Clickteam](/clickteam). Patch Maker is the companion product to [Install Creator](/tools/install-creator-2/).
 
 Patch Maker features a wizard to help you make your patches. The wizard asks you to provide the directory that contains the old version and the directory that contains the new version of your files, and then makes a patch between the two. It also lets you add various pages of text and change the background images.
@@ -47,3 +44,6 @@ Patch Maker has the same features of the standard version, but there is no extra
 ## Previous Versions
 {% include thumbnail image = "/wiki/assets/Screenshots/Screenshot Patch Maker 1.2.jpg" text = "Version 1.2 running on Windows 98" %}
 The program has not changed much from its original release in 1999. The program has been updated numerous times to fix bugs and to ensure compatibility with newer versions of Windows.
+
+# Gallery
+{% include gallery image = "/wiki/assets/Clickteam/PatchMakerLogo.png" text = "Patch Maker Logo" %}

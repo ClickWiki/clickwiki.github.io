@@ -48,7 +48,7 @@ function getCommitSuccess(data) {
         var user_name = this["author"]["login"];
         var user_avatar = this["author"]["avatar_url"];
         var user_url = this["author"]["html_url"];
-        var commit_message = this["commit"]["message"];
+        var commit_message = this["commit"]["message"].split("\n")[0];
         var commit_url = "https://github.com/ClickWiki/clickwiki.net/commit/" + this["sha"];
         var timestamp = this["commit"]["committer"]["date"];
         var relative = Sugar.Date(timestamp).relative().raw;

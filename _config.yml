@@ -51,9 +51,10 @@ twitter_url: "https://twitter.com/ClickWiki"
 github_url: "https://github.com/ClickWiki"
 discord_url: "https://discord.gg/42jVPPd"
 
-# Common links
+# Project Links
 repo_url: "https://github.com/ClickWiki/clickwiki.net"
 issues_url: "https://github.com/ClickWiki/clickwiki.net/issues"
+pr_url: "https://github.com/ClickWiki/clickwiki.net/pulls"
 
 # Header items
 navigation_categories:

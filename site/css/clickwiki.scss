@@ -64,6 +64,7 @@ $large-display: map-get($grid-breakpoints, lg);
 $extra-large-display: map-get($grid-breakpoints, xl);
 
 /* ClickWiki */
+@import "clickwiki/bootstrap-overrides.scss";
 @import "clickwiki/header.scss";
 @import "clickwiki/footer.scss";
 @import "clickwiki/recent.scss";

@@ -25,10 +25,20 @@ $(document).ready(function() {
 
 // Use the GitHub API to fetch latest commits.
 $.ajax({
-  dataType: "json",
-  url: "https://api.github.com/repos/ClickWiki/clickwiki.net/commits",
-  success: getCommitSuccess,
-  error: getCommitFailed
+    dataType: "json",
+    url: "https://api.github.com/repos/ClickWiki/clickwiki.net/commits",
+    data: {
+      "since": Sugar.Date("3 months ago").raw
+    },
+    success: getCommitSuccess,
+    error: getCommitFailed,
+    statusCode: {
+        403: function(xhr) {
+            // Likely too many requests (60 per hour)
+            console.log(xhr.responseText);
+            getCommitForbidden();
+        }
+    }
 });
 
 function getCommitSuccess(data) {
@@ -41,12 +51,17 @@ function getCommitSuccess(data) {
         var commit_message = this["commit"]["message"];
         var commit_url = "https://github.com/ClickWiki/clickwiki.net/commit/" + this["sha"];
         var timestamp = this["commit"]["committer"]["date"];
+        var relative = Sugar.Date(timestamp).relative().raw;
         commits += "<tr>";
-        commits += "<td><a href='" + user_url + "'><img src='" + user_avatar + "' alt=''/></a> <a href='" + user_url + "'>" + user_name + "</a></td>";
-        commits += "<td><a href='" + commit_url + "'>" + commit_message + "</a></td>";
-        commits += "<td>" + timestamp  + "</td>";
+        commits += "<td class='avatar'><a href='" + user_url + "' target='_blank' rel='noopener'><img src='" + user_avatar + "' alt=''/></a> <a href='" + user_url + "'>" + user_name + "</a></td>";
+        commits += "<td class='commit'><a href='" + commit_url + "' target='_blank' rel='noopener'>" + commit_message + "</a></td>";
+        commits += "<td class='date'>" + relative  + "</td>";
         commits += "</tr>";
     });
+
+    if (commits == "") {
+        getCommitEmpty();
+    }
 
     $("#loading").hide();
     $("#commits-table").html(commits).show();
@@ -55,4 +70,14 @@ function getCommitSuccess(data) {
 function getCommitFailed() {
     $("#loading").hide();
     $("#loading-error").show();
+}
+
+function getCommitForbidden() {
+    $("#loading-error").hide();
+    $("#commits-forbidden").fadeIn(fadeSpeed);
+}
+
+function getCommitEmpty() {
+    $("#loading").hide();
+    $("#commits-empty").fadeIn(fadeSpeed);
 }

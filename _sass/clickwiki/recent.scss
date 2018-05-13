@@ -5,4 +5,31 @@ $avatar-size: 32px;
         max-height: $avatar-size;
         max-width: $avatar-size;
     }
+
+    .avatar,
+    .date {
+        width: 25%;
+    }
+}
+
+.commits-table-info {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    color: $gray-800;
+}
+
+#recent-stats {
+    margin: 1em 0;
+    padding: 0;
+
+    img {
+        height: 1.5em;
+    }
+
+    a:hover,
+    a:focus {
+        text-decoration: none;
+    }
 }

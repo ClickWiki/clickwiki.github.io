@@ -1,0 +1,7 @@
+// Contains modifications on top of a vanilla Bootstrap library.
+
+// Prefer vertically aligned cells in tables.
+.table th,
+.table td {
+    vertical-align: middle;
+}

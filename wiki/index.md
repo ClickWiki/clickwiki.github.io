@@ -184,7 +184,7 @@ missing and would like to fill it in, we'd greatly appreciate your input.
 [Clickteam]: /clickteam
 [User Creations]: /made-with-fusion
 [Extensions]: /extensions
-[Clickers]: /clickers
+[Clickers]: /clicker
 
 ---
 

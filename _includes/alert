@@ -26,8 +26,8 @@ Parameters:
         </div>
 
         <div class="col">
-            <strong>{{ include.title }}</strong>
-            <p>{{ include.message }}</p>
+            <strong>{{ include.title | markdownify }}</strong>
+            <p>{{ include.message | markdownify }}</p>
         </div>
     </div>
 </div>

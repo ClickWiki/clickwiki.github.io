@@ -35,6 +35,12 @@ $(document).ready(function() {
 
         var month = Sugar.Date.format(sugarDate, "%B");
         var year = date.split("/")[1];
-        $(this).attr("title", month + " " + year);
+        if (year == undefined || year == null) {
+            // Just year present
+            $(this).attr("title", date);
+        } else {
+            // Month and year present
+            $(this).attr("title", month + " " + year);
+        }
    });
 });

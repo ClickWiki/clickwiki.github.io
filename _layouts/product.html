@@ -38,21 +38,21 @@ layout: default
                 {% if page.initial_release_build %}
                 <tr>
                     <th>Initial Release</th>
-                    <td>{{ page.initial_release_build }}</td>
+                    <td>{{ page.initial_release_build }} {% if page.initial_release_date %}<span class="relative-date">{{ page.initial_release_date }}</span>{% endif %}</td>
                 </tr>
                 {% endif %}
 
                 {% if page.last_stable_build %}
                 <tr>
                     <th>Latest Release</th>
-                    <td>{{ page.last_stable_build }}</td>
+                    <td>{{ page.last_stable_build }} {% if page.last_stable_date %}<span class="relative-date">{{ page.last_stable_date }}</span>{% endif %}</td>
                 </tr>
                 {% endif %}
 
-                {% if page.last_stable_build %}
+                {% if page.last_beta_build %}
                 <tr>
                     <th>Beta Release</th>
-                    <td>{{ page.last_beta_build }}</td>
+                    <td>{{ page.last_beta_build }} {% if page.last_beta_date %}<span class="relative-date">{{ page.last_beta_date }}</span>{% endif %}</td>
                 </tr>
                 {% endif %}
 

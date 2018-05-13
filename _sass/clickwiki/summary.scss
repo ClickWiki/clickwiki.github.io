@@ -40,6 +40,21 @@
     }
 }
 
+.relative-date {
+    display: none;
+    font-size: 0.8em;
+    color: $gray-700;
+    vertical-align: middle;
+
+    &:before {
+        content: "(";
+    }
+
+    &:after {
+        content: ")";
+    }
+}
+
 @media screen and (max-width: $small-display) {
     #summary-table {
         width: 100%;

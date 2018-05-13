@@ -17,7 +17,24 @@
 // (C) Copyright 2018 Luke Horwell <code@horwell.me>
 //
 
+// ClickWiki Settings
+var fadeSpeed = 200;
 
 // Show a random image in the header
 var no = Math.floor(Math.random() * 5);
-$("#dynamic-header").attr("src", "/site/img/header/img" + no + ".png").fadeIn(200);
+$("#dynamic-header").attr("src", "/site/img/header/img" + no + ".png").fadeIn(fadeSpeed);
+
+// For pages that contain relative dates in format MM/YYYY.
+$(document).ready(function() {
+   $(".relative-date").each(function() {
+        var date = $(this).html();
+        var sugarDate = Sugar.Date(date);
+
+        var relative = sugarDate.relative().raw;
+        $(this).fadeIn(fadeSpeed).html(relative);
+
+        var month = Sugar.Date.format(sugarDate, "%B");
+        var year = date.split("/")[1];
+        $(this).attr("title", month + " " + year);
+   });
+});

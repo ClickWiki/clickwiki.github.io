@@ -1,0 +1,13 @@
+//
+// Contains miscellaneous CSS that doesn't fit anywhere else.
+//
+
+// Prevent floating elements from overlapping the footer
+main {
+    overflow: auto;
+}
+
+// Hide Fancybox Grid icon
+.fancybox-button--thumbs {
+    display: none !important;
+}

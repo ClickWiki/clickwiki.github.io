@@ -7,7 +7,9 @@ Parameters:
 -->
 
 <div class="img-thumbnail float-right" style="text-align:center">
-    <img src="{{ include.image }}" alt="" />
+    <a data-fancybox="images" href="{{ include.image }}" data-caption="{{ include.text }}">
+        <img src="{{ include.image }}" alt="{{ include.text }}" />
+    </a>
     <br>
     <small>{{ include.text }}</small>
 </div>

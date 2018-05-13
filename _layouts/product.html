@@ -11,7 +11,9 @@ layout: default
                 {% if page.image %}
                 <tr class="summary-photo">
                     <td colspan="2">
-                        <img src="{{ page.image }}" alt="{{ page.image_caption }}" title="{{ page.image_caption }}"/>
+                        <a data-fancybox="images" href="{{ page.image }}" data-caption="{{ page.image_caption }}">
+                            <img src="{{ page.image }}" alt="{{ page.image_caption }}" title="{{ page.image_caption }}"/>
+                        </a>
                     </td>
                 </tr>
                 <tr class="summary-caption">

@@ -1,7 +1,20 @@
+//
 // Contains modifications on top of a vanilla Bootstrap library.
+//
 
 // Prefer vertically aligned cells in tables.
 .table th,
 .table td {
     vertical-align: middle;
+}
+
+// Restrict size of floating thumbnails
+.img-thumbnail {
+    max-width: 30%;
+    margin-left: 1em;
+
+    img {
+        max-width: 100%;
+        cursor: zoom-in;
+    }
 }

@@ -1,0 +1,14 @@
+<!--
+A thumbnail-like object that connects multiple images together
+to present a gallery of images or multimedia.
+
+Parameters:
+  - image
+  - caption
+-->
+
+<div class="gallery-item">
+    <a data-fancybox="gallery" href="{{ include.image }}" data-caption="{{ include.text }}" title="{{ include.text }}">
+        <img src="{{ include.image }}" class="img-thumbnail" alt="{{ include.text }}" />
+    </a>
+</div>

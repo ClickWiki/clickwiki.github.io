@@ -11,3 +11,19 @@ main {
 .fancybox-button--thumbs {
     display: none !important;
 }
+
+// Galleries
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
+
+    .img-thumbnail {
+        margin: 0;
+        max-height: 150px;
+        max-width: 150px;
+    }
+}

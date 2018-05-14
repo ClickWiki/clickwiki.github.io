@@ -1,3 +1,9 @@
+---
+layout: page
+title: SDK
+permalink: /sdk/
+---
+
 # Creating Extension Objects for Fusion 2.5 & Fusion 2.5 Developer
 
 The extension SDKs (Software Development Kits) allows you to create your very own extensions for Fusion 2.5 and the various export modules. 

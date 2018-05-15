@@ -20,7 +20,7 @@ menu:
 
       - name: "Older Products"
         icon: "/wiki/assets/Clickteam/Icon OlderProducts.png"
-        url: "/legacy-products/"
+        url: "/legacy/"
 
       - name: "Fusion 3 (Upcoming)"
         icon: "/wiki/assets/Clickteam/FutureProducts.png"

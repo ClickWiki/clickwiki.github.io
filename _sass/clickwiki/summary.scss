@@ -4,7 +4,10 @@
 #summary-table {
     float: right;
     width: 40%;
+    display: block;
+    padding: 0.5em;
     margin-left: 1em;
+    background: $gray-100;
 
     th, td {
         padding: 0.25rem;

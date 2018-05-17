@@ -42,13 +42,15 @@ as well as content issues.
 The data in this repository is under the following licenses:
 
 * **[GPLv3](/LICENSE-GPLv3)** - Website Assets & Code
-    * `_clickwiki/`
+    * `site/`
     * `_includes/`
     * `_layouts/`
+    * `_sass/`
 
 * **[CC-BY-4.0](/LICENSE-CC-BY-4.0)** - Wiki Content
     * Applies to screenshots, text and graphics in the `wiki/assets/CC-BY-4.0/` folder.
 
-* **No license** - Used under the basis of "fair use"
-    * Some works are copyrighted (e.g. Clickteam's logo). There is no license associated and such assets must be placed in `wiki/assets/NonFree/`.
+* **No license or other copyright** - Media used under "fair use"
+    * This could include logos, graphics or icons produced by Clickteam (e.g. Fusion logo)
+    * This could include brands used under branding guildelines (e.g. Windows logo)
     * Usage of such media is similar to [Wikipedia's policy](https://en.wikipedia.org/wiki/Wikipedia:Uploading_images)

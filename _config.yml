@@ -55,6 +55,9 @@ discord_url: "https://discord.gg/42jVPPd"
 repo_url: "https://github.com/ClickWiki/clickwiki.net"
 issues_url: "https://github.com/ClickWiki/clickwiki.net/issues"
 pr_url: "https://github.com/ClickWiki/clickwiki.net/pulls"
+watchers_url: "https://github.com/ClickWiki/clickwiki.net/watchers"
+stars_url: "https://github.com/ClickWiki/clickwiki.net/stargazers"
+forks_url: "https://github.com/ClickWiki/clickwiki.net/network"
 
 # Header items
 navigation_categories:

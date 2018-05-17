@@ -21,6 +21,13 @@ header {
         span {
             width: $header-dropdown-icon-size;
             text-align: center;
+            color: $primary;
+        }
+
+        &:active {
+            span {
+                color: white;
+            }
         }
     }
 

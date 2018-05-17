@@ -18,9 +18,9 @@ menu:
         icon: "/wiki/assets/Clickteam/Icon InstallCreator.png"
         url: "/tools/"
 
-      - name: "Older Products"
+      - name: "All Products"
         icon: "/wiki/assets/Clickteam/Icon OlderProducts.png"
-        url: "/legacy/"
+        url: "/products/"
 
       - name: "Fusion 3 (Upcoming)"
         icon: "/wiki/assets/Clickteam/FutureProducts.png"

@@ -27,6 +27,10 @@ layout: default
 
                     <p>{{ item.name }}</p>
                 </a>
+
+                {% if item.hint %}
+                <small>{{ item.hint }}</small>
+                {% endif %}
             </div>
             {% endfor %}
         </div>

@@ -58,6 +58,7 @@ pr_url: "https://github.com/ClickWiki/clickwiki.net/pulls"
 watchers_url: "https://github.com/ClickWiki/clickwiki.net/watchers"
 stars_url: "https://github.com/ClickWiki/clickwiki.net/stargazers"
 forks_url: "https://github.com/ClickWiki/clickwiki.net/network"
+contributors_url: "https://github.com/ClickWiki/clickwiki.net/graphs/contributors"
 
 # Header items
 navigation_categories:

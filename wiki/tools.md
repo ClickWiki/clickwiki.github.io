@@ -1,12 +1,22 @@
 ---
-layout: page
+layout: menu
 title: Tools
 permalink: /tools/
+
+menu:
+  - title: null
+    items:
+      - name: "Install Creator"
+        icon: "/wiki/assets/Clickteam/Icon InstallCreator.png"
+        url: "/tools/install-creator/"
+        hint: "Creates installation wizards."
+
+      - name: "Patch Maker"
+        icon: "/wiki/assets/Clickteam/Icon PatchMaker.png"
+        url: "/tools/patch-maker/"
+        hint: "Creates patches for applications."
+
 ---
 
-<big>List of tools created and currently maintained by Clickteam:</big>
-
- | 
----|---
-[![Install Creator 2](/wiki/assets/Clickteam/Icon InstallCreator.png)](/tools/install-creator-2) | [Install Creator 2](/tools/install-creator-2) - _for creating your own installation programs._
-[![Patch Maker](/wiki/assets/Clickteam/Icon PatchMaker.png)](/tools/patch-maker) | [Patch Maker](/tools/patch-maker) - _for creating your own software patches._
+In addition to Clickteam producing a visual tool for building games
+and applications, they also offer these tools.

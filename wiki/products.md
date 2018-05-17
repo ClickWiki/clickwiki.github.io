@@ -53,7 +53,7 @@ menu:
 
       - name: "Patch Maker (1999)"
         icon: "/wiki/assets/Clickteam/Icon PatchMaker1.png"
-        url: "/patch-creator/#Old_Version"
+        url: "/patch-maker/#Old_Version"
         hint: "Older version of Patch Maker"
 
       - name: "Install Creator"
@@ -69,7 +69,7 @@ menu:
   - title: Retired Products
     items:
       - name: "SynchronX"
-        icon: "/wiki/assets/CC-BY-4.0/unknown.svg"
+        icon: "/wiki/assets/Clickteam/Icon SynchronX.png"
         url: "/SynchronX/"
         hint: "Sync Utility"
 

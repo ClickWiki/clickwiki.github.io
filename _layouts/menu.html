@@ -10,6 +10,9 @@ layout: default
         <div class="row menu-title">
             <div class="col-sm">
                 <h5>{{ section.title }}</h5>
+                {% if section.description %}
+                    <p>{{ section.description }}</p>
+                {% endif %}
             </div>
         </div>
 

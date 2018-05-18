@@ -80,5 +80,4 @@ menu:
 
 ---
 
-In addition to the products themselves, see the [Exporters](/exporters/) that were
-available for Multimedia Fusion.
+Check out what [Exporters](/exporters/) are available for Multimedia Fusion.

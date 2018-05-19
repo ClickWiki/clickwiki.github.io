@@ -1,0 +1,94 @@
+-----------------------------------------------------------
+                Clickteam Patch Maker v1.3
+             Copyright (c) Clickteam 1999-2011
+-----------------------------------------------------------
+
+Welcome to Patch Maker.
+
+
+UNREGISTERED VERSION
+--------------------
+The Unregistered version of Patch Maker is freeware. You can
+freely distribute the install programs you create with this version,
+provided that you do not modify or remove the screen at the end of
+the install programs.
+
+The Unregistered version has all the features of the Registered version.
+
+
+REGISTERED VERSION
+------------------
+The update patch programs created with the Registered version have no end screen.
+
+To register, just connect to http://www.clickteam.com and purchase a license
+fee. You will receive a registration code that will unlock the installation
+of the registered version of Patch Maker.
+
+
+WHAT'S NEW IN THIS VERSION
+--------------------------
+
+* A new "Icon file" option in the Options tab allows you to change the icon of the update program.
+  Note: this feature doesn't work on Windows 9x.
+
+* When the update patchs have to remove files, these files are now removed before other
+  files are installed so that less free space is required on the destination drive.
+
+* The program no longer requires administrator rights on Windows Vista / Seven.
+
+* The old UI library has been modified to fix the problem with the buttons in the main window.
+
+
+WHAT'S NEW IN PREVIOUS VERSIONS
+-------------------------------
+
+* New "Vista : Run as administrator" option. If this option is selected, the installer
+  will be executed on Vista with elevated privileges. Note: this option should be selected
+  for 99% of the installers, as it is required if, for example, you install files to a
+  sub-directory of the Program Files directory. Unselect this option only if you know what you do.
+
+* Zones to exclude now ignored if out of range.
+
+* List of zones to exclude refreshed when you select the Advanced Options tab.
+
+* Better compression with certain files in "Smallest" mode.
+
+* Double-quote characters are removed from the beginning of the directory name loaded from the registry or INI files.
+
+* NEW: option Smallest / Fastest in the Build page. The previous versions
+of Patch Maker use the Fastest option. The Smallest option allows to
+reduce the size of your patch program in certain cases, especially with
+big files.
+
+* NEW: when files are in use by other applications, the patch program
+prompts the user to reboot Windows.
+
+* FIX: wrong directory created when installing .DLL files to the system 
+directory.
+
+* FIX: crash with NT 4.0 on a few video cards in full window mode.
+
+* FIX: "CRC error" when using "excluded zones" with high offsets.
+
+* FIX: "unknown version" error message incorrectly displayed when there
+are 2 identical files in several old versions.
+
+* FIX: no more "Out of memory" message when making a patch for a very big file.
+
+* NEW: new option "If unknown version / Install it" in the File Options tab.
+
+
+KNOWN PROBLEMS
+--------------
+
+* Patch Maker is not very efficient with some big files that are very different. 
+This version of Patch Maker is much more efficient than the previous versions with
+this kind of files, but is still not perfect and in some cases can give a result 
+only equal to a normal zip compression.
+
+
+Thank you for using Clickteam products!
+
+
+The Clickteam.
+

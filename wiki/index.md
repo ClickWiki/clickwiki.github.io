@@ -100,7 +100,7 @@ menu:
         icon: "fa-folder"
         url: "/resources/"
 
-      - name: "Development Practices (FAQs)"
+      - name: "Best Practices (FAQs)"
         icon: "fa-question-circle"
         url: "/best-practices/"
 
@@ -178,8 +178,8 @@ the growing number of [extensions] and features.
 All contributions come from the community of [clickers]. If you spot something
 missing and would like to fill it in, we'd greatly appreciate your input.
 
-[Learn more](/about){:.btn.btn-primary}
-[Contribute](/contribute){:.btn.btn-default}
+[About ClickWiki](/about){:.btn.btn-primary}
+[How to Contribute](/contribute){:.btn.btn-default}
 
 [Clickteam]: /clickteam
 [User Creations]: /made-with-fusion

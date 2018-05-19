@@ -86,35 +86,35 @@ navigation_categories:
       icon: "fa-puzzle-piece"
       url: "/extensions/"
 
-    - label: "Community"
-      icon_type: "fa"
-      icon: "fa-heart"
-      url: "/community/"
-
-    - label: "Help & Guidance"
+    - label: "Best Practices"
       icon_type: "fa"
       icon: "fa-question-circle"
-      url: "/help/"
+      url: "/best-practices/"
 
     - label: "Interface"
       icon_type: "fa"
       icon: "fa-mouse-pointer"
       url: "/interface/"
 
-    - heading: "Advanced"
-
     - label: "File Extensions"
       icon_type: "fa"
       icon: "fa-file"
       url: "/file-extensions/"
 
-    - label: "Chowdren"
-      icon_type: "img"
-      icon: "/wiki/assets/Platforms/Chowdren.png"
-      url: "/chowdren"
+    - heading: "Community"
+
+    - label: "Resources"
+      icon_type: "fa"
+      icon: "fa-folder"
+      url: "/resources/"
+
+    - label: "User Creations"
+      icon: "/wiki/assets/Clickteam/Fused Logo.png"
+      url: "/made-with-fusion/"
+
 
 navigation_external_links:
-    - label: "Clickteam"
+    - label: "Clickteam.com"
       icon_type: "img"
       icon: "/wiki/assets/Clickteam/Clickteam Logo.png"
       url: "https://www.clickteam.com"
@@ -127,12 +127,17 @@ navigation_external_links:
     - label: "Community Passport"
       icon_type: "img"
       icon: "/wiki/assets/Clickteam/Clickteam Logo.png"
-      url: "http://community.clickteam.com/passport"
+      url: "https://community.clickteam.com/passport"
 
     - label: "Clickteam Shop"
       icon_type: "img"
       icon: "/wiki/assets/Clickteam/Shop.png"
-      url: "http://www.clickteam.com/web-shop"
+      url: "https://www.clickteam.com/web-shop"
+
+    - label: "Clickteam Library"
+      icon_type: "img"
+      icon: "/wiki/assets/Clickteam/Clickteam_Library.png"
+      url: "http://library.clickteam.com/"
 
     - label: "ClickStore"
       icon_type: "img"

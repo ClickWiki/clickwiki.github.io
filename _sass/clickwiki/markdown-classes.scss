@@ -23,3 +23,9 @@ img.icon {
     max-width: 48px;
     max-height: 48px;
 }
+
+// Make preformatted blocks more distinct
+pre {
+    background: #f3f3f3;
+    padding: 1em;
+}

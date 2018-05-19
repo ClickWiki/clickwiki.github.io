@@ -70,7 +70,7 @@ menu:
     description: null
     items:
       - name: "Sub-Application (.ccn)"
-        icon: "/wiki/assets/Clickteam/Unicode.png"
+        icon: "/wiki/assets/Extensions/Interface/SubApplication.png"
         url: "/file-extensions/CCN/"
         hint: "Allows embedding of Fusion applications to other projects."
 

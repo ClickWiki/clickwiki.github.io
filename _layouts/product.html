@@ -188,6 +188,13 @@ layout: default
                 </tr>
                 {% endif %}
 
+                {% if page.successor %}
+                <tr>
+                    <th>Successor</th>
+                    <td>{{ page.successor | markdownify }}</td>
+                </tr>
+                {% endif %}
+
             </tbody>
         </table>
 

@@ -1,0 +1,19 @@
+.timeline {
+    .date {}
+
+    .image {
+        img {
+            max-width: 128px;
+            max-height: 64px;
+        }
+
+        .fa {
+            font-size: 2.5em;
+            color: $primary;
+        }
+    }
+
+    .event {
+        text-align: left;
+    }
+}

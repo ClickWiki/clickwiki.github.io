@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="page-content">
+        {{ content }}
+
+        {% for section in page.timeline %}
+        <div class="row menu-title">
+            <div class="col-sm">
+                <h5>{{ section.title }}</h5>
+            </div>
+        </div>
+
+        <div class="row menu-items">
+            <table class="timeline table">
+            {% for event in section.events %}
+                <tbody>
+                    <tr>
+                        <th class="date">{{ event.date }}</th>
+                        <td class="image">
+                            {% assign isFa = event.icon | split:'fa-' | size %}
+                            {% if isFa == 2 %}
+                                <span class="fa {{ event.icon }}"></span></div>
+                            {% else %}
+                                <img src="{{ event.icon }}" alt=""/>
+                            {% endif %}
+                        </td>
+                        <td class="event">{{ event.event | markdownify | remove:'<p>' | remove:'</p>' }}</td>
+                    </tr>
+                </tbody>
+            {% endfor %}
+            </table>
+        </div>
+        {% endfor %}
+
+    </div>
+</article>

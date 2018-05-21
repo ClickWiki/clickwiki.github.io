@@ -29,3 +29,14 @@ pre {
     background: #f3f3f3;
     padding: 1em;
 }
+
+// Quotes
+blockquote {
+    background: $gray-100;
+    border-left: $gray-400 4px solid;
+    padding: 1em;
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}

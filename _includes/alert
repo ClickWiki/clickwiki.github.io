@@ -13,13 +13,13 @@ Parameters:
           {% if include.type == "warning" %}
             <img src="/site/img/alerts/warning.png" alt="Warning symbol"/>
 
-          {% else if include.type == "clock" %}
+          {% elsif include.type == "clock" %}
             <img src="/site/img/alerts/clock.png" alt="Clock symbol"/>
 
-          {% else if include.type == "info" %}
+          {% elsif include.type == "info" %}
             <img src="/site/img/alerts/info.png" alt="Info symbol"/>
 
-          {% else if include.type == "question" %}
+          {% elsif include.type == "question" %}
             <img src="/site/img/alerts/question.png" alt="Question symbol"/>
 
           {% endif %}

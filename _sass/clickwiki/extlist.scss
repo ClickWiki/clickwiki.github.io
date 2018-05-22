@@ -1,0 +1,65 @@
+$supported: lighten($green, 25%);
+$unsupported: lighten($red, 25%);
+
+.extlist {
+    .platforms {
+        img {
+            width: 2.5em;
+            height: 2.5em;
+        }
+    }
+
+    .icon {
+        text-align: center;
+
+        img {
+            max-height: 32px;
+            max-width: 32px;
+        }
+    }
+
+    .name {
+        font-weight: 600;
+    }
+
+    .name,
+    .description {
+        text-align: left;
+    }
+
+    .links,
+    .attributes {
+        text-align: center;
+
+        img {
+            max-width: 28px;
+            max-height: 28px;
+            vertical-align: middle;
+        }
+
+        span {
+            font-size: 1.5em;
+            vertical-align: middle;
+
+            &.positive {
+                color: $green;
+            }
+
+            &.negative {
+                color: $red;
+            }
+        }
+    }
+
+    .platform {
+        text-align: center;
+
+        &.supported {
+            background: $supported;
+        }
+
+        &.unsupported {
+            background: $unsupported;
+        }
+    }
+}

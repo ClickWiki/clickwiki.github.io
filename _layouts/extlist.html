@@ -1,0 +1,100 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="page-content">
+        {{ content }}
+
+        <div class="row menu-title">
+            <div class="col-sm">
+                <h5>{{ ext.title }}</h5>
+            </div>
+        </div>
+
+        <div class="row menu-items">
+            <table class="extlist table table-sm">
+                <tbody>
+                    <tr>
+                        <th colspan="2" rowspan="2">Name</th>
+                        <th rowspan="2">Links</th>
+                        <th rowspan="2">Attributes</th>
+                        <th rowspan="2">Description</th>
+                        <th colspan="8">Supported Platforms</th>
+                    </tr>
+                    <tr class="platforms">
+                        <th><a href="/exporters/Windows/"><img src="/wiki/assets/Platforms/Windows.png" alt="Windows" title="Windows Exporter"/></a></th>
+                        <th><a href="/exporters/Mac/"><img src="/wiki/assets/Platforms/Mac.png" alt="Mac" title="Mac Exporter"/></a></th>
+                        <th><a href="/exporters/Flash/"><img src="/wiki/assets/Platforms/Flash.png" alt="Flash" title="Flash Exporter"/></a></th>
+                        <th><a href="/exporters/iOS/"><img src="/wiki/assets/Platforms/iOS.png" alt="iOS" title="iOS Exporter"/></a></th>
+                        <th><a href="/exporters/Android/"><img src="/wiki/assets/Platforms/Android.png" alt="Android" title="Android Exporter"/></a></th>
+                        <th><a href="/exporters/HTML5/"><img src="/wiki/assets/Platforms/HTML5.png" alt="HTML5" title="HTML5 Exporter"/></a></th>
+                        <th><a href="/exporters/XNA/"><img src="/wiki/assets/Platforms/XNA.png" alt="XNA" title="XNA Exporter"/></a></th>
+                        <th><a href="/exporters/UWP/"><img src="/wiki/assets/Platforms/UWP.png" alt="UWP" title="UWP Exporter"/></a></th>
+                    </tr>
+                    {% for ext in page.extensions %}
+                    <tr>
+                        <td class="icon">
+                            {% if ext.icon %}
+                                <img src="{{ ext.icon }}" alt="{{ ext.name }} icon"/>
+                            {% else %}
+                                <img src="/wiki/assets/CC-BY-4.0/unknown.svg" alt="Unknown icon"/>
+                            {% endif %}
+                        </td>
+
+                        <td class="name">
+                            {{ ext.name }}
+                        </td>
+
+                        <td class="links">
+                            {% if ext.download %}
+                                {% capture download_link %}{{ ext.download | slice: 0, 32 }}{% endcapture %}
+                                {% if ext.download == "fusion" %}
+                                    <a href="/extensions/manager/" title="Available via Fusion Extension Manager">
+                                        <img src="/wiki/assets/Clickteam/ExtManagerIcon.png" alt="Fusion Extension Manager Icon"/>
+                                    </a>
+                                {% elsif download_link == 'http://clickstore.clickteam.com/' or download_link == 'https://clickstore.clickteam.com' %}
+                                    <a href="{{ ext.download }}" title="Available on ClickStore">
+                                        <img src="/wiki/assets/Clickteam/ClickStore.png" alt="ClickStore Icon"/>
+                                    </a>
+                                {% else %}
+                                    <a href="{{ ext.download }}" title="{{ ext.download }}">
+                                        <span class="fa fa-download"></span>
+                                    </a>
+                                {% endif %}
+                            {% endif %}
+
+                            {% if ext.info %}
+                                <a href="{{ ext.info }}" title="{{ ext.info }}">
+                                    <span class="fa fa-info-circle"></span>
+                                </a>
+                            {% endif %}
+                        </td>
+
+                        <td class="attributes">
+                            {% if ext.dev_only == true %}<img src="/wiki/assets/Clickteam/Icon CF2.5Dev.png" alt="Clickteam Fusion 2.5 Developer Icon" title="Only avaliable for developer versions"/>{% endif %}
+                            {% if ext.official == true %}<img src="/wiki/assets/Clickteam/Clickteam Logo.png" alt="Clickteam Logo" title="Official Extension"/>{% endif %}
+                            {% if ext.legacy == true %}<img src="/wiki/assets/Clickteam/Extension Legacy.png" alt="" title="Legacy Extension (Not recommended for new projects)"/>{% endif %}
+                            {% if ext.hwa == true %}<span class="fa fa-desktop positive" title="Optimised for Hardware Acceleration (HWA)"></span>{% endif %}
+                            {% if ext.hwa == false %}<span class="fa fa-exclamation-triangle negative" title="Incompatible with Hardware Acceleration (HWA)"></span>{% endif %}
+                        </td>
+
+                        <td class="description">
+                            {{ ext.description }}
+                        </td>
+
+                        {% if ext.supported contains "win" %}<td class="platform supported">Yes</td>{% else %}<td class="platform unsupported">No</td>{% endif %}
+                        {% if ext.supported contains "mac" %}<td class="platform supported">Yes</td>{% else %}<td class="platform unsupported">No</td>{% endif %}
+                        {% if ext.supported contains "flash" %}<td class="platform supported">Yes</td>{% else %}<td class="platform unsupported">No</td>{% endif %}
+                        {% if ext.supported contains "ios" %}<td class="platform supported">Yes</td>{% else %}<td class="platform unsupported">No</td>{% endif %}
+                        {% if ext.supported contains "android" %}<td class="platform supported">Yes</td>{% else %}<td class="platform unsupported">No</td>{% endif %}
+                        {% if ext.supported contains "html5" %}<td class="platform supported">Yes</td>{% else %}<td class="platform unsupported">No</td>{% endif %}
+                        {% if ext.supported contains "xna" %}<td class="platform supported">Yes</td>{% else %}<td class="platform unsupported">No</td>{% endif %}
+                        {% if ext.supported contains "uwp" %}<td class="platform supported">Yes</td>{% else %}<td class="platform unsupported">No</td>{% endif %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</article>

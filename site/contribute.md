@@ -119,6 +119,39 @@ menu:
 
 Repeat the items as many times as needed.
 
+### `extlist`
+```
+extensions:
+    - name: "3D Actives"
+      description: ""
+      icon: "/wiki/assets/Extensions/3D/3d-3dactives.png"
+      download: "fusion"
+      dev_only: true
+      hwa: true / false
+      official: true
+      legacy: true
+      supported:
+        - win
+        - mac
+        - flash
+        - ios
+        - android
+        - html5
+        - xna
+        - uwp
+```
+
+These are optional:
+
+* **download**: URL to download or `fusion` if obtained via [Extension Manager](/extensions/manager/)
+* **info**: URL to get more information about the extension.
+* **dev_only**: Can only be used in MMF2 Developer or CF2.5 Developer.
+* **hwa**: `true` if this extension is optimised. `false` if unsupported.
+* **official**`: `true` if this extension is produced by [Clickteam](/clickteam/).
+* **legacy**: `true` if this extension is designed for MMF1.5 and is provided for compatibility only.
+* **supported**: List the platforms this extension works on:
+  * `win, mac, flash, ios, android, html5, xna, uwp`
+
 
 ## Includes
 These are like templates that you can _include_ on any page.

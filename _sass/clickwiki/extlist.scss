@@ -30,6 +30,7 @@ $unsupported: lighten($red, 25%);
     .links,
     .attributes {
         text-align: center;
+        min-width: 70px;
 
         img {
             max-width: 28px;

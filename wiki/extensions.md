@@ -461,7 +461,7 @@ Java exporter also lacks that function or you don't have the Clickteam Fusion 2.
         </tr>
         <tr>
             <td colspan="10">
-                *Not available on Mobile Devices and <a href="/wiki/Java_Runtime" title="Java Runtime (now deprecated)"><img alt="Java Runtime (now deprecated)" height="24" src="/w/images/a/a6/Icon_Java.png" width="24"></a> BlackBerry.
+                *Not available on Mobile Devices and BlackBerry.
             </td>
         </tr>
         <tr>

@@ -1,7 +1,7 @@
 ---
 layout: extlist
-title: Firefly
-permalink: /extensions/Firefly/
+title: Firefly Extensions
+permalink: /extensions/firefly/
 
 extensions:
     - name: "Firefly Engine"

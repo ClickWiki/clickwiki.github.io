@@ -1,6 +1,6 @@
 ---
 layout: extlist
-title: Events
+title: Events Extensions
 permalink: /extensions/events/
 
 extensions:

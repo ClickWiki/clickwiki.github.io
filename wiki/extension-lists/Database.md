@@ -1,6 +1,6 @@
 ---
 layout: extlist
-title: Database
+title: Database Extensions
 permalink: /extensions/database/
 
 extensions:

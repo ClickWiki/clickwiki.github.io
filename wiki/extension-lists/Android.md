@@ -1,6 +1,6 @@
 ---
 layout: extlist
-title: Android
+title: Android Extensions
 permalink: /extensions/android/
 
 extensions:
@@ -129,7 +129,7 @@ extensions:
 
     - name: "Android Lights"
       description: "Control the LED, Camera Flash and vibration features on Android phones that support them."
-      icon: "/wikiassets/Extensions/Android/android-lights.png"
+      icon: "/wiki/assets/Extensions/Android/android-lights.png"
       download: "https://ajlnk.tk/androidlights"
       info: "https://community.clickteam.com/threads/67025-Android-Lights-Beta"
       dev_only: null

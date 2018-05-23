@@ -1,6 +1,6 @@
 ---
 layout: extlist
-title: File Management
+title: File Extensions
 permalink: /extensions/files/
 
 extensions:

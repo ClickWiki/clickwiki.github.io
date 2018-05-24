@@ -1,0 +1,181 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="page-content">
+
+        <table id="summary-table" class="table extension">
+            <tbody>
+
+                {% if page.icon %}
+                <tr class="icon">
+                    <td colspan="2">
+                        <img src="{{ page.icon }}" alt="{{ page.name }}"/>
+                    </td>
+                </tr>
+                {% endif %}
+
+                {% if page.developer %}
+                <tr>
+                    <th>Developer</th>
+                    <td>{{ page.developer | markdownify }}</td>
+                </tr>
+                {% endif %}
+
+                {% if page.status %}
+                <tr>
+                    <th>Status</th>
+                    <td>{{ page.status | markdownify }}</td>
+                </tr>
+                {% endif %}
+
+                {% if page.products %}
+                <tr class="platforms">
+                    <th>Available for</th>
+                    <td>
+                        {% for product in page.products %}
+                            {% if product == 'mmf1' %}
+                            <a href="/fusion/1.5/">
+                                <img src="/wiki/assets/Clickteam/Icon MMF1.5.png" alt="MMF1 Icon" title="Multimedia Fusion 1"/>
+                            </a>
+                            {% endif %}
+
+                            {% if product == 'mmf2' %}
+                            <a href="/fusion/2.0/">
+                                <img src="/wiki/assets/Clickteam/Icon MMF2.png" alt="MMF2 Icon" title="Multimedia Fusion 2 Standard"/>
+                            </a>
+                            {% endif %}
+
+                            {% if product == 'mmf2dev' %}
+                            <a href="/fusion/2.0/">
+                                <img src="/wiki/assets/Clickteam/Icon MMF2Dev.png" alt="MMF2 Developer Icon" title="Multimedia Fusion 2 Developer"/>
+                            </a>
+                            {% endif %}
+
+                            {% if product == 'cf2.5free' %}
+                            <a href="/fusion/2.5/">
+                                <img src="/wiki/assets/Clickteam/Icon CF2.5Free.png" alt="CF 2.5 Free Icon" title="Clickteam Fusion 2.5 Free"/>
+                            </a>
+                            {% endif %}
+
+                            {% if product == 'cf2.5' %}
+                            <a href="/fusion/2.5/">
+                                <img src="/wiki/assets/Clickteam/Icon CF2.5.png" alt="CF 2.5 Icon" title="Clickteam Fusion 2.5 Standard"/>
+                            </a>
+                            {% endif %}
+
+                            {% if product == 'cf2.5dev' %}
+                            <a href="/fusion/2.5/">
+                                <img src="/wiki/assets/Clickteam/Icon CF2.5Dev.png" alt="CF 2.5 Developer Icon" title="Clickteam Fusion 2.5 Developer"/>
+                            </a>
+                            {% endif %}
+
+                        {% endfor %}
+                    </td>
+                </tr>
+                {% endif %}
+
+                {% if page.runtimes %}
+                <tr class="platforms">
+                    <th>Supported Runtimes</th>
+                    <td>
+                        {% for runtime in page.runtimes %}
+                            {% if runtime == 'windows' %}
+                            <a href="/exporters/Windows/">
+                                <img src="/wiki/assets/Platforms/Windows.png" alt="Windows logo" title="Microsoft Windows"/>
+                            </a>
+                            {% endif %}
+
+                            {% if runtime == 'mac' %}
+                            <img src="/wiki/assets/Platforms/macOS.png" alt="macOS logo" title="macOS"/>
+                            {% endif %}
+
+                            {% if runtime == 'android' %}
+                            <a href="/exporters/Android/">
+                                <img src="/wiki/assets/Platforms/Android.png" alt="Andriud logo" title="Android"/>
+                            </a>
+                            {% endif %}
+
+                            {% if runtime == 'flash' %}
+                            <a href="/exporters/Flash"></a>
+                                <img src="/wiki/assets/Platforms/Flash.png" alt="Flash logo" title="Adobe Flash"/>
+                            </a>
+                            {% endif %}
+
+                            {% if runtime == 'html5' %}
+                            <a href="/exporters/HTML5">
+                                <img src="/wiki/assets/Platforms/HTML5.png" alt="HTML5 logo" title="HTML5"/>
+                            </a>
+                            {% endif %}
+
+                            {% if runtime == 'ios' %}
+                            <a href="/exporters/iOS">
+                                <img src="/wiki/assets/Platforms/iOS.png" alt="iOS logo" title="iOS"/>
+                            </a>
+                            {% endif %}
+
+                            {% if runtime == 'java' %}
+                            <a href="/exporters/Java">
+                                <img src="/wiki/assets/Platforms/Java.png" alt="Java logo" title="Java"/>
+                            </a>
+                            {% endif %}
+
+                            {% if runtime == 'xna' %}
+                            <a href="/exporters/XNA">
+                                <img src="/wiki/assets/Platforms/XNA.png" alt="XNA logo" title="XNA"/>
+                            </a>
+                            {% endif %}
+
+                            {% if runtime == 'uwp' %}
+                            <a href="/exporters/UWP">
+                                <img src="/wiki/assets/Platforms/UWP.png" alt="Windows Phone logo" title="Windows Phone"/>
+                            </a>
+                            {% endif %}
+
+                        {% endfor %}
+                    </td>
+                </tr>
+                {% endif %}
+
+                {% if page.license %}
+                <tr class="license">
+                    <th>License</th>
+                    <td>{{ page.license }}</td>
+                </tr>
+                {% endif %}
+
+                <tr class="boolean">
+                    <th>Includes Examples</th>
+                    {% if page.includes_examples == null %}<td class="unknown">???</td>{% endif %}
+                    {% if page.includes_examples == true %}<td class="true">Yes</td>{% endif %}
+                    {% if page.includes_examples == false %}<td class="false">No</td>{% endif %}
+                </tr>
+
+                <tr class="boolean">
+                    <th>Includes Help</th>
+                    {% if page.includes_help == null %}<td class="unknown">???</td>{% endif %}
+                    {% if page.includes_help == true %}<td class="true">Yes</td>{% endif %}
+                    {% if page.includes_help == false %}<td class="false">No</td>{% endif %}
+                </tr>
+
+                {% if page.links %}
+                <tr class="links">
+                    <th>Links</th>
+                    <td>
+                        {% if page.links %}
+                            {% for link in page.links %}
+                                {{ link | markdownify }}
+                            {% endfor %}
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endif %}
+
+            </tbody>
+        </table>
+
+        {{ content }}
+    </div>
+
+</article>

@@ -1,6 +1,10 @@
 
 // Summary table that appears on the right of various pages.
 
+$yes: lighten($green, 25%);
+$no: lighten($red, 25%);
+$unknown: lighten($gray-500, 25%);
+
 #summary-table {
     float: right;
     width: 40%;
@@ -8,6 +12,10 @@
     padding: 0.5em;
     margin-left: 1em;
     background: $gray-100;
+
+    &.extension {
+        max-width: 320px;
+    }
 
     th, td {
         padding: 0.25rem;
@@ -24,6 +32,15 @@
         }
     }
 
+    .icon {
+        text-align: center;
+
+        img {
+            max-height: 32px;
+            nax-width: 32px;
+        }
+    }
+
     .summary-caption {
         text-align: center;
     }
@@ -33,6 +50,20 @@
             display: inline-block;
             width: 24px;
             height: 24px;
+        }
+    }
+
+    .boolean {
+        .true {
+            background: $yes;
+        }
+
+        .false {
+            background: $no;
+        }
+
+        .unknown {
+            background: $unknown;
         }
     }
 

@@ -4,7 +4,7 @@ title: Patch Maker
 permalink: /tools/patch-maker/
 category: tools
 
-image: "/wiki/assets/Screenshots/Patch_Maker_Screenshot.png"
+image: "/wiki/assets/Screenshots/Patch_Maker.png"
 image_caption: "Screenshot of Patch Maker Version 1.3a (Unregistered Version)"
 developer: "[Clickteam](/clickteam/)"
 status: "Released"

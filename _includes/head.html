@@ -39,5 +39,35 @@
     <meta name="msapplication-TileImage" content="/site/favicon/144x144.png">
     <meta name="msapplication-config" content="/site/browserconfig.xml">
 
+    <script>
+        // Dark mode
+        function setDarkMode(state) {
+            if (state === true) {
+                document.body.className = "dark";
+            } else {
+                document.body.className = "";
+            }
+        }
 
+        function toggleDarkMode() {
+            if (localStorage.getItem("darkmode") === "true") {
+                localStorage.setItem("darkmode", "false");
+                setDarkMode(false);
+            } else {
+                localStorage.setItem("darkmode", "true");
+                setDarkMode(true);
+            }
+        }
+
+        setTimeout(function() {
+            /* Smooth fade toggle, except Firefox */
+            document.body.setAttribute("style", "transition: background-color 0.2s linear; -moz-transition: none;");
+        }, 500);
+
+        function initDarkMode() {
+            if (localStorage.getItem("darkmode") === "true") {
+                setDarkMode(true);
+            }
+        }
+    </script>
 </head>

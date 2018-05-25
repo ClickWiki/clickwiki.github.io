@@ -1,0 +1,66 @@
+$darker: darken($dark, 10%);
+$darker2: darken($dark, 20%);
+
+body.dark {
+    background: $dark;
+    color: $light;
+
+    a {
+        color: lighten($blue, 20%);
+
+        &.btn-primary {
+            color: $white;
+        }
+    }
+
+    nav {
+        background-color: $darker !important;
+
+        .nav-link {
+            color: $light !important;
+        }
+    }
+
+    #summary-table {
+        background-color: $darker;
+
+        .relative-date {
+            color: $gray-500;
+        }
+    }
+
+    pre,
+    blockquote,
+    .dropdown-menu,
+    .img-thumbnail {
+        background-color: $darker;
+        color: $light;
+    }
+
+    .dropdown-item:hover,
+    .form-control {
+        background-color: $darker2;
+        color: $light;
+        border: none;
+    }
+}
+
+/* Show the relevant toggle depending on current state */
+#darkmode,
+#lightmode {
+    cursor: pointer;
+}
+
+#lightmode {
+    display: none;
+}
+
+body.dark {
+    #lightmode {
+        display: inline-block;
+    }
+
+    #darkmode {
+        display: none;
+    }
+}

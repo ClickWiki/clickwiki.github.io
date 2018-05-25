@@ -1,0 +1,21 @@
+#search-container {
+    .search-icon {
+        padding: 0.5em 0.25em;
+        font-size: 1.5em;
+        color: #008cfb;
+    }
+
+    #results-container {
+        list-style: none;
+
+        li {
+            margin: 0;
+            padding: 0.5em 2em;
+            list-style: none;
+            background-image: url(/site/img/fa/file.svg);
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 1.5em;
+        }
+    }
+}

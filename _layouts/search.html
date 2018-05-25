@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="page-content">
+        {{ content }}
+
+        <div id="search-container" class="container">
+            <div class="row">
+                <div class="col">
+                <h4>Find Pages on ClickWiki</h4>
+                <p>Enter some keywords and you may find what you're looking for.</p>
+
+                <div class="input-group mb-2">
+                    <div class="input-group-addon"><span class="fa fa-search search-icon"></span></div>
+                    <input type="text" id="search-input" class="form-control" placeholder="Keywords">
+                </div>
+
+                <ul id="results-container"></ul>
+
+                <!-- CDN for search -->
+                <script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+                <script>
+                var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json'
+                })
+                </script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</article>

@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Time Extensions
+title: Time
 permalink: /extensions/time/
+category: extensions
 
 extensions:
     - name: "Date & Time object"

@@ -2,6 +2,7 @@
 layout: product
 title: Clickteam Fusion 2.5
 permalink: /fusion/2.5/
+category: fusion
 
 image: "/wiki/assets/Clickteam/Fusion2.5_Press_Image.jpg"
 image_caption: "Press image demonstrating the interface."

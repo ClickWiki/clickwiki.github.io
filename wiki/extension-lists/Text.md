@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Text Extensions
+title: Text
 permalink: /extensions/text/
+category: extensions
 
 extensions:
     - name: "Commandline Parser"

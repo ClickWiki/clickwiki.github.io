@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Firefly Extensions
+title: Firefly
 permalink: /extensions/firefly/
+category: extensions
 
 extensions:
     - name: "Firefly Engine"

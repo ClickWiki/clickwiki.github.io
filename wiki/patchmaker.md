@@ -2,6 +2,7 @@
 layout: product
 title: Patch Maker
 permalink: /tools/patch-maker/
+category: tools
 
 image: "/wiki/assets/Screenshots/Patch_Maker_Screenshot.png"
 image_caption: "Screenshot of Patch Maker Version 1.3a (Unregistered Version)"
@@ -32,12 +33,12 @@ Under Wizard Options, there is an option labeled Run As Administrator. If this i
 
 {% include TOC %}
 
-# Versions 
-## Unregistered 
+# Versions
+## Unregistered
 The Free version of Patch Maker allows the user to create patches for their projects.
 
 
-## Registered 
+## Registered
 Patch Maker has the same features of the standard version, but there is no extra page at the end about Clickteam and Patch Maker.
 
 

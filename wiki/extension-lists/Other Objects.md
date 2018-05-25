@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Other Extensions
+title: Other Objects
 permalink: /extensions/other/
+category: extensions
 
 extensions:
     - name: "SteamWorks"

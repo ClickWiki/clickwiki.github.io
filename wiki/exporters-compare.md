@@ -2,6 +2,7 @@
 layout: page
 title: Compare Exporters
 permalink: /exporters/compare/
+category: exporters
 ---
 
 <table class="table">

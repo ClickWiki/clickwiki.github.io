@@ -2,6 +2,7 @@
 layout: page
 title: Extension Packs
 permalink: /extensions/packs/
+category: extensions
 ---
 
 Extension Packs are a collection of free extensions created by developers of the [Clickteam Community].

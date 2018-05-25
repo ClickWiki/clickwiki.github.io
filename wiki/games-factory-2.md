@@ -2,6 +2,7 @@
 layout: product
 title: The Games Factory 2
 permalink: /games-factory-2/
+category:
 
 image: "/wiki/assets/Clickteam/TGF2_Image.jpg"
 image_caption: "Cover Artwork"

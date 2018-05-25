@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Background Extensions
+title: Background
 permalink: /extensions/backgrounds/
+category: extensions
 
 extensions:
     - name: "Active Backdrop"

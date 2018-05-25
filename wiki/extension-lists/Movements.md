@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Movement Extensions
+title: Movement
 permalink: /extensions/movements/
+category: extensions
 
 extensions:
     - name: "Clickteam Movement Controller"

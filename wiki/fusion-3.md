@@ -2,6 +2,7 @@
 layout: page
 title: Fusion 3
 permalink: /fusion/3.0/
+category: fusion
 ---
 
 
@@ -14,28 +15,28 @@ It is inevitable there is a new successor to [Fusion 2.5](/fusion/2.5) in the wo
 %}
 
 
-# Time Frame 
+# Time Frame
 * **27 Sept 2016** - [Reddit AMA](https://www.reddit.com/r/IAmA/comments/54qz9d/we_are_clickteam_creators_of_fusion_the_tool) [(Promo Video)](https://www.youtube.com/watch?v=qgNYDcEl8Eo)
 * **01 Oct 2016** - [Live Stream Demo of Fusion 3](https://community.clickteam.com/threads/92330-Fusion-3-Current-Status?p=702568&viewfull=1#post702568)
 * ~~**Last Half of 2017** - ETA Release Date~~
 
-# Mentions from Clickteam 
+# Mentions from Clickteam
 **Features or opinions listed here have been mentioned by the staff at Clickteam.**
 
 <big>[Fusion 3 Development Blog](http://www.clickteam.com/fusion-3-development-blog?f3id=8607)</big>
 
-### Live Streams 
+### Live Streams
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/4JHPgaS83QI" frameborder="0" allowfullscreen=""></iframe>
 
 * https://www.twitch.tv/clickteamllc/v/92444372
 
-### From the Community 
+### From the Community
 
 
 
 * **The product itself**
-    * **Release Date**  
+    * **Release Date**
       * Older posts suggested no firm release date. [1](https://community.clickteam.com/threads/66628-Most-wanted-least-wanted-in-MMF3?p=511090&viewfull=1#post511090) [2](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=642700&viewfull=1#post642700)
       * ~~Yves has clearly stated it will be released "next year" (2016). [1](https://community.clickteam.com/threads/92330-Fusion-3-Current-Status?p=664266&viewfull=1#post664266)~~
         * Clickteam from Facebook clearly says "No" to a 2016 release. [Evidence](https://community.clickteam.com/threads/92330-Fusion-3-Current-Status?p=689082&viewfull=1#post689082)
@@ -64,7 +65,7 @@ It is inevitable there is a new successor to [Fusion 2.5](/fusion/2.5) in the wo
 * **New file format**
     * An importer/converter for [MFA](/file-extensions/mfa) files will be considered. [1](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=643674&viewfull=1#post643674) [2](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=644040&viewfull=1#post644040) [3](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=643534&viewfull=1#post643534)
       * It's possible it may only import assets, not full events. <sup>[Missing source]</sup>
-      * The best advise is to not wait for Fusion 3 to start a new project. [1](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=642647&viewfull=1#post642647) [2](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=642709&viewfull=1#post642709) 
+      * The best advise is to not wait for Fusion 3 to start a new project. [1](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=642647&viewfull=1#post642647) [2](https://community.clickteam.com/threads/88943-Fusion-3-support-Fusion-2-5-MFA?p=642709&viewfull=1#post642709)
       * Yves stated the importer that will perform a large chunk of the conversion, but the product will not maintain full backwards compatibility. [1](https://community.clickteam.com/threads/92330-Fusion-3-Current-Status?p=664322&viewfull=1#post664322)
     * The new file format may **store data across multiple files** as opposed to a monolithic format (such as [MFA](/file-extensions/mfa)) [1](https://community.clickteam.com/threads/92330-Fusion-3-Current-Status?p=664429&viewfull=1#post664429) [World Reveal Interview]
 * **Support of existing products after launch**
@@ -76,28 +77,28 @@ It is inevitable there is a new successor to [Fusion 2.5](/fusion/2.5) in the wo
     * Text scripting is very unlikely. [1](https://community.clickteam.com/threads/65304-Multimedia-Fusion-3?p=487450&viewfull=1#post487450)
     * The name "Clickteam Fusion" will be dropped in favor of a new name, just "Fusion". <sup>Added by [Triadian](https://community.clickteam.com/members/23876-Triadian)</sup>
 
-# Speculation and Rumours 
+# Speculation and Rumours
 **Members from the community recall announced facts about a feature.**
 
 * Runtimes in Fusion 3 will share a **global runtime** (as opposed to branding into their own external engines) [1](https://community.clickteam.com/threads/66628-Most-wanted-least-wanted-in-MMF3?p=631141&viewfull=1#post631141) [2](https://community.clickteam.com/threads/66628-Most-wanted-least-wanted-in-MMF3?p=631165&viewfull=1#post631165)
 * Fusion 3 will have **Git integration**. [1](https://community.clickteam.com/threads/66628-Most-wanted-least-wanted-in-MMF3?p=655695&viewfull=1#post655695)
 * There may be support for **some** of these: Cross platform shaders, cross platform zoom, sub-events, (real) global events, renaming qualifiers and unique instances. [1](https://community.clickteam.com/threads/90248-Your-comments-please-on-this-negative-rating-for-MMF-2-5?p=651486&viewfull=1#post651486)
 
-# Presentation 
+# Presentation
 James and Anders introduce and present technical details of the inner workings at (Click Convention 2013)[clickconvention].
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/PhAF6u-2nuY" frameborder="0" allowfullscreen=""></iframe>
 
 **Edit:** Sorry, we don't know why this video is now private.
 
-# Interview 
+# Interview
 The following interviews were recorded and published to YouTube.
 
 * <iframe width="560" height="315" src="//www.youtube.com/embed/mzJ9jLb9d8E" frameborder="0" allowfullscreen=""></iframe>
 * <iframe width="560" height="315" src="//www.youtube.com/embed/zogvxK5pCUw" frameborder="0" allowfullscreen=""></iframe>
 
 
-# Trivia 
+# Trivia
 **Not exactly important, but related to Fusion 3.**
 * There's over 4000 user feature requests. ~~[Blog](https://community.clickteam.com/entries/217-Fun-dation)~~ <sup>(Source no longer available)</sup>
 * There are over 245 responses to the [Fusion 3 Current Status](https://community.clickteam.com/threads/92330-Fusion-3-Current-Status) thread.

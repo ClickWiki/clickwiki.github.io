@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Math Extensions
+title: Math
 permalink: /extensions/math/
+category: extensions
 
 extensions:
     - name: "Advanced Math Object"

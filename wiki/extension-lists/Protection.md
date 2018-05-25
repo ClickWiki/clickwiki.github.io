@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Protection Extensions
+title: Protection
 permalink: /extensions/protection/
+category: extensions
 
 extensions:
     - name: "AESFusion Object"

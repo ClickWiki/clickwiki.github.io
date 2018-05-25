@@ -2,6 +2,7 @@
 layout: product
 title: Extension Manager
 permalink: /extensions/manager/
+category: extensions
 
 image: "/wiki/assets/Screenshots/ExtensionManager.jpg"
 image_caption: "Screenshot of the feature."

@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Android Extensions
+title: Android
 permalink: /extensions/android/
+category: extensions
 
 extensions:
     - name: "AdMob v2"

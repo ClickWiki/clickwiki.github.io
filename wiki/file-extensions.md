@@ -2,6 +2,7 @@
 layout: menu
 title: File Extensions
 permalink: /file-extensions/
+category:
 
 menu:
   - title: null

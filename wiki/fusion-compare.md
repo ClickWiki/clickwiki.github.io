@@ -2,6 +2,7 @@
 layout: page
 title: Multimedia Fusion 2
 permalink: /fusion/compare/
+category: fusion
 ---
 
 Most of Clickteam's products offer different editions of their software,

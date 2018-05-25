@@ -2,6 +2,7 @@
 layout: product
 title: ClickConverse
 permalink: /clickconverse/
+category:
 
 image: "/wiki/assets/Screenshots/ClickConverse.jpg"
 image_caption: "Screenshot of the lobby."

@@ -2,6 +2,7 @@
 layout: page
 title: Extensions
 permalink: /extensions/
+category:
 ---
 
 **Extensions**, or also known as Objects, allow the user to expand the

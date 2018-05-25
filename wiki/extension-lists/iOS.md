@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: iOS Extensions
+title: iOS
 permalink: /extensions/iOS/
+category: extensions
 
 extensions:
     - name: "iOS"

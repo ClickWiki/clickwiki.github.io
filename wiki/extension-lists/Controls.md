@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Control Extensions
+title: Control
 permalink: /extensions/controls/
+category: extensions
 
 extensions:
     - name: "Accelerometer object"

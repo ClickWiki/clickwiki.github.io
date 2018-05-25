@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Events Extensions
+title: Events
 permalink: /extensions/events/
+category: extensions
 
 extensions:
     - name: "Advanced Function Object"

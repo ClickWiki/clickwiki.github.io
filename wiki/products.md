@@ -2,6 +2,7 @@
 layout: menu
 title: Products
 permalink: /products/
+category:
 
 menu:
   - title: Multimedia Fusion Series

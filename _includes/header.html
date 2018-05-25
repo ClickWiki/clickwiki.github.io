@@ -65,6 +65,27 @@
                 </ul>
             </div>
         </nav>
+        <ol class="breadcrumb">
+            {% if page.permalink != "/" %}
+                <li class="breadcrumb-item">
+                    <a href="/">Home</a>
+                </li>
+            {% endif %}
+            {% if page.category %}
+                {% for category in site.breadcrumbs %}
+                    {% if category.id == page.category %}
+                        <li class="breadcrumb-item">
+                            <a href="{{ category.url }}">{{ category.title }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+            {% if page.permalink != "/" %}
+                <li class="breadcrumb-item active">
+                    {{ page.title }}
+                </li>
+            {% endif %}
+        </ol>
         <h1>{{ page.title }}</h1>
         <div class="col-12">
             <hr>

@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Audio Extensions
+title: Audio
 permalink: /extensions/audio/
+category: extensions
 
 extensions:
     - name: "CD Audio Object"

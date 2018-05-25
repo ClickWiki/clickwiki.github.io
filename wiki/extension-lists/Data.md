@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Data Extensions
+title: Data
 permalink: /extensions/data/
+category: extensions
 
 extensions:
     - name: "Array Object"

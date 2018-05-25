@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: System Extensions
+title: System
 permalink: /extensions/system/
+category: extensions
 
 extensions:
     - name: "Advanced Volume Info"

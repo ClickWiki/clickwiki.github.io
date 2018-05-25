@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Internet Extensions
+title: Internet
 permalink: /extensions/internet/
+category: extensions
 
 extensions:
     - name: "Download Object"

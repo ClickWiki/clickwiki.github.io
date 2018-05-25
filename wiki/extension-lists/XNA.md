@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: XNA Extensions
+title: XNA
 permalink: /extensions/xna/
+category: extensions
 
 extensions:
     - name: "Gamer Services"

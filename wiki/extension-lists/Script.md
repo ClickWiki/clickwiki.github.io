@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Script Extensions
+title: Script
 permalink: /extensions/script/
+category: extensions
 
 extensions:
     - name: "Lua Object"

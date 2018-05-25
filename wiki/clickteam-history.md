@@ -2,6 +2,7 @@
 layout: timeline
 title: Clickteam History
 permalink: /clickteam/history/
+category: clickteam
 
 timeline:
   - title: "Past Events"

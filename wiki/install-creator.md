@@ -2,6 +2,7 @@
 layout: product
 title: Install Creator
 permalink: /tools/install-creator/
+category: tools
 
 image: "/wiki/assets/Screenshots/InstallCreator2Screenshot.jpg"
 image_caption: "Screenshot of Install Creator Pro Version 2.0 (Build #45)"

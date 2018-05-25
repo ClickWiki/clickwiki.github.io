@@ -2,6 +2,7 @@
 layout: page
 title: Hardware Acceleration (HWA/Direct3D)
 permalink: /hwa/
+category:
 ---
 
 [Clickteam Fusion 2.5] includes the HWA features of [MMF2]. The HWA features allow you to build applications that use the capabilities of 3D-accelerated graphic cards.

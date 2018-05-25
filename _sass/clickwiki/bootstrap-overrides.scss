@@ -18,3 +18,15 @@
         cursor: zoom-in;
     }
 }
+
+// Breadcrumbs (and navbar spacing)
+.breadcrumb {
+    background: none;
+    font-size: 0.8em;
+    margin-bottom: 0;
+    padding: 0.25rem .5rem 0;
+}
+
+.navbar {
+    padding: .5rem .25rem;
+}

@@ -2,6 +2,7 @@
 layout: page
 title: MFA
 permalink: /file-extensions/MFA/
+category: file-extensions
 ---
 
 {% include thumbnail image = "/wiki/assets/Clickteam/Filetypes/MFA.png" text = "File icon depends on the product installed" %}

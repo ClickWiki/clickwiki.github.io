@@ -2,6 +2,7 @@
 layout: product
 title: ClickStore
 permalink: /clickstore/
+category:
 
 image: "/wiki/assets/Screenshots/ClickStore.jpg"
 image_caption: "Screenshot of the homepage on 28th May 2015"

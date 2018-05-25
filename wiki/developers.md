@@ -2,6 +2,7 @@
 layout: page
 title: Notable Clickers / Developers
 permalink: /developers/
+category:
 ---
 
 {% include TOC %}

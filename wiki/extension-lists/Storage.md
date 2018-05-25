@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Storage Extensions
+title: Storage
 permalink: /extensions/storage/
+category: extensions
 
 extensions:
     - name: "Binary Array"

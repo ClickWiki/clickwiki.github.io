@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Games Extensions
+title: Games
 permalink: /extensions/games/
+category: extensions
 
 extensions:
     - name: "Advanced Direction Object"

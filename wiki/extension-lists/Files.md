@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: File Extensions
+title: File
 permalink: /extensions/files/
+category: extensions
 
 extensions:
     - name: "Archive Object"

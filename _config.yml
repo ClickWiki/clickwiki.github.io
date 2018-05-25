@@ -60,6 +60,33 @@ stars_url: "https://github.com/ClickWiki/clickwiki.net/stargazers"
 forks_url: "https://github.com/ClickWiki/clickwiki.net/network"
 contributors_url: "https://github.com/ClickWiki/clickwiki.net/graphs/contributors"
 
+# Categories (for breadcrumbs)
+breadcrumbs:
+    - id: exporters
+      title: "Exporters"
+      url: "/exporters/"
+
+    - id: clickteam
+      title: "Clickteam"
+      url: "/clickteam/"
+
+    - id: extensions
+      title: "Extensions"
+      url: "/extensions/"
+
+    - id: fusion
+      title: "Fusion"
+      url: "/fusion/"
+
+    - id: tools
+      title: "Tools"
+      url: "/tools/"
+
+    - id: file-extensions
+      title: "File Extensions"
+      url: "/file-extensions/"
+
+
 # Header items
 navigation_categories:
     - heading: "All About Clickteam"

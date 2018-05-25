@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Database Extensions
+title: Database
 permalink: /extensions/database/
+category: extensions
 
 extensions:
     - name: "ODBC"

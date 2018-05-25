@@ -2,6 +2,7 @@
 layout: product
 title: Clickteam Forums
 permalink: /clickteam/forums/
+category: clickteam
 
 image: "/wiki/assets/Screenshots/CommunityForums.jpg"
 image_caption: "Screenshot of the forums as of 19th April 2015."

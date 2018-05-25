@@ -2,6 +2,7 @@
 layout: product
 title: Multimedia Fusion 2
 permalink: /fusion/2.0/
+category: fusion
 
 image: "/wiki/assets/Clickteam/MMF2Image.jpg"
 image_caption: "Standard Edition Cover"

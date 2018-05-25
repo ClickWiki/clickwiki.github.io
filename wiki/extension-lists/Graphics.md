@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Graphics Extensions
+title: Graphics
 permalink: /extensions/graphics/
+category: extensions
 
 extensions:
     - name: "Active"

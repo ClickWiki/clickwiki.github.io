@@ -2,6 +2,7 @@
 layout: menu
 title: Welcome
 permalink: /
+category:
 
 menu:
   - title: "Clickteam Products"

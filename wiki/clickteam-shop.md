@@ -2,6 +2,7 @@
 layout: product
 title: Clickteam Shop
 permalink: /clickteam/shop/
+category: clickteam
 
 image: "/wiki/assets/Screenshots/ShopUSA.jpg"
 image_caption: "Screenshot of USA Shop as of 2nd July 2015"

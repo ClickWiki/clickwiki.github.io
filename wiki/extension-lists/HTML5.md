@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: HTML5 Extensions
+title: HTML5
 permalink: /extensions/html5/
+category: extensions
 
 extensions:
     - name: "HTML5 - fgl"

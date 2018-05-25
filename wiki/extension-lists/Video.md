@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Video Extensions
+title: Video
 permalink: /extensions/video/
+category: extensions
 
 extensions:
     - name: "Active Direct Show"

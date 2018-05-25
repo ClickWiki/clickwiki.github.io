@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Printer Extensions
+title: Printer
 permalink: /extensions/printer/
+category: extensions
 
 extensions:
     - name: "Print object"

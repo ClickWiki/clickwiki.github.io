@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Interface Extensions
+title: Interface
 permalink: /extensions/interface/
+category: extensions
 
 extensions:
     - name: "Active System Box Object"

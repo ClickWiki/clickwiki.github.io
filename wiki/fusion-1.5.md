@@ -2,6 +2,7 @@
 layout: product
 title: Multimedia Fusion 1.5
 permalink: /fusion/1.5/
+category: fusion
 
 image: "/wiki/assets/Screenshots/MMF1.jpg"
 image_caption: "Version 1.5 running on Windows 98."

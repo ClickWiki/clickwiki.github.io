@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Physics Extensions
+title: Physics
 permalink: /extensions/physics/
+category: extensions
 
 extensions:
     - name: "Physics - Engine"

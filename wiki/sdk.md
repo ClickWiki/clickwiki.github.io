@@ -2,15 +2,16 @@
 layout: page
 title: SDK
 permalink: /sdk/
+category:
 ---
 
 # Creating Extensions for Fusion 2.5 & Fusion 2.5 Developer
 
-The extension SDKs (Software Development Kits) allows you to create your very own extensions for Fusion 2.5 and the various export modules. 
+The extension SDKs (Software Development Kits) allows you to create your very own extensions for Fusion 2.5 and the various export modules.
 You will need to know a little C++ and the export module language to create an extension.
 
-Download the SDKs you wish to develop with and start developing your very own extensions. 
-These extensions can magnify the power of your Fusion 2.5 applications and games. 
+Download the SDKs you wish to develop with and start developing your very own extensions.
+These extensions can magnify the power of your Fusion 2.5 applications and games.
 With the SDKs, you can create your own extensions that work with additional built-in platform functions, communicate with existing, 3rd-Party SDKs and APIs.
 
 ## SDK Links

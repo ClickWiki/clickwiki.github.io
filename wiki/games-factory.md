@@ -2,6 +2,7 @@
 layout: product
 title: The Games Factory
 permalink: /games-factory/
+category:
 
 image: "/wiki/assets/Disc Covers/TGF1FrontCover.jpg"
 image_caption: "The front cover of CD-ROM. Distributed by Xplosiv."

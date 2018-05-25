@@ -2,6 +2,7 @@
 layout: product
 title: Clickteam Passport
 permalink: /clickteam/passport/
+category: clickteam
 
 image: "/wiki/assets/Screenshots/CommunityPassport.jpg"
 image_caption: "Screenshot of the service as of July 2015."

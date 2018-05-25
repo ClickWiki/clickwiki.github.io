@@ -2,6 +2,7 @@
 layout: page
 title: GAM
 permalink: /file-extensions/GAM/
+category: file-extensions
 ---
 
 {% include thumbnail image = "/wiki/assets/Clickteam/Filetypes/GAM.png" text = "File icon when TGF1 is installed" %}

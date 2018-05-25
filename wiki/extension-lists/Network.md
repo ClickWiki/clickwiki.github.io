@@ -1,7 +1,8 @@
 ---
 layout: extlist
-title: Network Extensions
+title: Network
 permalink: /extensions/network/
+category: extensions
 
 extensions:
     - name: "Local IP"

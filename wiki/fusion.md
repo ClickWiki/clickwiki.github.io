@@ -1,7 +1,8 @@
 ---
 layout: menu
-title: Multimedia Fusion
+title: Fusion
 permalink: /fusion/
+category:
 
 menu:
   - title: null

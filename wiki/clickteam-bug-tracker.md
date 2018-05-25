@@ -2,6 +2,7 @@
 layout: product
 title: Clickteam Bug Tracker
 permalink: /clickteam/bug-tracker/
+category: clickteam
 
 image: "/wiki/assets/Screenshots/BugBox.jpg"
 image_caption: "Screenshot of the Products page."

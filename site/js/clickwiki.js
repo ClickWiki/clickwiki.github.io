@@ -46,7 +46,6 @@ $(document).ready(function() {
 });
 
 // Search page only
-
 function searchForums() {
     var keywords = $("#google-input").val();
     window.location.href = "https://www.google.com/search?q=site%3Acommunity.clickteam.com+" + keywords.replace(" ", "+") + "&ie=UTF-8";
@@ -54,12 +53,12 @@ function searchForums() {
 
 if (window.location.pathname === "/search/") {
     $(document).ready(function() {
-        $("#google-input").on('keyup', function (e) {
+        $("#google-input").on("keyup", function (e) {
             if (e.keyCode == 13) {
                 searchForums();
             }
         });
-        $('#google-input').on('input', function() {
+        $("#google-input").on("input", function() {
             $("#google-search").fadeIn(fadeSpeed);
         });
     });

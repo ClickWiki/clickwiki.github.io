@@ -201,6 +201,19 @@ This is for drawing attention to elements of a page.
 ```
 {% endraw %}
 
+#### `fa` - Shows a FontAwesome icon.
+Use any of the [FontAwesome 5 icons](https://fontawesome.com/icons) and embed them inline.
+
+{% raw %}
+```
+This is a {% include fa icon = "laptop" %} laptop.
+```
+{% endraw %}
+
+*Would output:*
+
+> This is a {% include fa icon = "laptop" %} laptop.
+
 ## Folder Restructure
 Inside the repository:
 

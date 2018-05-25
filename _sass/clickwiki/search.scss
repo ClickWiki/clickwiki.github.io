@@ -18,4 +18,8 @@
             background-size: 1.5em;
         }
     }
+
+    h4 + p {
+        min-height: 50px;
+    }
 }

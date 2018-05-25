@@ -166,6 +166,7 @@ first or second paragraph.
 ```
 {% endraw %}
 
+
 #### `thumbnail`
 Places a text box to the right side of the page.
 {% raw %}
@@ -176,6 +177,10 @@ Places a text box to the right side of the page.
 %}
 ```
 {% endraw %}
+
+<blockquote style="overflow:auto">
+{% include thumbnail image = "/wiki/assets/Clickteam/Filetypes/GAM.png" text = "File icon when TGF1 is installed" %}
+</blockquote>
 
 #### `gallery`
 Creates a clickable thumbnail that enlarges upon clicking it. Multiple gallery
@@ -189,6 +194,10 @@ tags can be placed next to each other.
 ```
 {% endraw %}
 
+<blockquote>
+{% include gallery image = "/wiki/assets/Clickteam/Icon InstallCreator.png" text = "Install Creator 2 Icon" %}
+</blockquote>
+
 #### `alert`
 This is for drawing attention to elements of a page.
 {% raw %}
@@ -201,6 +210,10 @@ This is for drawing attention to elements of a page.
 ```
 {% endraw %}
 
+<blockquote>
+{% include alert type = "warning" title = "This page is incomplete!" message = "Please help us finish this page." %}
+</blockquote>
+
 #### `fa` - Shows a FontAwesome icon.
 Use any of the [FontAwesome 5 icons](https://fontawesome.com/icons) and embed them inline.
 
@@ -209,8 +222,6 @@ Use any of the [FontAwesome 5 icons](https://fontawesome.com/icons) and embed th
 This is a {% include fa icon = "laptop" %} laptop.
 ```
 {% endraw %}
-
-*Would output:*
 
 > This is a {% include fa icon = "laptop" %} laptop.
 

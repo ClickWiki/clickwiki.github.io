@@ -85,7 +85,7 @@ It is inevitable there is a new successor to [Fusion 2.5](/fusion/2.5) in the wo
 * There may be support for **some** of these: Cross platform shaders, cross platform zoom, sub-events, (real) global events, renaming qualifiers and unique instances. [1](https://community.clickteam.com/threads/90248-Your-comments-please-on-this-negative-rating-for-MMF-2-5?p=651486&viewfull=1#post651486)
 
 # Presentation
-James and Anders introduce and present technical details of the inner workings at (Click Convention 2013)[clickconvention].
+James and Anders introduce and present technical details of the inner workings at [Click Convention 2013](/clickconvention/).
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/PhAF6u-2nuY" frameborder="0" allowfullscreen=""></iframe>
 

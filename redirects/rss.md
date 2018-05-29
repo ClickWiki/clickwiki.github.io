@@ -12,7 +12,7 @@ permalink: /w/api.php
   <item>
     <title>RSS Feed Moved</title>
     <link>https://clickwiki.net/about/#why-was-the-wiki-migrated-from-mediawiki</link>
-    <description>We have moved to GitHub! Learn more.</description>
+    <description>We have moved to GitHub! <a href="https://github.com/ClickWiki/clickwiki.net#moved-from-mediawiki">Learn more.</a></description>
   </item>
 </channel>
 

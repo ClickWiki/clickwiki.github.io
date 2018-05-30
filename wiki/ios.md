@@ -4,14 +4,14 @@ title: iOS Exporter
 permalink: /exporters/iOS/
 category: exporters
 
-image: "wiki/assets/Clickteam/IOS_Image.jpg"
+image: "/wiki/assets/Clickteam/IOS_Image.jpg"
 status: "Released"
 initial_release_date: "7/2012"
 products:
   - mmf2
   - mmf2dev
-  - cf25
-  - cf25dev
+  - cf2.5
+  - cf2.5dev
 shop_link: "https://www.clickteam.com/web-shop"
 support_link: "https://community.clickteam.com/forums/346-iOS-Export-Module-2-5"
 links:
@@ -19,11 +19,11 @@ links:
   - "[iOS Export Module Details](https://www.clickteam.com/ios-export-module-details)"
   - "[View on Steam](https://store.steampowered.com/app/267651)"
   - "[iOS Export Module 2.0 Support Forum Archive](https://community.clickteam.com/forums/265-iOS-Export-Module-Version-2-0)"
-  - "[iOS Export Module 2.5 Owner's Lounge](https://community.clickteam.com/forums/372-Owner-s-Lounge-iOS-(2-5)"
+  - "[iOS Export Module 2.5 Owner's Lounge](https://community.clickteam.com/forums/372-Owner-s-Lounge-iOS-(2-5) )"
   - "[iOS Export Module 2.0 Owner's Lounge](https://community.clickteam.com/forums/252-Owner-s-Lounge-iOS-Exporter)"
 ---
 
-![](wiki/assets/Clickteam/Fusion_IOS.png)
+![](/wiki/assets/Clickteam/Fusion_IOS.png)
 
 The iOS Exporter is an exporter that allows you to export to Apple iOS Devices, including iPhones, iPods, and iPads. You will also need a [Mac](https://apple.com/mac) running Xcode and a [Registration in an Apple Developer Program](https://developer.apple.com/programs). (You can test on your own device for free with Xcode 7 and up.)
 
@@ -67,7 +67,8 @@ When you are ready to publish your project, select the build type iOS Final Xcod
 
 ## 2: Transfer
 4. Upload/copy the ZIP file to online storage, a home server or a removable storage device
-5. Go to a This product is compatible with Mac with Xcode and download/move the file.
+5. Go to a Mac with Xcode and download/move the file.
+
 **Note: Steps 4 and 5 are not required if you run Fusion and Xcode on the same computer.**
 
 ## 3: Xcode
@@ -79,9 +80,10 @@ When you are ready to publish your project, select the build type iOS Final Xcod
 11. Plug in your iOS device
 12. At the top, choose your device in the drop-down and press Play.
 
-$$ 4. iOS Device
+## 4. iOS Device
 13. After the app downloads, you will see a dialog box. Press Cancel.
-14. Go to Settings> General> Profile> [your apple id] and press Trust
+14. Go to Settings > General > Profile > [your apple id] and press Trust
 15. Confirm the trust.
 16. Open the app from the Home screen.
+
 **Note: if the app runs without a dialog box, then skip steps 13-16.**

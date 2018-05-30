@@ -117,6 +117,52 @@ layout: default
                     </td>
                 </tr>
                 {% endif %}
+                
+                {% if page.products %}
+                <tr class="platforms">
+                    <th>Available for</th>
+                    <td>
+                        {% for product in page.products %}
+                            {% if product == 'mmf1' %}
+                            <a href="/fusion/1.5/">
+                                <img src="/wiki/assets/Clickteam/Icon MMF1.5.png" alt="MMF1 Icon" title="Multimedia Fusion 1"/>
+                            </a>
+                            {% endif %}
+
+                            {% if product == 'mmf2' %}
+                            <a href="/fusion/2.0/">
+                                <img src="/wiki/assets/Clickteam/Icon MMF2.png" alt="MMF2 Icon" title="Multimedia Fusion 2 Standard"/>
+                            </a>
+                            {% endif %}
+
+                            {% if product == 'mmf2dev' %}
+                            <a href="/fusion/2.0/">
+                                <img src="/wiki/assets/Clickteam/Icon MMF2Dev.png" alt="MMF2 Developer Icon" title="Multimedia Fusion 2 Developer"/>
+                            </a>
+                            {% endif %}
+
+                            {% if product == 'cf2.5free' %}
+                            <a href="/fusion/2.5/">
+                                <img src="/wiki/assets/Clickteam/Icon CF2.5Free.png" alt="CF 2.5 Free Icon" title="Clickteam Fusion 2.5 Free"/>
+                            </a>
+                            {% endif %}
+
+                            {% if product == 'cf2.5' %}
+                            <a href="/fusion/2.5/">
+                                <img src="/wiki/assets/Clickteam/Icon CF2.5.png" alt="CF 2.5 Icon" title="Clickteam Fusion 2.5 Standard"/>
+                            </a>
+                            {% endif %}
+
+                            {% if product == 'cf2.5dev' %}
+                            <a href="/fusion/2.5/">
+                                <img src="/wiki/assets/Clickteam/Icon CF2.5Dev.png" alt="CF 2.5 Developer Icon" title="Clickteam Fusion 2.5 Developer"/>
+                            </a>
+                            {% endif %}
+
+                        {% endfor %}
+                    </td>
+                </tr>
+                {% endif %}
 
                 {% if page.languages %}
                 <tr class="languages">

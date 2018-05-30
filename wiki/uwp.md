@@ -4,7 +4,7 @@ title: UWP Exporter
 permalink: /exporters/UWP/
 category: exporters
 
-image: "/wiki/assets/Clickteam/UWP_Image.jpg"
+image: "/wiki/assets/Clickteam/UWP_Image.png"
 status: "Released"
 initial_release_date: "6/2016"
 products:

@@ -71,7 +71,7 @@ menu:
     description: null
     items:
       - name: "Sub-Application (.ccn)"
-        icon: "/wiki/assets/Extensions/Interface/SubApplication.png"
+        icon: "/wiki/assets/Extensions/Interface/sub-application.png"
         url: "/file-extensions/CCN/"
         hint: "Allows embedding of Fusion applications to other projects."
 

@@ -57,6 +57,13 @@ layout: default
                     <td>{{ page.last_beta_build }} {% if page.last_beta_date %}<span class="relative-date">{{ page.last_beta_date }}</span>{% endif %}</td>
                 </tr>
                 {% endif %}
+                
+                {% if page.release_date %}
+                <tr>
+                    <th>Initial Release</th>
+                    <td>{{ page.release_date }} {% if page.release_date_numerical %}<span class="relative-date">{{ page.release_date_numerical }}</span>{% endif %}</td>
+                </tr>
+                {% endif %}
 
                 {% if page.platforms %}
                 <tr class="platforms">

@@ -34,7 +34,7 @@ It is the successor to [Multimedia Fusion 1.5] but is now preceded by [Clickteam
 There are 3 editions of the software, each sharing the same interface, but offer different
 features, additional [exporters](/exporters/), and [runtime agreements](/runtime-agreement/).
 
-As an addition to these editions, there was also a [Newgrounds Edition](/the-games-factory-2/#Newsground_Edition) and a demo version.
+As an addition to these editions, there was also a [Newgrounds Edition](/games-factory-2/#Newsground_Edition) and a demo version.
 
 {% include TOC %}
 

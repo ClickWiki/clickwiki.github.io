@@ -39,11 +39,11 @@ menu:
 
       - name: "The Games Factory (1996)"
         icon: "/wiki/assets/Clickteam/Icon_TGF1.png"
-        url: "/the-games-factory/"
+        url: "/games-factory/"
 
       - name: "The Games Factory 2 (2006)"
         icon: "/wiki/assets/Clickteam/Icon TGF2.png"
-        url: "/the-games-factory-2/"
+        url: "/games-factory-2/"
 
   - title: Tools
     items:

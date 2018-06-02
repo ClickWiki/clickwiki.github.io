@@ -58,7 +58,7 @@ The installer also lets you install the unregistered 30-day free trial of the Ho
 #### Pro
 The Pro edition removes the splash screen at the end of stand alone games,
 permits the user to sell their creations, and has a Time Line editor.
-This was available to obtain via [Clickteam], but with the release of [Multimedia Fusion 2],
+This was available to obtain via [Clickteam](/clickteam), but with the release of [Multimedia Fusion 2],
 this is no longer possible. Users wanting to upgrade are advised to update to a newer
 version of the product. TGF Pro is the same as **Multimedia Fusion Express**, previously
 [Click & Create].

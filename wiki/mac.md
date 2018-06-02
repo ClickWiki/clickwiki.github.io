@@ -6,8 +6,7 @@ category: exporters
 
 image: "/wiki/assets/Platforms/Mac.png"
 status: "Released"
-release_date: "with Mac Editor: September 27, 2016  
-for Windows Editor: April 24, 2017"
+release_date: "with Mac Editor: September 27, 2016; for Windows Editor: April 24, 2017"
 release_date_numerical: "9/2016"
 products:
   - cf2.5

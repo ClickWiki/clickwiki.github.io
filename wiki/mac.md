@@ -4,7 +4,7 @@ title: Mac Exporter
 permalink: /exporters/Mac/
 category: exporters
 
-image: "/wiki/assets/Clickteam/Mac_Image.jpg"
+image: "/wiki/assets/Clickteam/Mac_Image.png"
 status: "Released"
 release_date: "with Mac Editor: September 27, 2016; for Windows Editor: April 24, 2017"
 release_date_numerical: "9/2016"

@@ -6,7 +6,8 @@ category: exporters
 
 image: "/wiki/assets/Clickteam/UWP_Image.png"
 status: "Released"
-initial_release_date: "6/2016"
+release_date: "June 2016"
+release_date_numerical: "6/2016"
 products:
   - cf2.5
   - cf2.5dev

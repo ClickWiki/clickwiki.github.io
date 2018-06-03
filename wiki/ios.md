@@ -6,7 +6,8 @@ category: exporters
 
 image: "/wiki/assets/Clickteam/IOS_Image.jpg"
 status: "Released"
-initial_release_date: "7/2012"
+release_date: "July 2011"
+release_date_numerical: "7/2011"
 products:
   - mmf2
   - mmf2dev

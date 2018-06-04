@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Storyboard Editor
-permalink: /interface/storyboard_editor/
+permalink: /interface/storyboard-editor/
 category: interface
 ---
 

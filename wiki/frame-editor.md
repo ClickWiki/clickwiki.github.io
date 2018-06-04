@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Frame Editor
-permalink: /interface/frame_editor/
+permalink: /interface/frame-editor/
 category: interface
 ---
 

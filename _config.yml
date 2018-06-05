@@ -86,6 +86,10 @@ breadcrumbs:
       title: "File Extensions"
       url: "/file-extensions/"
 
+    - id: best-practices
+      title: "Best Practices"
+      url: "/best-practices/"
+
 
 # Header items
 navigation_categories:

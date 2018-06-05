@@ -1,0 +1,34 @@
+<table class="table table-striped table-hover">
+    <tr>
+        <th>Issue #</th>
+        <th>Month</th>
+        <th>Cover</th>
+        <th>Links</th>
+        <th>Topics</th>
+    </tr>
+    {% for issue in page.magazines %}
+    <tr>
+        <td style="text-align:center"><strong>{{ issue.issue }}</strong></td>
+        <td style="text-align:center"><strong>{{ issue.date }}</strong></td>
+        <td><img src="{{ issue.cover }}" alt="{{ page.title }} Issue #{{ issue.issue }} - {{ issue.date }}" style="max-width:200px"/></td>
+        <td>
+            <ul>
+                {% if issue.pdf %}
+                <li><a href="{{ issue.pdf }}">PDF</a></li>
+                {% endif %}
+
+                {% if issue.announcement %}
+                <li><a href="{{ issue.announcement }}">Announcement</a></li>
+                {% endif %}
+            </ul>
+        </td>
+        <td>
+            <ul>
+                {% for topic in issue.topics %}
+                <li>{{ topic | markdownify | remove:'<p>' | remove:'</p>' }}</li>
+                {% endfor %}
+            </ul>
+        </td>
+    </tr>
+    {% endfor %}
+</table>

@@ -214,7 +214,7 @@ This is for drawing attention to elements of a page.
 {% include alert type = "warning" title = "This page is incomplete!" message = "Please help us finish this page." %}
 </blockquote>
 
-#### `fa` - Shows a FontAwesome icon.
+#### `fa` - Inline FontAwesome icon
 Use any of the [FontAwesome 5 icons](https://fontawesome.com/icons) and embed them inline.
 
 {% raw %}
@@ -224,6 +224,29 @@ This is a {% include fa icon = "laptop" %} laptop.
 {% endraw %}
 
 > This is a {% include fa icon = "laptop" %} laptop.
+
+#### `magazine-listing` - Magazine issue listing
+
+To populate the table, adapt the following in the page's metadata:
+
+```
+magazines:
+  - issue: 1
+    date: "October 2014"
+    cover: "/wiki/assets/Clickteam/Fused/Fused_Cover_Issue_1.jpg"
+    pdf: "http://download.clickteam.com/newsletters/October2014.pdf"
+    announcement: "http://community.clickteam.com/threads/89228-Fused-October-E-Magazine-Clickteam"
+    topics:
+      - "Item 1"
+      - "[Item 2 as link](/example/)"
+      - "Item 3"
+```
+
+For the table to appear on the page, add the following:
+
+```
+{% raw %}{% include magazine-listing %}{% endraw %}
+```
 
 ## Folder Restructure
 Inside the repository:

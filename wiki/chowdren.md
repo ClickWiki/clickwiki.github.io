@@ -40,7 +40,7 @@ As with any [exporter](/exporters/), not all extensions or events are compatibl
 
 Chowdren also has an exporter plugin for build 284 and up. This will make it convenient for users to export to particular platforms from within Fusion, as the runtime currently is external and does not hide extensions or actions that are not implemented.
 
-[See the Chowdren Compatiblity page](chowdren/compatibility) for a full list of extensions, objects, actions.
+[See the Chowdren Compatiblity page](/chowdren/compatibility/) for a full list of extensions, objects, actions.
 
 ## Target Platforms
 
@@ -50,7 +50,7 @@ The following table outlines which platforms can run with Chowdren. Clicking on 
 Platform | Fully implemented? | Compilation Methods
 -------- | --------------     | -------------------
 ![](/wiki/assets/Platforms/Windows.png) [Windows](/chowdren/platforms#Windows) | Yes | Command Line; Exporter
-![](/wiki/assets/Platforms/Mac.png) [macOS](/chowdren/platforms#macOS) | Yes | Command Line
+![](/wiki/assets/Platforms/Mac.png) [macOS](/chowdren/platforms#Mac) | Yes | Command Line
 ![](/wiki/assets/Platforms/Linux.png) [Linux](/chowdren/platforms#Linux) | Yes | Command Line
 ![](/wiki/assets/Platforms/Android.png) [Android](/chowdren/platforms#Android) | Yes | Command Line
 ![](/wiki/assets/Platforms/HTML5.png) [HTML5](/chowdren/platforms#HTML5) | No |

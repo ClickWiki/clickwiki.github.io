@@ -1,0 +1,459 @@
+---
+layout: page
+title: Compatibility List for Chowdren
+permalink: /chowdren/compatibility/
+category: chowdren
+---
+
+As [Chowdren](/chowdren/) presently does not have an exporter for Fusion 2.5 to hide incompatible extensions, actions and events, it is inevitable that without checking the list first, you'll end up with errors from Chowdren. This is because the particular functionality is missing, and cannot complete the export until it is removed or implemented.
+
+As the project is **open source**, it is possible to code them yourself, providing you know C++. As an alternate, Mathias offers to port missing functionality on a per-contract basis, as well as hiring him to port your game.
+
+According to the thread, you can officially find out what's supported at:
+
+- Implemented Extensions
+- Implemented Events
+- Implenented Objects
+
+
+**This list is unofficial, and is correct as of 13th December 2014.**
+
+{% include TOC %}
+
+##### Native Objects
+
+- Active
+- String
+- Backdrop
+- Quick Backdrop
+- Counter
+- RTF
+- Lives
+- Sub Application
+
+##### Native Extensions
+
+- Advanced Direction object
+- Alpha Channel object
+- Associate Array
+- Box2D
+- Background Images object
+- Binary
+- Binary Array object
+- Capture
+- CharImage
+- Clickteam Movement
+- Controller object
+- Colorizer
+- Console object
+- Control X
+- Dialog Box
+- Easing Object
+- MMF2 Params object
+- ForEach
+- Global Store X
+- Image Manipulator
+- INI++
+- Joystick 2 object
+- Array object
+- Active System Box
+- Background System Box
+- Date and Time
+- Direction Calculator
+- File object
+- Fast Loop object
+- Window Focus
+- INI object
+- List object
+- Active Picture
+- Picture
+- Vitalize! object
+- Popup Object
+- Window Control
+- Key object
+- Keyboard object
+- Layer object
+- Masked Edit
+- String Parser
+- Perspective object
+- Platform object
+- Python object
+- Sound Player
+- Steam object
+- Steamworks object
+- Stochastic Utility
+- String Replace
+- String Tokenizer
+- Surface object
+- Text Blitter
+- Ultimate Fullscreen
+- Value Add
+- Viewport
+- XBOX Gamepad
+
+##### Movements
+
+- Ball
+- Path
+- Eight Directions
+- Pinball
+
+##### Native Actions
+
+- Create Object
+- Shoot
+- Start Loop
+- Stop Loop
+- Set X
+- Set Y
+- Set Alterable Value
+- Add To Alterable
+- Spread Value
+- Subtract From Alterable
+- Set Alterable String
+- Add Counter Value
+- Subtract Counter Value
+- Set Counter Value
+- Set Maximum Value
+- Set Minimum Value
+- Set Global String
+- Set Global Value
+- Add Global Value
+- Subtract Global Value
+- Set String
+- Set Bold
+- Hide
+- Show
+- Set Paragraph
+- Lock Channel
+- Stop Channel
+- Resume Channel
+- Pause Channel
+- Set Channel Position
+- Set Channel Pan
+- Set Channel Volume
+- Play Looping Channel File Sample
+- Play Channel File Sample
+- Play Channel Sample
+- Play Looping Channel Sample
+- Play Looping Sample
+- Play Sample
+- Set Channel Frequency
+- Set Direction
+- Set R G B Coefficient
+- Set Angle
+- Deactivate Group
+- Activate Group
+- Center Display X
+- Center Display Y
+- Center Display
+- End Application
+- Restart Application
+- Look At
+- Set Position
+- Execute Evaluated Program
+- Hide Cursor
+- Show Cursor
+- Fullscreen Mode
+- Next Frame
+- Previous Frame
+- Move To Layer
+- Jump To Frame
+- Restart Frame
+- Set Alpha Coefficient
+- Set Semi Transparency
+- Set X Scale
+- Set Y Scale
+- Set Scale
+- Force Animation
+- Restore Animation
+- Force Frame
+- Force Speed
+- Restore Frame
+- Set Ink Effect
+- Set Effect
+- Add To Debugger
+- Set Frame Rate
+- Destroy
+- Bring To Back
+- Bring To Front
+- Delete All Created
+- Backdrops
+- Delete Created Backdrops
+- Set Effect Parameter
+- Set Effect Image
+- Set Frame Background Color
+- Add Backdrop
+- Paste Active
+- Move In Front
+- Move Behind
+- Force Direction
+- Restore Direction
+- Stop Animation
+- Start Animation
+- Restore Speed
+- Set Main Volume
+- Stop All Samples
+- Pause All Sounds
+- Resume All Sounds
+- Stop Sample
+- Set Sample Pan
+- Set Sample Position
+- Set Sample Volume
+- Set Sample Frequency
+- Next Paragraph
+- Pause Application
+- Set Random Seed
+- Set Timer
+- Set Loop Index
+- Ignore Controls
+- Restore Controls
+- Change Control Type
+- Flash During
+- Set Maximum Speed
+- Set Speed
+- Bounce
+- Start
+- Stop
+- Set Directions
+- Go To Node
+- Select Movement
+- Next Movement
+- Enable Flag
+- Disable Flag
+- Toggle Flag
+- Reverse
+- Replace Color
+- Set Lives
+- Set Score
+- Subtract Lives
+- Add Lives
+- Enable Vsync
+- Disable Vsync
+- Set Gravity
+- Load Active Frame
+- Set Clipboard
+- Set Frame Effect
+- Set Frame Effect Parameter
+- Set Frame Alpha Coefficient
+- Pause Debugger
+- Jump Sub Application Frame
+- Set Text Color
+- Set Frame Height
+
+##### Native Conditions
+
+- Compare Alterable Value
+- Compare Alterable String
+- Compare Global Value
+- Compare Global String
+- Compare Counter
+- Compare X
+- Compare Y
+- Compare
+- Is Overlapping
+- On Collision
+- Object Visible
+- Object Invisible
+- While Mouse Pressed
+- Mouse On Object
+- Always
+- Mouse Clicked
+- Object Clicked
+- Player Key Down
+- Player Key Pressed
+- Key Down
+- Key Pressed
+- On Group Activation
+- Facing In Direction
+- Animation Playing
+- Chance
+- Compare Fixed Value
+- Inside Playfield
+- Outside Playfield
+- Is Obstacle
+- Is Overlapping Background
+- On Background Collision
+- Pick Random
+- Objects In Zone
+- Pick Objects In Zone
+- Pick Alterable Value
+- Number Of Objects
+- Group Activated
+- Not Always
+- Animation Frame
+- Channel Not Playing
+- Sample Not Playing
+- Once
+- Every
+- Timer Equals
+- Timer Greater
+- Timer Less
+- Is Bold
+- Is Italic
+- Movement Stopped
+- Path Finished
+- Node Reached
+- Compare Speed
+- Flag On
+- Flag Off
+- Near Window Border
+- Animation Finished
+- Start Of Frame
+- Never
+- Number Of Lives
+- Any Key Pressed
+- Repeat
+- Restrict For
+- Sub Application Finished
+- Leaving Playfield
+- On Loop
+
+##### Native Expressions
+
+- Speed
+- String
+- To Number
+- To Int
+- Abs
+- To String
+- Get RGB
+- Long
+- Double
+- End Parenthesis
+- Plus
+- Multiply
+- Divide
+- Minus
+- Virgule
+- Parenthesis
+- Modulus
+- AND
+- OR
+- XOR
+- Random
+- Application Path
+- Alterable Value
+- Alterable Value Index
+- Alterable String Index
+- Alterable String
+- Global String
+- Global Value
+- Global Value Expression
+- Y Position
+- X Position
+- Action X
+- Action Y
+- Get Paragraph
+- Paragraph Count
+- Current Paragraph Index
+- Loop Index
+- Current Text
+- X Mouse
+- Y Mouse
+- Min
+- Max
+- Sin
+- Cos
+- Exp
+- Log
+- Get Angle
+- Frame Height
+- Frame Width
+- String Length
+- Find
+- Reverse Find
+- Lower String
+- Upper String
+- Right String
+- Mid String
+- Left String
+- Fixed Value
+- Animation Frame
+- Object Left
+- Object Right
+- Object Top
+- Object Bottom
+- Get Direction
+- Get X Scale
+- Get Y Scale
+- Power
+- Square Root
+- Asin
+- Atan2
+- Atan
+- Alpha Coefficient
+- Semi Transparency
+- Effect Parameter
+- Floor
+- Round
+- Animation Number
+- Ceil
+- Get Main Volume
+- Get Channel Position
+- Get Sample Position
+- Get Sample Duration
+- Get Channel Volume
+- Get Channel Duration
+- Get Channel Frequency
+- Object Layer
+- New Line
+- X Left Frame
+- X Right Frame
+- Y Bottom Frame
+- Y Top Frame
+- Object Count
+- Counter Maximum Value
+- Application Directory
+- Application Drive
+- Timer Value
+- Timer Hundreds
+- Counter Value
+- Current Frame
+- Get Flag
+- Get Command Item
+- Display Mode
+- Get Clipboard
+- Total Object Count
+- Frame Rate
+- Temporary Path
+- Get Collision Mask
+- Font Color
+- RGB Coefficient
+- Movement Number
+- Frame Background Color
+
+##### Shaders
+
+- Subtract
+- Add
+- Color Mixer
+- Looki Offset
+- Hue
+- Dodge Blur
+- Monochrome
+- Blend
+- Subtract
+- Hard Mix
+- Overlay
+- Lens
+- Linear Dodge
+- Soft Light
+- Pin Light
+- Invert
+- Grain PS2
+- Multiply
+- Hard Light
+- Tint
+- Channel Blur
+- Bg Bloom
+- Under Water
+- Rotate Sub
+- Simple Mask
+- Offsetstationary
+- Pattern Overlay
+- Sub Px
+- Col Dir Blur
+- Overlay Alpha
+- Gradient
+- Zoom Offset

@@ -27,3 +27,16 @@ main {
         max-width: 150px;
     }
 }
+
+// Table cell shading
+td.yes {
+    background: lighten($success, 30%);
+}
+
+td.partial {
+    background: lighten($warning, 30%);
+}
+
+td.no {
+    background: lighten($danger, 30%);
+}

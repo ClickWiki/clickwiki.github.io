@@ -63,3 +63,15 @@ if (window.location.pathname === "/search/") {
         });
     });
 }
+
+// Colour tables if they are just a "Yes" or "No"
+$("td").each(function() {
+   var value = $(this).html();
+   if (value == "Yes" || value.startsWith("Yes -")) {
+       $(this).addClass("yes");
+   } else if (value == "Partial" || value.startsWith("Partial - ")) {
+       $(this).addClass("partial");
+   } else if (value == "No" || value.startsWith("No - ")) {
+       $(this).addClass("no");
+   }
+});

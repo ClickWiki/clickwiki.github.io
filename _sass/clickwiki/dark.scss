@@ -10,6 +10,17 @@ body.dark {
 
         &.btn-primary {
             color: $white;
+
+            &:hover,
+            &:focus {
+                background: darken($blue, 10%);
+                color: darken(white, 5%);
+            }
+        }
+
+        &:hover,
+        &:focus {
+            color: $blue;
         }
     }
 

@@ -4,7 +4,9 @@ layout: default
 <article class="page">
 
     <div class="page-content">
+        {% if page.menu_position != "top" %}
         {{ content }}
+        {% endif %}
 
         {% for section in page.menu %}
         <div class="row menu-title">
@@ -39,5 +41,8 @@ layout: default
         </div>
         {% endfor %}
 
+        {% if page.menu_position == "top" %}
+        {{ content }}
+        {% endif %}
     </div>
 </article>

@@ -4,6 +4,8 @@
 
 // Prefer vertically aligned cells in tables.
 .table th,
+.table thead th,
+.table tbody td,
 .table td {
     vertical-align: middle;
 }

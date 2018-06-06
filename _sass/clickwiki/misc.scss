@@ -41,10 +41,24 @@ td.no {
     background: lighten($danger, 30%);
 }
 
+.dark {
+    td.yes,
+    td.partial,
+    td.no {
+        color: black;
+    }
+}
+
 // Class for tables that contain logos.
 table.has-logos {
     img {
         max-height: 40px;
         max-width: 40px;
     }
+}
+
+// Inline platform icons
+.inline-platform-icon {
+    max-height: 32px;
+    max-width: 32px;
 }

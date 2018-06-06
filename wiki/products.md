@@ -3,6 +3,7 @@ layout: menu
 title: Products
 permalink: /products/
 category:
+menu_position: top
 
 menu:
   - title: Multimedia Fusion Series
@@ -79,6 +80,10 @@ menu:
         url: "/Jamagic/"
         hint: "Create 3D games using scripts."
 
+      - name: "Vitalize"
+        icon: "/wiki/assets/Clickteam/Icon Vitalize.png"
+        url: "/vitalize/"
+        hint: "Browser plugin for playing Fusion games"
 ---
 
-Check out what [Exporters](/exporters/) are available for Multimedia Fusion.
+Also, check out what [Exporters](/exporters/) are available for Multimedia Fusion.

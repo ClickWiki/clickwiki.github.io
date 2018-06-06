@@ -11,20 +11,20 @@ To enter a new event, first click on the New condition line: this will open a di
 
 ![](/wiki/assets/Screenshots/Event_List_Condition.png)
  
-Once your condition created, you can add more conditions to the event by right clicking on the condition and choosing Insert. When you are done with the conditions, just click on the line "Insert your action here":
+Once your condition created, you can add more conditions to the event by right-clicking on the condition and choosing Insert. When you are done with the conditions, just click on the line "Insert your action here":
  
 ![](/wiki/assets/Screenshots/Press_Space_Bar.png)
  
-This will open a dialog box presenting you all the objects of the application. Right-click on the one you want to change, and choose the action in the list. Your new action is then inserted in the event. Here too you can define more than one action: right click on the action and select the Insert option in the popup menu.
+This will open a dialog box presenting you all the objects of the application. Right-click on the one you want to change, and choose the action in the list. Your new action is then inserted in the event. Here too you can define more than one action: right-click on the action and select the Insert option in the popup menu.
 
 ## Drag & Drop
-Like most of the editors in Clickteam Fusion 2.5, the event list editor supports drag and drop. You can drag and drop actions, conditions, or lines of events. Just try it and you will very quickly understand how it works.'
+Like most of the editors in Clickteam Fusion 2.5, the Event List Editor supports drag and drop. You can drag and drop actions, conditions, or lines of events. Just try it and you will very quickly understand how it works.'
 
 ## Cut & Paste
-The event list editor allows you to make blocks of events, conditions, and actions. Just use the usual cut/paste commands and the event, condition or action beneath the cursor will be copied or pasted.
+The Event List Editor allows you to make blocks of events, conditions, and actions. Just use the usual cut/paste commands and the event, condition or action beneath the cursor will be copied or pasted.
 
 ## Undo / Redo
-The event list editor responds to the multiple Undo / Redo features, like the [Editor|event editor]([Event)].
+The event list editor responds to the multiple Undo / Redo features, like the [Event Editor](/interface/event-editor).
 
 ## Printing the events
 One of the main advantages of the event list editor is its capability of printing the list of events. Just choose the Print, Print preview, or Print Setup options in the File menu in the main menu bar.

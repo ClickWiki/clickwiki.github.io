@@ -187,3 +187,9 @@ navigation_external_links:
       icon_type: "img"
       icon: "/wiki/assets/CC-BY-4.0/BugBox.png"
       url: "http://bugbox.clickteam.com/"
+
+# Aliases
+win_logo: "<img src='/wiki/assets/Platforms/Windows.png' alt='Windows logo' class='inline-platform-icon'/>"
+mac_logo: "<img src='/wiki/assets/Platforms/Mac.png' alt='Mac logo' class='inline-platform-icon'/>"
+linux_logo: "<img src='/wiki/assets/Platforms/Linux.png' alt='GNU/Linux logo' class='inline-platform-icon'/>"
+steam_logo: "<img src='/wiki/assets/Platforms/Steam.png' alt='Steam logo' class='inline-platform-icon'/>"

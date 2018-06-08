@@ -107,7 +107,7 @@ differences, so it is essential to [check the compatibility](/extensions/) betwe
 
 * [Windows](/exporters/Windows/) (default)
 * [Java](/exporters/Java/) (included)
-* [Vitalize](/vitalize/) (included)
+* [Vitalize](/exporters/Vitalize/) (included)
 * [Flash](/exporters/Flash/)
 * [Android](/exporters/Android/)
 * [iOS](/exporters/iOS/)

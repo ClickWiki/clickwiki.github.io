@@ -82,7 +82,7 @@ menu:
 
       - name: "Vitalize"
         icon: "/wiki/assets/Clickteam/Icon Vitalize.png"
-        url: "/vitalize/"
+        url: "/exporters/Vitalize/"
         hint: "Browser plugin for playing Fusion games"
 ---
 

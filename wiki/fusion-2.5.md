@@ -183,7 +183,7 @@ The [Mac Export Module](/exporters/mac/) comes built in with the Mac Editor (as 
 [TGF1]: /games-factory/
 [C&C]: /click-and-create/
 [Extension Manager]: /extensions/manager/
-[Vitalize!]: /vitalize/
+[Vitalize!]: /exporters/Vitalize/
 [Exporters]: /exporters/
 [Java]: /exporters/java/
 [Storyboard Editor]: /interface/storyboard-editor/

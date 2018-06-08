@@ -64,7 +64,7 @@ menu:
 
       - name: "Vitalize!"
         icon: "/wiki/assets/Clickteam/Icon Vitalize.png"
-        url: "/exporters/vitalize/"
+        url: "/exporters/Vitalize/"
         hint: "(.ccn)"
 
   - title: Miscellaneous

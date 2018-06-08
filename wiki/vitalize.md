@@ -1,7 +1,7 @@
 ---
 layout: product
 title: Vitalize!
-permalink: /vitalize/
+permalink: /exporters/Vitalize/
 category:
 
 image: "/wiki/assets/Clickteam/VitalizeLogo.png"

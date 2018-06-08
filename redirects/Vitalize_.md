@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink: /wiki/Vitalize!
-redirect: /vitalize/
+redirect: /exporters/Vitalize/
 ---

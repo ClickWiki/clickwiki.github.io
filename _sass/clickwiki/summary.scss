@@ -13,6 +13,11 @@ $unknown: lighten($gray-500, 25%);
     margin-left: 1em;
     background: $gray-100;
 
+    tbody {
+        display: inline-table;
+        width: 100%;
+    }
+
     &.extension {
         max-width: 320px;
     }

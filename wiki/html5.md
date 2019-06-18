@@ -1,7 +1,7 @@
 ---
 layout: product
 title: HTML5 Exporter
-permalink: /exporters/html5/
+permalink: /exporters/HTML5/
 category: exporters
 
 image: "/wiki/assets/Clickteam/HTML5_Image.jpg"

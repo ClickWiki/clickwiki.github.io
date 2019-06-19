@@ -14,7 +14,7 @@ There are different editors that a user will use to create, develop and modify t
 
 <table style="width:100%; text-align: center;table-layout: fixed">
 <tbody><tr>
-<th colspan="3"> <div style="background-color:#E5EEFF;">Editors</div>
+<th colspan="3"> <div>Editors</div>
 </th></tr>
 <tr>
 <td><br>
@@ -74,7 +74,7 @@ There are different editors that a user will use to create, develop and modify t
 <td><br>
 </td></tr>
 <tr>
-<th colspan="3"> <div style="background-color:#E5EEFF">General Interface</div>
+<th colspan="3"> <div>General Interface</div>
 </th></tr>
 <tr>
 <td><br>
@@ -96,7 +96,7 @@ There are different editors that a user will use to create, develop and modify t
 <td><br>
 </td></tr>
 <tr>
-<th colspan="3"> <div style="background-color:#E5EEFF">Property Windows</div>
+<th colspan="3"> <div>Property Windows</div>
 </th></tr>
 <tr>
 <td><br>
@@ -138,3 +138,10 @@ Ctrl + Left/Right | [Picture Editor](/interface/picture-editor) | Switches betwe
 Alt | [Picture Editor](/interface/picture-editor) | Change the position of the hot spot for all images of the current direction.
 Shift + Ctrl + Click "Install Settings" | [Application Properties](/interface/application-properties) / Windows tab | Resets the Install Settings to their original value (with a dialog box confirming this)
 Shift + Arrow Keys | [Frame Editor](/interface/frame-editor) | Moves objects faster, instead of moving pixel-by-pixel.
+
+<style>
+    img {
+        height: auto;
+        max-width: 100%;
+    }
+</style>

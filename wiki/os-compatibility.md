@@ -6,7 +6,7 @@ category:
 ---
 [Clickteam Fusion 2.5] and its predecessors have been built and continuously expanded from its previous versions. Due to this, Clickteam products have a strong dependency on Windows and still maintains a lot of legacy code. The [next generation of Fusion](/fusion/3.0/) will be using cross-platform technologies to deliver a native product to all platforms.
 
-This page will list problems and solutions for **Windows** users, as well as providing details on how to run Fusion on other desktop operating systems, such as **Mac OS X** and **GNU/Linux**.
+This page will list problems and solutions for **Windows** users, as well as providing details on how to run Fusion on other desktop operating systems, such as **macOS** and **GNU/Linux**.
 
 {% include TOC %}
 
@@ -40,16 +40,16 @@ Clickteam's products are built and designed for Windows and are fully supported 
   * **Solution:** The program will need to be ran as an administrator, run in compatibility mode or save the file elsewhere.
 
 ---
-## {{ site.mac_logo }} Mac OS X
+## {{ site.mac_logo }} macOS
 
-Mac users are now able to purchase the **Mac Editor**, which is an optimized version of [Fusion 2.5] running in a Wine wrapper providing better integration with the Mac environment. The creations exported to Mac OS X are **native** to the platform, and are not Wine wrappers.
+Mac users are now able to purchase the **Mac Editor**, which is an optimized version of [Fusion 2.5] running in a Wine wrapper providing better integration with the Mac environment. The creations exported to macOS are **native** to the platform, and are not Wine wrappers.
 
 The [next generation of Fusion](/fusion/3.0/) will be able to have a native editor for this platform.
 
 * [Mac Editor Information](http://www.clickteam.com/fusion-2-5-mac-editor-information)
 * [Download LAME](https://sites.google.com/site/advaithdownloadstorage/lame_enc.dll?attredirects=0&d=1)
 
-{{ site.steam_logo }} **The Mac version of the product will not be available via Steam (Mac).** You can install Steam (Windows) through Wine with [this guide](#installing-clickteam-products-on-mac-through-wine).
+{{ site.steam_logo }} **The Mac version of the product is not available via Steam (Mac).** You can install Steam (Windows) through Wine with [this guide](#installing-clickteam-products-on-mac-through-wine).
 
 
 ## {{ site.linux_logo }} GNU/Linux
@@ -68,7 +68,7 @@ Good news, [Fusion 3] will natively support this platform.
 
 [Further details about running under Wine are documented further on this page.](#wine)
 
-##### {{ site.mac_logo }} Mac OS X
+##### {{ site.mac_logo }} macOS
 
 {:.table .table-sm}
 Software    | Free to Use?  | Description
@@ -91,7 +91,7 @@ Software    | Free to Use?  | Description
 
 If you would prefer to have the product running with as much compatibility as possible, while still using your main operating system, then you'll require: **a copy of Windows**, **virtualization software** and **additional disk space**. As virtualizing another computer adds overhead to your system resources, there may have degraded performance and/or unoptimized graphics (depending on the virtualization platform and hardware)
 
-##### {{ site.mac_logo }} Mac OS X
+##### {{ site.mac_logo }} macOS
 
 {:.table .table-sm}
 Software    | Free to Use?  |
@@ -149,7 +149,7 @@ If one of [Clickteam]'s products are the only ones forcing you to run a Windows
 
 ### Wine
 
-A common misconception is that [Wine] is an emulator, which is not true. **Wine** is an acronym for **W**ine **I**s **N**ot an **E**mulator, and simply translates Windows instructions to other operating systems, such as Linux, Mac OS X and BSD. This makes it a superior solution than virtualizing a full Windows environment, especially for the sake of one application.
+A common misconception is that [Wine] is an emulator, which is not true. **Wine** is an acronym for **W**ine **I**s **N**ot an **E**mulator, and simply translates Windows instructions to other operating systems, such as Linux, macOS and BSD. This makes it a superior solution than virtualizing a full Windows environment, especially for the sake of one application.
 
 [Learn more about Wine](https://www.winehq.org/about/)
 
@@ -160,7 +160,7 @@ There's a [database entry](https://appdb.winehq.org/objectManager.php?sClass=ve
 Here's a list of issues with the Wine environment.
 
 {:.table .table-sm}
-Problem | {{ site.mac_logo }} Symptoms on OS X | {{ site.linux_logo }} Symptoms on GNU/Linux | Solution
+Problem | {{ site.mac_logo }} Symptoms on macOS | {{ site.linux_logo }} Symptoms on GNU/Linux | Solution
 ------- | ---------------- | --------------------- | ---------
 Direct3D in the Frame Editor | This may appear as a black screen. | Some graphic cards/drivers will have no problems, for some computers there will be a rendering glitch or black screen. | To fix this, you must disable "Use Direct3D in the Frame Editor" from the Preferences dialog under the "Frame Editor" tab.
 Direct3D programs may render the runtime incorrectly. | Interface objects (Buttons, edit boxes, etc) will not appear. (Windows runtime ONLY) | Some graphic cards/drivers will have no problems, but weaker computers may have problems rendering the frame correctly. | To prevent this, switch the Display Mode (Application Properties> Runtime Options> Display Options) to "Standard" or use the /DIB command switch.

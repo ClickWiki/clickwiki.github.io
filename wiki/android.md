@@ -92,13 +92,13 @@ Some features require specific API versions to be installed in addition to your 
 <td style="background:#F99"> No longer supported in <a href="Fusion_2.5" class="mw-redirect" title="Fusion 2.5">Fusion 2.5</a>
 </td></tr>
 <tr>
-<th style="background:#FFB"> 10
+<th style="background:#FFB; color: black"> 10
 </th>
-<th style="background:#FFB"> Android 2.3.3
+<th style="background:#FFB; color: black"> Android 2.3.3
 </th>
 <td> Gingerbread
 </td>
-<td style="background:#FFB"> Admob
+<td style="background:#FFB; color: black"> Admob
 </td></tr>
 <tr>
 <th> 14
@@ -126,16 +126,16 @@ Some features require specific API versions to be installed in addition to your 
 <td>
 </td></tr>
 <tr>
-<th style="background:#FFB"> 17
+<th style="background:#FFB; color: black"> 17
 </th>
-<th style="background:#FFB"> Android 4.2.2
+<th style="background:#FFB; color: black"> Android 4.2.2
 </th>
-<td style="background:#FFB" rowspan="2"> OUYA
+<td style="background:#FFB; color: black" rowspan="2"> OUYA
 </td></tr>
 <tr>
-<th style="background:#FFB"> 18
+<th style="background:#FFB; color: black"> 18
 </th>
-<th style="background:#FFB"> Android 4.3.1
+<th style="background:#FFB; color: black"> Android 4.3.1
 </th></tr>
 <tr>
 <th> 19
@@ -154,13 +154,13 @@ Some features require specific API versions to be installed in addition to your 
 <td>
 </td></tr>
 <tr>
-<th style="background:#FFB"> 21
+<th style="background:#FFB; color: black"> 21
 </th>
-<th style="background:#FFB"> Android 5.0.1
+<th style="background:#FFB; color: black"> Android 5.0.1
 </th>
 <td rowspan="2"> Lollipop
 </td>
-<td style="background:#FFB"> OUYA
+<td style="background:#FFB; color: black"> OUYA
 </td></tr>
 <tr>
 <th> 22

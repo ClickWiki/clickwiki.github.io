@@ -173,7 +173,7 @@ Places a text box to the right side of the page.
 ```
 {% include thumbnail
   image = "/path/to/image/on/clickwiki.png"
-  caption = "Something to describe this image"
+  text = "Something to describe this image"
 %}
 ```
 {% endraw %}
@@ -189,7 +189,7 @@ tags can be placed next to each other.
 ```
 {% include gallery
   image = "/path/to/image/on/clickwiki.png"
-  caption = "Something to describe this image"
+  text = "Something to describe this image"
 %}
 ```
 {% endraw %}

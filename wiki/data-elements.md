@@ -7,7 +7,7 @@ category: interface
 
 {% include thumbnail
   image = "/wiki/assets/Screenshots/Data_Elements.png"
-  caption = "The data elements dialog with no embedded sounds."
+  text = "The data elements dialog with no embedded sounds."
 %}
 
 The **Data Elements** dialog interface allows the developer to view all of the data associated with the currently open [MFA](/file-extensions/mfa). It also allows modifications and inclusions of certain elements.

@@ -10,11 +10,12 @@ permalink: /search.json
     {% if page.layout == 'null' %}{% continue %}{% endif %}
     {% if page.layout == null %}{% continue %}{% endif %}
     {% if page.title == 'Extensions' %}{% continue %}{% endif %}
+    {% if page.permalink == "/404.html" %}{% continue %}{% endif %}
 
     {
       "title"    : "{{ page.title | escape }}",
       "category" : "{{ page.category }}",
-      "tags"     : "{{ page.content | markdownify | strip_html | replace: '\n', ' ' | remove: '.,' | remove: '\"' | replace: '"','\"' | split: ' ' | uniq | join: ', ' }}",
+      "tags"     : "{{ page.content | markdownify | strip_html | replace: '\n', ' ' | remove: '.' | remove: ',' | remove: ':' | remove: '\' | remove: '/' | replace: '"','\"' | split: ' ' | uniq | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ page.url }}",
       "date"     : "{{ page.date }}"
     } {% unless forloop.last %},{% endunless %}

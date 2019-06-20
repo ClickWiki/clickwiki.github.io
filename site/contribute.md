@@ -203,7 +203,7 @@ This is for drawing attention to elements of a page.
 {% raw %}
 ```
 {% include alert
-  type = "warning / clock / info / question / warning"
+  type = "warning / clock / info / question"
   title = "This page is incomplete!"
   message = "Please help us finish this page."
 %}

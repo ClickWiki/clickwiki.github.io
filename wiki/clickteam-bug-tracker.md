@@ -6,7 +6,7 @@ category: clickteam
 
 image: "/wiki/assets/Screenshots/BugBox.jpg"
 image_caption: "Screenshot of the Products page."
-status: "Active"
+status: "Offline, New version in development"
 initial_release_build: "September 2013"
 initial_release_date: "09/2013"
 shop_link: null
@@ -14,6 +14,14 @@ support_link: null
 links:
   - "[bugbox.clickteam.com/passport](https://bugbox.clickteam.com)"
 ---
+
+{% include alert
+  type = "info"
+  title = "Offline"
+  message = "The bug tracker has been offline for months, a new one is in development. For now, report bugs on the forum.
+  > Simon 02/25/2019  
+Apologies for the inconvenience, I inherited a very broken system which would not upgrade or run on modern versions of server operating systems, hence when we had to upgrade the servers for security the BugBox went offline."
+%}
 
 Clickteam's **Bug Tracker** (also known as the bugbox) is a place for registered
 users to report bugs, provide feedback and make suggestions for new features.

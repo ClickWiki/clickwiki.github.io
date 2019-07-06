@@ -22,7 +22,7 @@ magazines:
   - issue: 1
     date: "October 2014"
     cover: "/wiki/assets/Clickteam/Fused/Fused_Cover_Issue_1.jpg"
-    pdf: "https://webcache.googleusercontent.com/search?q=cache%3Ahttp%3A%2F%2Fdownload.clickteam.com%2Fnewsletters%2FOctober2014.pdf"
+    pdf: "http://download.clickteam.com/newsletters/October2014.pdf"
     announcement: "http://community.clickteam.com/threads/89228-Fused-October-E-Magazine-Clickteam"
     topics:
       - "A New Channel"
@@ -36,7 +36,7 @@ magazines:
   - issue: 2
     date: "November 2014"
     cover: "/wiki/assets/Clickteam/Fused/Fused_Cover_Issue_2.jpg"
-    pdf: "https://webcache.googleusercontent.com/search?q=cache%3Ahttp%3A%2F%2Fdownload.clickteam.com%2Fnewsletters%2FNovember2014.pdf"
+    pdf: "http://download.clickteam.com/newsletters/November2014.pdf"
     announcement: "http://community.clickteam.com/threads/89778-Fused-November-2014-Out-Now!"
     topics:
       - "The Rise of Indie Dev"
@@ -49,7 +49,7 @@ magazines:
   - issue: 3
     date: "February 2015"
     cover: "/wiki/assets/Clickteam/Fused/Fused_Cover_Issue_3.jpg"
-    pdf: "https://webcache.googleusercontent.com/search?q=cache%3Ahttp%3A%2F%2Fdownload.clickteam.com%2Fnewsletters%2FFeb2015.pdf"
+    pdf: "http://download.clickteam.com/newsletters/Feb2015.pdf"
     announcement: "http://community.clickteam.com/threads/91054-Fused-Feb-2015-Now-Available"
     topics:
       - "Clickteam at the GDC in March"
@@ -62,7 +62,7 @@ magazines:
   - issue: 4
     date: "March 2015"
     cover: "/wiki/assets/Clickteam/Fused/Fused_Cover_Issue_4.jpg"
-    pdf: https://webcache.googleusercontent.com/search?q=cache%3Ahttp%3A%2F%2Fdownload.clickteam.com%2Fnewsletters%2Fmarch2015.pdf"
+    pdf: "http://download.clickteam.com/newsletters/march2015.pdf"
     announcement: "http://community.clickteam.com/threads/91534-Fused-March-2015-Edition-Available-Now?p=658815#post658815"
     topics:
       - "Clickteam at the Game Developers Conference"
@@ -74,7 +74,7 @@ magazines:
   - issue: 5
     date: "April 2015"
     cover: "/wiki/assets/Clickteam/Fused/Fused_Cover_Issue_5.jpg"
-    pdf: "https://webcache.googleusercontent.com/search?q=cache%3Ahttp%3A%2F%2Fdownload.clickteam.com%2Fnewsletters%2Fapril2015.pdf"
+    pdf: "http://download.clickteam.com/newsletters/april2015.pdf"
     announcement: "http://community.clickteam.com/threads/92070-Fused-April-2015-Version-Now-Available?p=662506#post662506"
     topics:
       - "Seattle Indie Game Collective"
@@ -85,7 +85,7 @@ magazines:
   - issue: 6
     date: "May/June 2015"
     cover: "/wiki/assets/Clickteam/Fused/Fused_Cover_Issue_6.jpg"
-    pdf: "https://webcache.googleusercontent.com/search?q=cache%3Ahttp%3A%2F%2Fdownload.clickteam.com%2Fnewsletters%2Fmayjune2015.pdf"
+    pdf: "http://download.clickteam.com/newsletters/mayjune2015.pdf"
     announcement: "http://community.clickteam.com/threads/92774-Fused-May-June-2015-Bumper-Edition?p=666894#post666894"
     topics:
       - "App Development - A Personal Experience"
@@ -99,7 +99,7 @@ magazines:
   - issue: 7
     date: "September 2015"
     cover: "/wiki/assets/Clickteam/Fused/Fused_Cover_Issue_7.jpg"
-    pdf: "https://webcache.googleusercontent.com/search?q=cache%3Ahttp%3A%2F%2Fdownload.clickteam.com%2Fnewsletters%2Fseptember2015.pdf"
+    pdf: "http://download.clickteam.com/newsletters/september2015.pdf"
     announcement: "http://community.clickteam.com/threads/94556-Fused-E-Mag-September-2015?p=675976#post675976"
     topics:
       - "[Concrete Jungle](http://colepowered.itch.io/concrete-jungle) - In Review"
@@ -113,7 +113,7 @@ magazines:
   - issue: 8
     date: "October 2015"
     cover: "/wiki/assets/Clickteam/Fused/Fused_Cover_Issue_8.jpg"
-    pdf: "https://webcache.googleusercontent.com/search?q=cache%3Ahttp%3A%2F%2Fdownload.clickteam.com%2Fnewsletters%2FOctober2015.pdf"
+    pdf: "http://download.clickteam.com/newsletters/October2015.pdf"
     announcement: "http://community.clickteam.com/threads/95031-Fused-eMag-October-2015-Edition?p=679048#post679048"
     topics:
       - "Greynight -In-Depth Look"
@@ -126,7 +126,7 @@ magazines:
   - issue: 9
     date: "Christmas 2015"
     cover: "/wiki/assets/Clickteam/Fused/Fused_Cover_Issue_9.jpg"
-    pdf: "https://webcache.googleusercontent.com/search?q=cache%3Ahttp%3A%2F%2Fdownload.clickteam.com%2Fnewsletters%2Fxmas2015.pdf"
+    pdf: "http://download.clickteam.com/newsletters/xmas2015.pdf"
     announcement: "http://community.clickteam.com/threads/95589-Fused-Final-2015-Edition?p=682386#post682386"
     topics:
       - "Douglas Circumstance -In-Depth Look"
@@ -142,12 +142,18 @@ magazines:
 
 Originally, Fused! was a monthly PDF e-magazine started in October 2014 targeted for release on the 9th or 10th of each month, however the PDF format has since been dropped.
 
-At some point, the Fused blog was taken down and the magazine PDFs were deleted. However, Google cached the content of the magazine issues, and the blog is archived in the Wayback Machine.
+At some point, the Fused blog was taken down. However, the blog is archived in the Wayback Machine.
 
 ## Previous Releases
 There is currently no "official" location for acquiring copies of the e-magazine. New issues are announced on the forums, the mailing list and the Fused! Facebook page.
 
 However, a list has been gathered on the Wiki:
+
+{% include alert
+  type = "info"
+  title = "Inaccessible over HTTPS"
+  message = "When accessed over HTTPS, the PDF URLs redirect to a 404 page, so if you use HTTPS Everywhere, make sure you disable \"Encrypt All Sites Eligible\"."
+%}
 
 {% include magazine-listing %}
 

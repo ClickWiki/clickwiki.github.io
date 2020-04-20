@@ -21,7 +21,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   products.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://clickwiki.net" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ClickWiki
 github_username:  ClickWiki
 accent_colour: "#0084EB"
 
@@ -46,8 +45,6 @@ sass:
 #   - vendor/ruby/
 
 # Social Links
-facebook_url: "https://facebook.com/ClickWiki"
-twitter_url: "https://twitter.com/ClickWiki"
 github_url: "https://github.com/ClickWiki"
 discord_url: "https://discord.gg/42jVPPd"
 
@@ -93,7 +90,7 @@ breadcrumbs:
     - id: chowdren
       title: "Chowdren"
       url: "/chowdren/"
- 
+
     - id: interface
       title: "Interface & Editors"
       url: "/interface/"

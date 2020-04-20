@@ -13,8 +13,6 @@ languages:
   - en
 links:
   - "[GitHub Repository](https://github.com/ClickWiki)"
-  - "[Facebook Page (ClickWiki)](https://facebook.com/ClickWiki)"
-  - "[Twitter Page (@ClickWiki)](https://twitter.com/ClickWiki)"
   - "[ClickWiki's Discord](https://discord.gg/42jVPPd)"
 ---
 
@@ -52,7 +50,6 @@ poured to build it.
 **4 March 2015** | Acquired **[clickwiki.net](/)** as the domain name.
 **10 April 2015** | Switched to reliable servers.
 **20 May 2015** | Server migrated to clicker [lh37](https://community.clickteam.com/members/10723-lh37) with paid hosting.
-**25 May 2015** | Joined [Facebook](https://facebook.com/ClickWiki) and [Twitter](https://twitter.com/ClickWiki).
 **1 September 2015**  ​ | **stats.clickwiki.net** opens, providing an overview of statistics.
 **5 December 2015** | **stats.clickwiki.net** closes.
 **14 April 2017** | The [ClickWiki Discord server]({{ site.discord_url }}) is created, providing an easy way to view Wiki updates and chat about the Wiki.
@@ -134,8 +131,6 @@ request!
 We would be pleased to hear from you, find us:
 
 * [<span class="fa fa-comment"></span> Official Forum Thread](https://community.clickteam.com/threads/91043-ClickWiki-Community-driven-encyclopaedia-(Unofficial))
-* [<span class="fab fa-facebook"></span> On Facebook](https://facebook.com/ClickWiki)
-* [<span class="fab fa-twitter"></span> On Twitter](https://twitter.com/ClickWiki)
 * [<span class="fab fa-discord"></span> On Discord](https://discord.gg/42jVPPd)
 
 

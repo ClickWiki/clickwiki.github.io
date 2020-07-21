@@ -67,7 +67,7 @@ magazines:
     topics:
       - "Clickteam at the Game Developers Conference"
       - "Spryke – Review"
-      - "[A Look Back in Time](https://archive.clickwiki.net/wiki/Timeline)"
+      - "[A Look Back in Time](https://clickwiki.github.io/archive/wiki/Timeline)"
       - "20 Event Competition"
       - "[ClickWiki](/about/) gets a mention!"
 

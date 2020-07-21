@@ -14,7 +14,7 @@ Thanks for wanting to help us build the ClickWiki!
 
 1. Sign up or sign in to GitHub.
 2. Fork this repository.
-3. [Create](https://github.com/ClickWiki/clickwiki.net/new/master/wiki) or edit a page. Refer below for details.
+3. [Create](https://github.com/ClickWiki/clickwiki.github.io/new/master/wiki) or edit a page. Refer below for details.
 4. Create a pull request.
 
 ## Formatting
@@ -33,9 +33,9 @@ permalink: /fusion/2.5/
 
 There are 3 layouts:
 
-* `page` shows a basic page. Use [Clicker](https://github.com/ClickWiki/clickwiki.net/edit/master/wiki/clicker.md) as an example.
-* `product` shows a box on the right. [Use Fusion 2.5](https://github.com/ClickWiki/clickwiki.net/edit/master/wiki/fusion-2.5.md) as an example.
-* `menu` shows a selection screen. Use [Exporters](https://github.com/ClickWiki/clickwiki.net/edit/master/wiki/exporters.md) as an example.
+* `page` shows a basic page. Use [Clicker](https://github.com/ClickWiki/clickwiki.github.io/edit/master/wiki/clicker.md) as an example.
+* `product` shows a box on the right. [Use Fusion 2.5](https://github.com/ClickWiki/clickwiki.github.io/edit/master/wiki/fusion-2.5.md) as an example.
+* `menu` shows a selection screen. Use [Exporters](https://github.com/ClickWiki/clickwiki.github.io/edit/master/wiki/exporters.md) as an example.
 
 Some layouts use additional YAML data, please see [Page Layouts](#page-layouts) below.
 
@@ -52,7 +52,7 @@ such as `/fusion/1.5`, `/fusion/2.0`, etc.
 ### Media Assets
 These are stored in `/wiki/assets/` and then organised into the relevant subfolder.
 Essentially, subfolders determine the type of content and its license. See the
-[README](https://github.com/ClickWiki/clickwiki.net/blob/master/README.md) for details.
+[README](https://github.com/ClickWiki/clickwiki.github.io/blob/master/README.md) for details.
 
 ## Page Layouts
 Here are examples and all the possible combinations

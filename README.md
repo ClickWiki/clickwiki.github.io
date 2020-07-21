@@ -1,7 +1,7 @@
 # ClickWiki
 
-[![Contributors Count](https://img.shields.io/github/contributors/clickwiki/clickwiki.net.svg)](https://github.com/ClickWiki/clickwiki.net/graphs/contributors)
-[![Issues Count](https://img.shields.io/github/issues/clickwiki/clickwiki.net.svg)](https://github.com/ClickWiki/clickwiki.net/issues)
+[![Contributors Count](https://img.shields.io/github/contributors/clickwiki/clickwiki.github.io.svg)](https://github.com/ClickWiki/clickwiki.github.io/graphs/contributors)
+[![Issues Count](https://img.shields.io/github/issues/clickwiki/clickwiki.github.io.svg)](https://github.com/ClickWiki/clickwiki.github.io/issues)
 [![Discord Chat](https://img.shields.io/discord/302307904717979649.svg?colorB=7289DA&logo=discord)](https://discord.gg/PydJ8UE)
 
 
@@ -34,7 +34,7 @@ where one of ClickWiki's team members can review and merge.
 To preview the changes on your computer, you'll need to [install Jekyll](https://jekyllrb.com/docs/installation/) or push to your
 fork to preview on GitHub Pages.
 
-Our [Issue Tracker](https://github.com/ClickWiki/clickwiki.net/issues) keeps track of website problems (both cosmetic and functional)
+Our [Issue Tracker](https://github.com/ClickWiki/clickwiki.github.io/issues) keeps track of website problems (both cosmetic and functional)
 as well as content issues.
 
 

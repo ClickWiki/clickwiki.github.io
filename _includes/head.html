@@ -11,7 +11,7 @@
     <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} |{% endif %} {{ site.title | escape }}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
     <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-    <meta property="og:image" content="https://clickwiki.net/site/favicon/512x512.png">
+    <meta property="og:image" content="https://clickwiki.github.io/site/favicon/512x512.png">
     <meta property="og:type" content="website">
 
     <link rel="stylesheet" href="{{ '/site/css/clickwiki.css' | relative_url }}">

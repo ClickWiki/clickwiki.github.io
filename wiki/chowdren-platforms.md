@@ -28,7 +28,7 @@ You can use the exporter to easily create a Chowdren-powered Windows Executable 
 - Chowdren (Windows)
 - Chowdren (Windows + Source)
 - Chowdren (Source)
-- Chowdren ([CCN](https://archive.clickwiki.net/w/index.php?title=CCN&action=edit&redlink=1))
+- Chowdren ([CCN](https://clickwiki.github.io/archive/w/index.php?title=CCN&action=edit&redlink=1))
 
 #### Command Line
 
@@ -160,7 +160,7 @@ If you get an error about a segmentation fault, this generally means you are in 
 
 ### Android
 
-[](https://archive.clickwiki.net/wiki/OS_Compatibility#Windows)**Instructions for Windows systems.**
+[](https://clickwiki.github.io/archive/wiki/OS_Compatibility#Windows)**Instructions for Windows systems.**
 
 Get 32-bit builds of all the installers mentioned below.
 

@@ -27,7 +27,7 @@ In March 2016, the repository was made private which means no more updates will 
 
 ## Benchmarks
 
-According to [Mathias](http://community.clickteam.com/members/5234-Mathias), the runtime is on average **7.7x faster** when against the regular [Windows Runtime](https://archive.clickwiki.net/wiki/Windows_Runtime).
+According to [Mathias](http://community.clickteam.com/members/5234-Mathias), the runtime is on average **7.7x faster** when against the regular [Windows Runtime](https://clickwiki.github.io/archive/wiki/Windows_Runtime).
 
 - [Image of the benchmark](http://mp2.dk/ss/z0f1KHa.png)
 - [Raw benchmark data](https://bpaste.net/show/78f3686e4339)

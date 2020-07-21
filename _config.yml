@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: ClickWiki
-email: hello@clickwiki.net
+email:
 description: >- # this means to ignore newlines until "baseurl:"
   A community-driven wiki-based website to archive and
   inform of all things Clickteam, Multimedia Fusion and their
   products.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://clickwiki.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://clickwiki.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ClickWiki
 accent_colour: "#0084EB"
 
@@ -49,13 +49,13 @@ github_url: "https://github.com/ClickWiki"
 discord_url: "https://discord.gg/42jVPPd"
 
 # Project Links
-repo_url: "https://github.com/ClickWiki/clickwiki.net"
-issues_url: "https://github.com/ClickWiki/clickwiki.net/issues"
-pr_url: "https://github.com/ClickWiki/clickwiki.net/pulls"
-watchers_url: "https://github.com/ClickWiki/clickwiki.net/watchers"
-stars_url: "https://github.com/ClickWiki/clickwiki.net/stargazers"
-forks_url: "https://github.com/ClickWiki/clickwiki.net/network"
-contributors_url: "https://github.com/ClickWiki/clickwiki.net/graphs/contributors"
+repo_url: "https://github.com/ClickWiki/clickwiki.github.io"
+issues_url: "https://github.com/ClickWiki/clickwiki.github.io/issues"
+pr_url: "https://github.com/ClickWiki/clickwiki.github.io/pulls"
+watchers_url: "https://github.com/ClickWiki/clickwiki.github.io/watchers"
+stars_url: "https://github.com/ClickWiki/clickwiki.github.io/stargazers"
+forks_url: "https://github.com/ClickWiki/clickwiki.github.io/network"
+contributors_url: "https://github.com/ClickWiki/clickwiki.github.io/graphs/contributors"
 
 # Categories (for breadcrumbs)
 breadcrumbs:

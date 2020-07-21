@@ -12,7 +12,7 @@ category: interface
 
 The **Data Elements** dialog interface allows the developer to view all of the data associated with the currently open [MFA](/file-extensions/mfa). It also allows modifications and inclusions of certain elements.
 
-The dialog box can be opened by clicking ![Data Elements](https://clickwiki.net/wiki/assets/UI/DataElements.png) or from **View** on the menu bar.
+The dialog box can be opened by clicking ![Data Elements](https://clickwiki.github.io/wiki/assets/UI/DataElements.png) or from **View** on the menu bar.
 
 {% include TOC %}
 

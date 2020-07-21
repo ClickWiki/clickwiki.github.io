@@ -5,7 +5,7 @@ permalink: /about/
 
 image: "/site/img/logo.svg"
 image_caption: "ClickWiki logo, inspired by Clickteam's"
-developer: "[Various Contributors](https://github.com/ClickWiki/clickwiki.net/graphs/contributors)"
+developer: "[Various Contributors](https://github.com/ClickWiki/clickwiki.github.io/graphs/contributors)"
 status: "Active"
 initial_release_build: "February 2015"
 initial_release_date: "02/2015"
@@ -54,6 +54,7 @@ poured to build it.
 **5 December 2015** | **stats.clickwiki.net** closes.
 **14 April 2017** | The [ClickWiki Discord server]({{ site.discord_url }}) is created, providing an easy way to view Wiki updates and chat about the Wiki.
 **May 2018** | ClickWiki gets redone and moved from a MediaWiki system to a static site powered by Jekyll and hosted on GitHub Pages.
+**July 2020** | **[clickwiki.github.io](/)** is the new URL.
 
 
 ### Past Contributors
@@ -114,7 +115,7 @@ For previous donation reports, see the [donation page](/donate).
 ###### **How can I get started contributing?**
 
 Take a look at our [contribute](/contribute/) page if you're new.
-If you've done this kind of thing before, [fork our repository](https://github.com/ClickWiki/clickwiki.net) and send us a pull
+If you've done this kind of thing before, [fork our repository](https://github.com/ClickWiki/clickwiki.github.io) and send us a pull
 request!
 
 ###### **Why was the wiki migrated from MediaWiki?**

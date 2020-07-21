@@ -289,7 +289,7 @@ _Note: You must have installed **the steam version** of Fusion in [this way](
 
 #### Integration outside of Wine environment
 
-It is possible for Mac/Linux to call programs native to their system, but please take caution if you plan to distribute your product to another user's system. Programs can be called by running the [System Object](https://clickwiki.github.io/archive/wiki/System_Object)'s **Execute an external program** → **"With an evaluated pathname"** action.
+It is possible for Mac/Linux to call programs native to their system, but please take caution if you plan to distribute your product to another user's system. Programs can be called by running the System Object's **Execute an external program** → **"With an evaluated pathname"** action.
 
 Here are some examples for a Linux environment:
 

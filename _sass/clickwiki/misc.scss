@@ -62,3 +62,8 @@ table.has-logos {
     max-height: 32px;
     max-width: 32px;
 }
+
+// Internal link does not exist
+.nonexistent {
+    color: $danger;
+}

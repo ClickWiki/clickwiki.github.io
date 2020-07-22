@@ -75,3 +75,47 @@ $("td").each(function() {
        $(this).addClass("no");
    }
 });
+
+// Colour links red if they direct to 404.
+var checked = [];
+$("a").each(function() {
+    if (this.hostname != "clickwiki.github.io" && this.hostname != "localhost") {
+        return;
+    }
+
+    // Ensure there is a '/' at the end to avoid duplicates
+    var path = this.pathname;
+    if (path.endsWith("/") === false) {
+        path += "/";
+    }
+
+    // Do not check site pages
+    switch (path) {
+        case "/":
+        case "/recent/":
+        case "/search/":
+        case "/about/":
+        case "/license":
+        case "/contribute/":
+            return;
+    }
+
+    // Spare HTTP requests and only check the URL once
+    if (checked.includes(path)) {
+        return;
+    }
+    checked[checked.length] = path;
+
+    // Check the link and make adjustments if it doesn't exist
+    var anchor = this;
+    var response = jQuery.ajax({
+        url: path,
+        type: "HEAD",
+        complete: function(xhr, response) {
+            if (response === "error") {
+                anchor.classList.add("nonexistent");
+                anchor.title = "This page does not exist yet.";
+            }
+        }
+    });
+});

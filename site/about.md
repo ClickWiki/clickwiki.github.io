@@ -53,7 +53,7 @@ poured to build it.
 **1 September 2015**  ​ | **stats.clickwiki.net** opens, providing an overview of statistics.
 **5 December 2015** | **stats.clickwiki.net** closes.
 **14 April 2017** | The [ClickWiki Discord server]({{ site.discord_url }}) is created, providing an easy way to view Wiki updates and chat about the Wiki.
-**May 2018** | ClickWiki gets redone and moved from a MediaWiki system to a static site powered by Jekyll and hosted on GitHub Pages.
+**May 2018** | ClickWiki gets revamped! Moving from a MediaWiki system to a static site powered by Jekyll.
 **July 2020** | **[clickwiki.github.io](/)** is the new URL.
 
 
@@ -108,9 +108,9 @@ bookmarking and linking to us when a fellow clicker can find their answer here.
 
 ###### **Can I leave a donation?**
 While we previously had the option for donations, thanks to the advancement in "serverless" technology,
-the only running cost in now the domain, which is dirt cheap compared to previously.
+there are no more running costs. We are proudly hosted by [GitHub Pages](https://pages.github.com/).
 
-For previous donation reports, see the [donation page](/donate).
+For previous donation reports, see the [donation page](/donate/).
 
 ###### **How can I get started contributing?**
 
@@ -124,7 +124,7 @@ request!
 * **GDPR compliance** - a new data protection law in the EU. ClickWiki no longer stores any personal data, such as user logins to edit the wiki.
 * **It's open source** - anything can be edited.
 * Our MediaWiki instance were prone to cache issues and the random "internal errors".
-* Going serverless **reduces costs**.
+* **Reduced costs** - Going serverless **reduces costs**.
 * **Offers flexibility** - the wiki is now portable.
 
 

@@ -180,11 +180,6 @@ navigation_external_links:
       icon: "/wiki/assets/Clickteam/ClickStore.png"
       url: "http://clickstore.clickteam.com/"
 
-    - label: "Bug Tracker"
-      icon_type: "img"
-      icon: "/wiki/assets/CC-BY-4.0/BugBox.png"
-      url: "http://bugbox.clickteam.com/"
-
 # Aliases
 win_logo: "<img src='/wiki/assets/Platforms/Windows.png' alt='Windows logo' class='inline-platform-icon'/>"
 mac_logo: "<img src='/wiki/assets/Platforms/Mac.png' alt='Mac logo' class='inline-platform-icon'/>"

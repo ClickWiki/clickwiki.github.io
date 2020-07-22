@@ -16,7 +16,7 @@ support_link: "https://community.clickteam.com/forums/390-Universal-Windows-Plat
 links:
   - "[View on Steam](https://store.steampowered.com/app/267654)"
   - "[About the UWP Export Module](https://www.clickteam.com/uwp-export-module)"
-  - "[Fused Blog Post](http://www.clickteamfused.com/blog/uwp-exporter-release)"
+  - "[Fused Blog Post](https://web.archive.org/web/20190327033143/http://www.clickteamfused.com/blog/uwp-exporter-release/)"
   - "[Clickteam Blog Post](https://clickteam.com/uwp-exporter-released.html)"
   - "[Official Forum News Thread](https://community.clickteam.com/threads/97784-UWP-Export-Module-Now-Out!)"
   - "[Official Forum Thread](https://community.clickteam.com/threads/97881-UWP-Export-Module-Now-Out!)"

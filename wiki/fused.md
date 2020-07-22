@@ -157,7 +157,7 @@ However, a list has been gathered on the Wiki:
 
 {% include magazine-listing %}
 
-After these issues, the e-magazine format was adopted to become a [a blog instead](http://www.clickteamfused.com/).
+After these issues, the e-magazine format was adopted to become a [a blog instead](https://web.archive.org/web/20190416204744/http://www.clickteamfused.com/).
 
 [Fusion 2.5]: /fused/2.5/
 [Fusion 3.0]: /fused/3.0/

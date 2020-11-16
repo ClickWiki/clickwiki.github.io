@@ -33,10 +33,10 @@ category: best-practices
     - Unique actives per frame: **1,000**
 
 - **[MFA](/file-extensions/MFA/)**
-    - File size: **2 GB**
+    - File size: **2 GB** (**4 GB** as of [build 292.27](http://www.clickteam.com/webftp/files/mmf2/ChangeLogs/292.27.txt))
 
 - **Memory (RAM)**
-    - Fusion is a **32-bit** program, and can only use up to **2 GB**.
+    - Fusion is a **32-bit** program, and can only use up to **2 GB** (**4 GB** as of [build 292.27](http://www.clickteam.com/webftp/files/mmf2/ChangeLogs/292.27.txt)).
         - Optimisation is essential if you are running out of memory.
         - _The program will crash if this limit is reached._
 

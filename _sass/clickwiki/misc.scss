@@ -67,3 +67,10 @@ table.has-logos {
 .nonexistent {
     color: $danger;
 }
+
+/* Highlight headings when navigating via hash */
+h6:target {
+    background: yellow;
+    color: black;
+    padding: 5px;
+}

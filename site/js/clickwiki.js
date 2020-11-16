@@ -119,3 +119,8 @@ $("a").each(function() {
         }
     });
 });
+
+// Show warning when navigating from redirect link
+if (window.location.href.endsWith("?redirect=true")) {
+    $("header").prepend('<div class="site-warning"><span class="fa fa-info-circle"></span> <strong>URL Changed:</strong> <a href="/about/#why-was-the-wiki-migrated-from-mediawiki">clickwiki.net is now clickwiki.github.io</a>. Please update your bookmarks or ask the webmaster of the site you were navigated from.</div>');
+}

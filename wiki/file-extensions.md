@@ -10,12 +10,12 @@ menu:
       - name: ".gam"
         icon: "/wiki/assets/Clickteam/Filetypes/GAM.png"
         url: "/file-extensions/GAM/"
-        hint: "TGF1, C&C and K&P"
+        hint: "K&P and TGF1"
 
       - name: ".cca"
         icon: "/wiki/assets/Clickteam/Filetypes/CCA.png"
         url: "/file-extensions/CCA/"
-        hint: "MMF1"
+        hint: "C&C and MMF1"
 
       - name: ".lib"
         icon: "/wiki/assets/Clickteam/Filetypes/no-icon.png"

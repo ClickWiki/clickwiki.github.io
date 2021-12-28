@@ -97,8 +97,3 @@ The following interviews were recorded and published to YouTube.
 * <iframe width="560" height="315" src="//www.youtube.com/embed/mzJ9jLb9d8E" frameborder="0" allowfullscreen=""></iframe>
 * <iframe width="560" height="315" src="//www.youtube.com/embed/zogvxK5pCUw" frameborder="0" allowfullscreen=""></iframe>
 
-
-# Trivia
-**Not exactly important, but related to Fusion 3.**
-* There's over 4000 user feature requests. ~~[Blog](https://community.clickteam.com/entries/217-Fun-dation)~~ <sup>(Source no longer available)</sup>
-* There are over 245 responses to the [Fusion 3 Current Status](https://community.clickteam.com/threads/92330-Fusion-3-Current-Status) thread.

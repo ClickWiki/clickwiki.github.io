@@ -6,7 +6,6 @@ permalink: /about/
 image: "/site/img/logo.svg"
 image_caption: "ClickWiki logo, inspired by Clickteam's"
 developer: "[Various Contributors](https://github.com/ClickWiki/clickwiki.github.io/graphs/contributors)"
-status: "Active"
 initial_release_build: "February 2015"
 initial_release_date: "02/2015"
 languages:
@@ -50,21 +49,23 @@ poured to build it.
 **4 March 2015** | Acquired **[clickwiki.net](/)** as the domain name.
 **10 April 2015** | Switched to reliable servers.
 **20 May 2015** | Server migrated to clicker [lh37](https://community.clickteam.com/members/10723-lh37) with paid hosting.
-**1 September 2015**  ​ | **stats.clickwiki.net** opens, providing an overview of statistics.
-**5 December 2015** | **stats.clickwiki.net** closes.
-**14 April 2017** | The [ClickWiki Discord server]({{ site.discord_url }}) is created, providing an easy way to view Wiki updates and chat about the Wiki.
-**May 2018** | ClickWiki gets revamped! Moving from a MediaWiki system to a static site powered by Jekyll.
+**1 September 2015**  ​ | **stats.clickwiki.net** opens for community statistics, but closed 3 months later.
+**14 April 2017** | [ClickWiki's Discord]({{ site.discord_url }}) is created for Wiki updates and chat.
+**May 2018** | ClickWiki moves from MediaWiki to a static site powered by Jekyll.
 **July 2020** | **[clickwiki.github.io](/)** is the new URL.
 
 
-### Past Contributors
-Thank you to our contributors prior to the **May 2018 update**, these clickers
-contributed with pages, graphics or typos.
+### Contributors
+
+**Thanks to all past, present and future contributors!**
+
+Here's everyone who helped prior to the **May 2018 update**, these clickers
+contributed pages, graphics or typos.
 
 * **Wiki Warriors**
-  * [Lh37](https://community.clickteam.com/members/10723-lh37) - [<span class="fab fa-github"></span> lah7](https://github.com/lah7)
-  * [robinkooli](https://community.clickteam.com/members/15191-robinkooli) - [<span class="fab fa-github"></span> robinkooli](https://github.com/robinkooli)
-  * [Advaith](https://community.clickteam.com/members/21114-advaith) - [<span class="fab fa-github"></span> advaith1](https://github.com/advaith1)
+  * [Lh37](https://community.clickteam.com/members/10723-lh37)
+  * [robinkooli](https://community.clickteam.com/members/15191-robinkooli)
+  * [Advaith](https://community.clickteam.com/members/21114-advaith)
 * **Clickteam**
   * [Danny](https://community.clickteam.com/members/7049-Danny)
   * [Simon](https://community.clickteam.com/members/5109-Simon)
@@ -81,7 +82,7 @@ contributed with pages, graphics or typos.
   * MichaelGames
   * [Peter](https://community.clickteam.com/members/5161-Peter)
 
-**Thanks to all past, present and future contributors!**
+[Current Contributors can be found on GitHub](https://github.com/ClickWiki/clickwiki.github.io/graphs/contributors).
 
 For contributors who helped fund the Wiki financially, see the [Donations](/donate) page.
 
@@ -91,7 +92,6 @@ For contributors who helped fund the Wiki financially, see the [Donations](/dona
 * Version Controlled on [GitHub]({{ site.github_url }}).
 * Powered by [Jekyll](https://jekyllrb.com/).
 * Hosted with [GitHub Pages](https://pages.github.com/).
-* Optimised through [Cloudflare](https://www.cloudflare.com/).
 
 See the [Privacy Policy](/privacy) on how privacy is conducted on ClickWiki.
 
@@ -101,17 +101,6 @@ See the [Privacy Policy](/privacy) on how privacy is conducted on ClickWiki.
 This Wiki is purely community ran and relies on your contributions to reach its full potential. That said,
 members of the Clickteam have contributed and promoted our Wiki! You may have read about us in [Fused](/fused).
 
-
-###### **I'm unable to contribute the time. How else can I support you?**
-That's perfectly understandable. You can show your appreciation and support by following us on social media,
-bookmarking and linking to us when a fellow clicker can find their answer here.
-
-###### **Can I leave a donation?**
-While we previously had the option for donations, thanks to the advancement in "serverless" technology,
-there are no more running costs. We are proudly hosted by [GitHub Pages](https://pages.github.com/).
-
-For previous donation reports, see the [donation page](/donate/).
-
 ###### **How can I get started contributing?**
 
 Take a look at our [contribute](/contribute/) page if you're new.
@@ -120,16 +109,13 @@ request!
 
 ###### **Why was the wiki migrated from MediaWiki?**
 
-* **It's static**, there's no database. (No waiting, no hacking, nothing to corrupt)
-* **GDPR compliance** - a new data protection law in the EU. ClickWiki no longer stores any personal data, such as user logins to edit the wiki.
-* **It's open source** - anything can be edited.
+* **Static** - No database, no waiting. Reduces costs.
+* **GDPR compliance** - a new data protection law in the EU means that ClickWiki no longer stores any personal data, such as user logins.
+* **Flexible** - being open source, anything can be edited.
 * Our MediaWiki instance were prone to cache issues and the random "internal errors".
-* **Reduced costs** - Going serverless **reduces costs**.
-* **Offers flexibility** - the wiki is now portable.
 
 
 ### Other Links
-We would be pleased to hear from you, find us:
 
 * [<span class="fa fa-comment"></span> Official Forum Thread](https://community.clickteam.com/threads/91043-ClickWiki-Community-driven-encyclopaedia-(Unofficial))
 * [<span class="fab fa-discord"></span> On Discord](https://discord.gg/42jVPPd)

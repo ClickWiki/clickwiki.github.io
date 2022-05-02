@@ -30,7 +30,16 @@ Wine users (Mac/Linux) needed to install ie6, ie7 or ie8 winetricks to avoid a b
 {% include TOC %}
 
 ## Discord
-Discord is now the
+[Discord](https://discord.gg/nWvNW9zY) is now the official chat client.
+
+Requires an official clickteam passport registration.
+
+Provides:
+* a fusion main and multiple exporter based channels
+* showcase channel for finished projects
+* multiple voice/video chats
+* shader support channel
+* extension development channel
 
 ## Features of Original ClickConverse
 The chat client software supports real-time communication between members and the staff.

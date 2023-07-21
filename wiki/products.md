@@ -22,7 +22,7 @@ menu:
         url: "/fusion/2.0/"
         hint: "Standard & Developer Editions"
 
-      - name: "Clickteam Fusion 2.5 (2011)"
+      - name: "Clickteam Fusion 2.5 (2013)"
         icon: "/wiki/assets/Clickteam/Icon CF2.5.png"
         url: "/fusion/2.5/"
         hint: "Standard & Developer Editions"

@@ -135,14 +135,8 @@ timeline:
         event: "The [UWP Exporter](/exporters/UWP/) is released."
         icon: "/wiki/assets/Platforms/UWP.png"
 
-  - title: "In the future..."
-    events:
       - date: "2018"
         event: "Clickteam's 25th anniversary"
         icon: "/wiki/assets/Clickteam/Clickteam Logo.png"
-
-      - date: "Indeterminable"
-        event: "[The next generation of Fusion](/fusion/3.0/) will be released."
-        icon: "/wiki/assets/Clickteam/FutureProducts.png"
 
 ---

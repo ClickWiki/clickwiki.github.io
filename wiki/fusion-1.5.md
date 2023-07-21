@@ -42,21 +42,21 @@ before it was succeeded by [Multimedia Fusion 2].
 ## Editions
 
 #### Standard
-Not yet documented.
+Not documented.
 
 #### Pro
-Not yet documented.
+Not documented.
 
 ## Versions
 
 #### Version 1.0
-Not yet documented.
+Not documented.
 
 #### Version 1.2
-Not yet documented.
+Not documented.
 
 #### Version 1.5
-Not yet documented.
+Not documented.
 
 
 [Clickteam]: /clickteam/

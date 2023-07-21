@@ -1,11 +1,5 @@
 # ClickWiki
 
-[![Contributors Count](https://img.shields.io/github/contributors/clickwiki/clickwiki.github.io.svg)](https://github.com/ClickWiki/clickwiki.github.io/graphs/contributors)
-[![Issues Count](https://img.shields.io/github/issues/clickwiki/clickwiki.github.io.svg)](https://github.com/ClickWiki/clickwiki.github.io/issues)
-[![Discord Chat](https://img.shields.io/discord/302307904717979649.svg?colorB=7289DA&logo=discord)](https://discord.gg/PydJ8UE)
-
-
-
 A community Wiki-based website for [Clickteam](https://clickteam.com). This repository contains the
 code and content delivering the wiki, powered by [Jekyll](https://jekyllrb.com/).
 
@@ -15,7 +9,9 @@ The wiki aims to:
 * Collate notable examples and user creations.
 * Archive the growing number of extensions and features.
 
-All contributions come from the community of clickers. If you spot something missing, we'd greatly appreciate your input.
+# Archived
+As there hasn't been significant contributions since 2010, this project 
+has been archived, preferring to remain a time capsule for an earlier era of Clickteam.
 
 
 # Moved from MediaWiki
@@ -24,18 +20,6 @@ has been getting a little rusty by being prone to cache issues. It also has the 
 software versions and protecting user information.
 
 We've migrated to become a static site to reduce costs, boost speed, improve security (no more database) and flexibility.
-
-
-# Contributing
-[Fork this repository](https://help.github.com/articles/fork-a-repo/) and clone this to your computer, this will allow you
-to make changes to the wiki and its contents. Once commited and pushed to your fork, you can create a pull request to this repository
-where one of ClickWiki's team members can review and merge.
-
-To preview the changes on your computer, you'll need to [install Jekyll](https://jekyllrb.com/docs/installation/) or push to your
-fork to preview on GitHub Pages.
-
-Our [Issue Tracker](https://github.com/ClickWiki/clickwiki.github.io/issues) keeps track of website problems (both cosmetic and functional)
-as well as content issues.
 
 
 # License

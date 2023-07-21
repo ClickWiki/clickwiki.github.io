@@ -23,10 +23,6 @@ menu:
         icon: "/wiki/assets/Clickteam/Icon OlderProducts.png"
         url: "/products/"
 
-      - name: "Fusion 3 (Upcoming)"
-        icon: "/wiki/assets/Clickteam/FutureProducts.png"
-        url: "/fusion/3.0/"
-
   - title: "Fusion Features"
     items:
       - name: "Extensions"
@@ -83,10 +79,6 @@ menu:
         icon: "/wiki/assets/Clickteam/ClickConverse.png"
         url: "/clickconverse/"
 
-      - name: "Clickteam Library"
-        icon: "/wiki/assets/Clickteam/Clickteam_Library.png"
-        url: "/clickteam/library/"
-
       - name: "Changelogs"
         icon: "fa-file-alt"
         url: "/changelogs/"
@@ -97,10 +89,6 @@ menu:
 
   - title: "Community Resources"
     items:
-      - name: "Community Tutorials, Guides & Examples"
-        icon: "fa-folder"
-        url: "/resources/"
-
       - name: "Best Practices (FAQs)"
         icon: "fa-question-circle"
         url: "/best-practices/"
@@ -115,11 +103,7 @@ menu:
 
       - name: "The Daily Click"
         icon: "/wiki/assets/Other/TheDailyClick.png"
-        url: "/daily-click/"
-
-      - name: "Fusion Scene"
-        icon: "/wiki/assets/Other/FusionScene.png"
-        url: "/fusion-scene/"
+        url: "https://www.create-games.com/"
 
   - title: "Publications"
     items:
@@ -133,7 +117,7 @@ menu:
 
       - name: "Klikdisc"
         icon: "/wiki/assets/Clickteam/Klikdisc.png"
-        url: "/klikdisc/"
+        url: "https://www.clickteam.com/klikdisc"
 
       - name: "Made with Fusion"
         icon: "/wiki/assets/Clickteam/MadewithFusion.png"
@@ -144,10 +128,6 @@ menu:
       - name: "The Clickteam"
         icon: "/wiki/assets/Clickteam/Clickteam Logo.png"
         url: "/clickteam/"
-
-      - name: "Notable Clickers & Developers"
-        icon: "fa-users"
-        url: "/developers/"
 
       - name: "Historic Timeline"
         icon: "fa-history"
@@ -173,17 +153,10 @@ menu:
 ---
 
 The community-driven Wiki for all things [Clickteam]! Here you'll find facts,
-history and some documentation to many of their products, [user creations] and
+history and some documentation to many of their products and
 the growing number of [extensions] and features.
 
-All contributions come from the community of [clickers]. If you spot something
-missing and would like to fill it in, we'd greatly appreciate your input.
-
-[About ClickWiki](/about){:.btn.btn-primary}
-[How to Contribute](/contribute){:.btn.btn-default}
-
 [Clickteam]: /clickteam
-[User Creations]: /made-with-fusion
 [Extensions]: /extensions
 [Clickers]: /clicker
 

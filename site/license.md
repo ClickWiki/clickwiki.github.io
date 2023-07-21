@@ -1102,5 +1102,3 @@ public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
 ```
-
-For questions, please [raise an issue]({{ site.issues_url }}) in the ClickWiki repository.

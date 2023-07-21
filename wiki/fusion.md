@@ -31,13 +31,9 @@ menu:
         icon: "/wiki/assets/Clickteam/Icon CF2.5.png"
         url: "/fusion/2.5/"
 
-      - name: "Fusion 3 (Unreleased)"
-        icon: "/wiki/assets/Clickteam/FutureProducts.png"
-        url: "/fusion/3.0/"
-
 ---
 
-The past, current and future line of Clickteam's widely known Multimedia Fusion series.
+A line of Clickteam's widely known Multimedia Fusion series.
 Commonly apprevated as [MMF2] or [CF2.5].
 
 [MMF2]: /fusion/2.0/

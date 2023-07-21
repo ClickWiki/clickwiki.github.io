@@ -39,7 +39,7 @@ The shops are divided into 4 regions:
 * [![USA](/wiki/assets/Locales/us.png) USA](https://shop.clickteam.com/usa/)
 * [![UK](/wiki/assets/Locales/gb.png) UK](https://shop.clickteam.com/uk/)
 * [<span class="fa fa-globe"></span> Europe](https://shop.clickteam.com/europe/)
-* [<span class="fa fa-globe"></span> World](hhttps://shop.clickteam.com/world/)
+* [<span class="fa fa-globe"></span> World](https://shop.clickteam.com/world/)
 
 Some stores may be inaccessible based on your location.
 

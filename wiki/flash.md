@@ -28,5 +28,3 @@ links:
 ![](/wiki/assets/Clickteam/Fusion_Flash.png)
 
 The SWF/Flash Export Module is an [exporter](/exporters) that exports an SWF file that can be used with [Adobe Flash Player](https://adobe.com/products/flashplayer).
-
-(Help us improve the Wiki by adding more content to this page!    [Edit this page](https://github.com/ClickWiki/clickwiki.github.io/edit/master/wiki/uwp.md), [How to Contribute](https://clickwiki.github.io/contribute))

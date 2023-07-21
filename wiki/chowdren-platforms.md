@@ -78,7 +78,7 @@ Maithas has provided a pre-compiled command line tool to quickly get started. [(
 
 ### Mac
 
-Not yet documented.
+Not documented.
 
 * * *
 
@@ -206,22 +206,22 @@ The Git command is:
 
 ### Wii U
 
-Not yet documented.
+Not documented.
 
 * * *
 
 ### Nintendo 3DS
 
-Not yet documented.
+Not documented.
 
 * * *
 
 ### PlayStation 4
 
-Not yet documented.
+Not documented.
 
 * * *
 
 ### PlayStation Vita
 
-Not yet documented.
+Not documented.

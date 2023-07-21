@@ -54,7 +54,7 @@ download support, and multiple installation versions. The product can be purchas
 from the [Clickteam Shop](https://shop.clickteam.com/).
 
 ## Old Version
-Not yet documented.
+Not documented.
 
 ## Error Messages
 

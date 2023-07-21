@@ -32,40 +32,6 @@ The ClickStore was discoverable with the launch of [Clickteam Fusion 2.5] in the
 however access to this greeted the user with a "Coming Soon!" logo. When the store first
 opened in July 2014, there were 244 orders, 578 items sold and about $2,000 in revenue.
 
-## Categories
-Various kinds of resources and products are sold through the store, both free and paid.
-
-* Games powered by Fusion
-* **Libraries**
-  * 3D Models
-  * Shaders
-  * Graphic Libraries
-  * Effect Libraries
-* **Plugins**
-  * Exporters (currently the discontinued XNA Exporter)
-  * Extensions
-* Skins
-* Audio (Samples and soundtracks)
-* Apps
-* Tutorials
-* Open Source ([MFA]s and examples)
-
-## Operations
-The store is based in the US, as a result, no VAT is collected or required.
-Authors get 70% of the sale, with the rest of the revenue going to Clickteam.
-Content that is submitted to the store is decided by a small team whether it
-violates the agreement and whether it meets the functionality or asset as described.
-
-### Refunds
-Refunds are handled by Clickteam's agents, however some works such as art and
-music are non-refundable under any situation.
-
-### Selling Products
-Anyone can register for a Seller Account and sell their creations on the store.
-The author decides the agreement of their works, otherwise if no specific license
-is specified, the distributor agreement is active. Sellers may only withdraw
-their earnings once they reach at least $50.
-
 ## Further Links
 
 * [Seller Distribution Agreement](http://clickstore.clickteam.com/index.php?route=information/information/info&information_id=7)

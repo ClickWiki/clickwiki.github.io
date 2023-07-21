@@ -46,4 +46,4 @@ This tab lists all of the extensions currently in use by your application. This 
 
 
 # Effect files
-Not yet documented.
+Not documented.

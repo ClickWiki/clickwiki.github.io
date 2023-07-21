@@ -27,10 +27,6 @@ menu:
         url: "/fusion/2.5/"
         hint: "Standard & Developer Editions"
 
-      - name: "Fusion 3 (Unreleased)"
-        icon: "/wiki/assets/Clickteam/FutureProducts.png"
-        url: "/fusion/3.0/"
-
   - title: The Games Factory Series
     items:
       - name: "Klik & Play (1995)"

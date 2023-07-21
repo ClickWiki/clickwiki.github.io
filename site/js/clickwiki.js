@@ -92,11 +92,9 @@ $("a").each(function() {
     // Do not check site pages
     switch (path) {
         case "/":
-        case "/recent/":
         case "/search/":
         case "/about/":
         case "/license":
-        case "/contribute/":
             return;
     }
 

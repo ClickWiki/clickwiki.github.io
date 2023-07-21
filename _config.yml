@@ -44,19 +44,6 @@ sass:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Social Links
-github_url: "https://github.com/ClickWiki"
-discord_url: "https://discord.gg/42jVPPd"
-
-# Project Links
-repo_url: "https://github.com/ClickWiki/clickwiki.github.io"
-issues_url: "https://github.com/ClickWiki/clickwiki.github.io/issues"
-pr_url: "https://github.com/ClickWiki/clickwiki.github.io/pulls"
-watchers_url: "https://github.com/ClickWiki/clickwiki.github.io/watchers"
-stars_url: "https://github.com/ClickWiki/clickwiki.github.io/stargazers"
-forks_url: "https://github.com/ClickWiki/clickwiki.github.io/network"
-contributors_url: "https://github.com/ClickWiki/clickwiki.github.io/graphs/contributors"
-
 # Categories (for breadcrumbs)
 breadcrumbs:
     - id: exporters
@@ -137,17 +124,6 @@ navigation_categories:
       icon: "fa-file"
       url: "/file-extensions/"
 
-    - heading: "Community"
-
-    - label: "Resources"
-      icon_type: "fa"
-      icon: "fa-folder"
-      url: "/resources/"
-
-    - label: "User Creations"
-      icon: "/wiki/assets/Clickteam/Fused Logo.png"
-      url: "/made-with-fusion/"
-
 
 navigation_external_links:
     - label: "Clickteam.com"
@@ -169,11 +145,6 @@ navigation_external_links:
       icon_type: "img"
       icon: "/wiki/assets/Clickteam/Shop.png"
       url: "https://www.clickteam.com/web-shop"
-
-    - label: "Clickteam Library"
-      icon_type: "img"
-      icon: "/wiki/assets/Clickteam/Clickteam_Library.png"
-      url: "http://library.clickteam.com/"
 
     - label: "ClickStore"
       icon_type: "img"

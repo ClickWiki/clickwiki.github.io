@@ -38,10 +38,10 @@ pointer for just that frame, but in MMF2, this would hide throughout the entire
 application until the action "Show mouse pointer" occurs.
 
 ## Limitations
-Not yet documented.
+Not documented.
 
 ## Bugs
-Not yet documented.
+Not documented.
 
 [Multimedia Fusion]: /fusion/
 [MMF]: /fusion/

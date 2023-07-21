@@ -131,7 +131,7 @@ Java exporter also lacks that function or you don't have the Clickteam Fusion 2.
 
 {% include alert
     type = "info"
-    title = "This table is a dump from the previous MediaWiki instance. It needs cleaning up."
+    title = "This table is a dump from the previous MediaWiki instance."
 %}
 
 <table class="wikitable table table-sm">

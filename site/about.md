@@ -5,14 +5,10 @@ permalink: /about/
 
 image: "/site/img/logo.svg"
 image_caption: "ClickWiki logo, inspired by Clickteam's"
-developer: "[Various Contributors](https://github.com/ClickWiki/clickwiki.github.io/graphs/contributors)"
 initial_release_build: "February 2015"
 initial_release_date: "02/2015"
 languages:
   - en
-links:
-  - "[GitHub Repository](https://github.com/ClickWiki)"
-  - "[ClickWiki's Discord](https://discord.gg/42jVPPd)"
 ---
 
 ClickWiki is a community-driven wiki all about [Clickteam](/clickteam) The project
@@ -50,14 +46,14 @@ poured to build it.
 **10 April 2015** | Switched to reliable servers.
 **20 May 2015** | Server migrated to clicker [lh37](https://community.clickteam.com/members/10723-lh37) with paid hosting.
 **1 September 2015**  ​ | **stats.clickwiki.net** opens for community statistics, but closed 3 months later.
-**14 April 2017** | [ClickWiki's Discord]({{ site.discord_url }}) is created for Wiki updates and chat.
+**14 April 2017** | A Discord was created for Wiki updates and chat.
 **May 2018** | ClickWiki moves from MediaWiki to a static site powered by Jekyll.
 **July 2020** | **[clickwiki.github.io](/)** is the new URL.
 
 
 ### Contributors
 
-**Thanks to all past, present and future contributors!**
+**Thank you to all contributors in the past!**
 
 Here's everyone who helped prior to the **May 2018 update**, these clickers
 contributed pages, graphics or typos.
@@ -82,18 +78,6 @@ contributed pages, graphics or typos.
   * MichaelGames
   * [Peter](https://community.clickteam.com/members/5161-Peter)
 
-[Current Contributors can be found on GitHub](https://github.com/ClickWiki/clickwiki.github.io/graphs/contributors).
-
-For contributors who helped fund the Wiki financially, see the [Donations](/donate) page.
-
-
-### Under the Hood
-
-* Version Controlled on [GitHub]({{ site.github_url }}).
-* Powered by [Jekyll](https://jekyllrb.com/).
-* Hosted with [GitHub Pages](https://pages.github.com/).
-
-See the [Privacy Policy](/privacy) on how privacy is conducted on ClickWiki.
 
 ### FAQs
 ###### **Are you endorsed by Clickteam?**
@@ -101,24 +85,12 @@ See the [Privacy Policy](/privacy) on how privacy is conducted on ClickWiki.
 This Wiki is purely community ran and relies on your contributions to reach its full potential. That said,
 members of the Clickteam have contributed and promoted our Wiki! You may have read about us in [Fused](/fused).
 
-###### **How can I get started contributing?**
-
-Take a look at our [contribute](/contribute/) page if you're new.
-If you've done this kind of thing before, [fork our repository](https://github.com/ClickWiki/clickwiki.github.io) and send us a pull
-request!
-
 ###### **Why was the wiki migrated from MediaWiki?**
 
 * **Static** - No database, no waiting. Reduces costs.
 * **GDPR compliance** - a new data protection law in the EU means that ClickWiki no longer stores any personal data, such as user logins.
 * **Flexible** - being open source, anything can be edited.
 * Our MediaWiki instance were prone to cache issues and the random "internal errors".
-
-
-### Other Links
-
-* [<span class="fa fa-comment"></span> Official Forum Thread](https://community.clickteam.com/threads/91043-ClickWiki-Community-driven-encyclopaedia-(Unofficial))
-* [<span class="fab fa-discord"></span> On Discord](https://discord.gg/42jVPPd)
 
 
 ### Gallery

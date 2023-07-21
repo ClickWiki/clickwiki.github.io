@@ -28,5 +28,3 @@ links:
 ![](/wiki/assets/Clickteam/Fusion_UWP.png){:width="177px"}
 
 The Universal Windows Platform Exporter exports Visual Studio Projects, which when compiled by Visual Studio, can be used on Windows 10 PCs, Windows Phones running Windows 10 Mobile, and Xbox Ones.
-
-(Help us improve the Wiki by adding more content to this page!    [Edit this page](https://github.com/ClickWiki/clickwiki.github.io/edit/master/wiki/uwp.md), [How to Contribute](https://clickwiki.github.io/contribute))

@@ -9,7 +9,7 @@ There are different editors that a user will use to create, develop and modify t
 
 {% include alert
     type = "info"
-    title = "This table is a dump from the previous MediaWiki instance. It needs cleaning up."
+    title = "This table is a dump from the previous MediaWiki instance."
 %}
 
 <table style="width:100%; text-align: center;table-layout: fixed">

@@ -71,7 +71,7 @@ Some features require specific API versions to be installed in addition to your 
 
 {% include alert
     type = "info"
-    title = "This table is a dump from the previous MediaWiki instance. It needs cleaning up."
+    title = "This table is a dump from the previous MediaWiki instance."
 %}
 
 <table class="wikitable">
@@ -170,13 +170,13 @@ Some features require specific API versions to be installed in addition to your 
 <td>
 </td></tr>
 <tr>
-<th style="background:#F99"> 23
+<th> 23
 </th>
-<th style="background:#F99"> Android 6.0
+<th> Android 6.0
 </th>
-<td style="background:#F99"> Marshmallow
+<td> Marshmallow
 </td>
-<td style="background:#F99"> Temporarily incompatible until future update
+
 </td></tr></table>
 
 # Permissions

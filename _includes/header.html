@@ -15,9 +15,6 @@
                         <a class="nav-link" href="/"><span class="fa fa-home"></span> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/recent/"><span class="fa fa-clock"></span> Recent</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="/search/"><span class="fa fa-search"></span> Search</a>
                     </li>
                     <li class="nav-item dropdown">
@@ -65,6 +62,14 @@
                 </ul>
             </div>
         </nav>
+        <div>
+            {% include alert
+                type = "warning"
+                title = "Wiki Archived"
+                message = "This wiki is closed for contributions and hasn't been updated since 2020. Links and pages may be out-of-date."
+            %}
+        </div>
+        <br>
         <ol class="breadcrumb">
             {% if page.permalink != "/" %}
                 <li class="breadcrumb-item">

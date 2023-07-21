@@ -40,12 +40,12 @@ other products in the Click range such as Install Creator (Pro) and Patch Maker.
 
 ##### François Lionet
 **Lead Developer:** François is the other half of the lead developers for
-[Clickteam Fusion 2.5]. His main role inside the company is working on the runtimes,
+[Clickteam Fusion 2.5]. His main role inside the company was working on the runtimes,
 the editors and innovating new features.
 
 ## History
 #### Europress
-Not yet documented.
+Not documented.
 
 [GAM]: /file-extensions/GAM/
 [Klik and Play]: /klik-and-play/

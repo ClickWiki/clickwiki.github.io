@@ -70,9 +70,3 @@ Similar questions and problems crop up very often, here's a place to document th
 
 * [How do I install extensions?](http://community.clickteam.com/threads/83607-Guide-to-installing-Extensions)
 * [Where can I re-download my registered products and exporters?](/clickteam/passport/)
-
-
-### Not yet documented
-
-* How can I **optimise** my program?
-* Which **video** format is best for my project?

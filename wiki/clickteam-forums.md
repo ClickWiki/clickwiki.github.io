@@ -42,12 +42,3 @@ The forums has thousands of threads that cover a wide range of topics, including
 * Useful links, such as [extension packs](/extensions/packs/).
 * Private messaging to other members (including the staff)
 * [Community Passport](/clickteam/passport/), a convenient place to download your products you have registered to your forum account.
-
-## Trivia
-The most users ever online was 415 on the 24th December 2013 at 09:27 PM (GMT).
-
-As of 19th April 2015, the forums had:
-* 57,075 threads. (412 more since March 2015)
-* 408,807 posts. (2,980 more since March 2015)
-* 10,160 members with 1,070 (10%) of members active. (307 more since March 2015)
-* 131 blogs (with 676 entries)
